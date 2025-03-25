@@ -1,0 +1,18 @@
+{
+    "id": "0b32fad9dfd1dbeebef30bb1666c43f701546d96e69753028f3b7d57f49f9538",
+    "enabled": false,
+    "country": "US",
+    "city": "Juneau",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Alaska, Juneau",
+    "type": "bus",
+    "transit_provider": "Capital Transit",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/juneau/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1673"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "440ac1dd22b5907c0a99603351b683fcc4ceea46b19ca197018baa2a882e9c13",
+    "enabled": true,
+    "country": "US",
+    "city": "Cambria County, Blair County, Somerset County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Cambria County, Blair County, Somerset County",
+    "type": "bus",
+    "transit_provider": "Cambria County Transit Authority",
+    "vehicle_positions_url": "https://live.camtranbus.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4672-vp"
+}

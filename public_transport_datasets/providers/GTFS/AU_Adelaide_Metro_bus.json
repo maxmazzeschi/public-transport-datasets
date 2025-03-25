@@ -1,0 +1,18 @@
+{
+    "id": "6a00c42e1eaaed1e190d596ebea172017cc2adc187aa330d30ce99b13e648a2d",
+    "enabled": true,
+    "country": "AU",
+    "city": "City of Onkaparinga, City of Marion, City of Holdfast Bay, City of West Torrens, City of Charles Sturt, City of Prospect, Adelaide Hills Council, City of Port Adelaide Enfield, Town of Gawler, City of Playford, City of Salisbury, Light Regional Council, The Corporation of the Town of Walkerville, Campbelltown City Council, City of Tea Tree Gully, City of Mitcham, City of Unley, Alexandrina Council, Adelaide City Council, The City of Norwood Payneham and St Peters, Mount Barker District Council, City of Burnside",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, South Australia, City of Onkaparinga, City of Marion, City of Holdfast Bay, City of West Torrens, City of Charles Sturt, City of Prospect, Adelaide Hills Council, City of Port Adelaide Enfield, Town of Gawler, City of Playford, City of Salisbury, Light Regional Council, The Corporation of the Town of Walkerville, Campbelltown City Council, City of Tea Tree Gully, City of Mitcham, City of Unley, Alexandrina Council, Adelaide City Council, The City of Norwood Payneham and St Peters, Mount Barker District Council, City of Burnside",
+    "type": "bus",
+    "transit_provider": "Adelaide Metro",
+    "vehicle_positions_url": "https://gtfs.adelaidemetro.com.au/v1/realtime/vehicle_positions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1772"
+}

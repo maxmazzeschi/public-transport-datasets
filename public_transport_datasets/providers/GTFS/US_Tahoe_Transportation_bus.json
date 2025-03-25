@@ -1,0 +1,18 @@
+{
+    "id": "10a71188a02fa5dc9065215dcf4b3e1cfa94d1fd4df5f7da554206462b7aabd1",
+    "enabled": false,
+    "country": "US",
+    "city": "Washoe County, El Dorado County, Douglas County, Carson City",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Nevada, Washoe County, El Dorado County, Douglas County, Carson City",
+    "type": "bus",
+    "transit_provider": "Tahoe Transportation District (TTD)",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/bluego/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1653"
+}

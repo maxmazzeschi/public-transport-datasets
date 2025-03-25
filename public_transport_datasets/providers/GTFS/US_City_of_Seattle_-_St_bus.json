@@ -1,0 +1,18 @@
+{
+    "id": "d2e2443b37dc16da777383814e50321f7e1ae8098ae4a4d0eebeb7606f9ab10c",
+    "enabled": false,
+    "country": "US",
+    "city": "Jefferson County, Thurston County, Kitsap County, Snohomish County, Pierce County, King County, Island County, San Juan County, Skagit County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Jefferson County, Thurston County, Kitsap County, Snohomish County, Pierce County, King County, Island County, San Juan County, Skagit County",
+    "type": "bus",
+    "transit_provider": "City of Seattle - Streetcar",
+    "vehicle_positions_url": "https://api.pugetsound.onebusaway.org/api/gtfs_realtime/vehicle-positions-for-agency/23.pb",
+    "authentication_type": 1,
+    "authentication_info_url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/otd-downloads",
+    "api_key_parameter_name": "key",
+    "license_url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1546"
+}

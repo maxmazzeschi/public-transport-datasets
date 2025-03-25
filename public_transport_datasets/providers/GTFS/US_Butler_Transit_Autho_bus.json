@@ -1,0 +1,18 @@
+{
+    "id": "1b21c1a4df83264ce3b6326e66654e682a3b07ca94b17e60eb49a6c8ab8d01d0",
+    "enabled": true,
+    "country": "US",
+    "city": "Butler County, Allegheny County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Butler County, Allegheny County",
+    "type": "bus",
+    "transit_provider": "Butler Transit Authority",
+    "vehicle_positions_url": "https://butlerivl.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4660-vp"
+}

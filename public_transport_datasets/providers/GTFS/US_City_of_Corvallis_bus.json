@@ -1,0 +1,18 @@
+{
+    "id": "e51af2104b2981f35bf548e296889205d75cec96f44b65bbf50602bd45a284ce",
+    "enabled": false,
+    "country": "US",
+    "city": "Oregon",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Oregon",
+    "type": "bus",
+    "transit_provider": "City of Corvallis",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/ocwcog-corvallis/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1454"
+}

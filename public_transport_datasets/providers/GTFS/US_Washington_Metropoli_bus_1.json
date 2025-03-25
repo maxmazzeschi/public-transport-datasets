@@ -1,0 +1,18 @@
+{
+    "id": "bf1ed2030eeec3efd234682e9735ffd0f4f267df601581d107954138baeee906",
+    "enabled": false,
+    "country": "US",
+    "city": "Falls Church, Arlington County, Washington, Alexandria, Prince George's County, Fairfax County, Fairfax, Montgomery County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Virginia, Falls Church, Arlington County, Washington, Alexandria, Prince George's County, Fairfax County, Fairfax, Montgomery County",
+    "type": "bus",
+    "transit_provider": "Washington Metropolitan Area Transit Authority (WMATA)",
+    "vehicle_positions_url": "https://api.wmata.com/gtfs/bus-gtfsrt-vehiclepositions.pb",
+    "authentication_type": 1,
+    "authentication_info_url": "https://developer.wmata.com/signup/",
+    "api_key_parameter_name": "api_key",
+    "license_url": "https://developer.wmata.com/license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1850"
+}

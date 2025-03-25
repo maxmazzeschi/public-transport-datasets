@@ -1,0 +1,18 @@
+{
+    "id": "6aae337d6ec12ee6cda413b783f75fdd289323040ada3406570a0680eecc3b60",
+    "enabled": false,
+    "country": "US",
+    "city": "Los Angeles County, Kern County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Los Angeles County, Kern County",
+    "type": "bus",
+    "transit_provider": "Kern Transit",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/kern-transit/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1508"
+}

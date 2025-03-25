@@ -1,0 +1,18 @@
+{
+    "id": "f4784c5536a361a543f26bd14eacb38784ba43bbb0d589e9ae6f83737df5eec3",
+    "enabled": true,
+    "country": "US",
+    "city": "Dane County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Wisconsin, Dane County",
+    "type": "bus",
+    "transit_provider": "Metro Transit - City of Madison",
+    "vehicle_positions_url": "https://metromap.cityofmadison.com/gtfsrt/vehicles",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "http://www.cityofmadison.com/metro/Apps/developers.cfm",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2097"
+}

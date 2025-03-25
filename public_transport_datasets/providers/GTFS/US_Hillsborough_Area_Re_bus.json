@@ -1,0 +1,18 @@
+{
+    "id": "171ae893bcd3ffa5d50216e5127c1efc3e3a30e978a297c42871e1e1c874a030",
+    "enabled": true,
+    "country": "US",
+    "city": "Pasco County, Hillsborough County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Pasco County, Hillsborough County",
+    "type": "bus",
+    "transit_provider": "Hillsborough Area Regional Transit",
+    "vehicle_positions_url": "http://api.tampa.onebusaway.org:8088/vehicle-positions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1528"
+}

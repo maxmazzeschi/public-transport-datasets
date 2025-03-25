@@ -1,0 +1,18 @@
+{
+    "id": "9acc9a6fbdf97285c276810adfc3948ab8c47fa45895045b6b17d2247e13a868",
+    "enabled": false,
+    "country": "US",
+    "city": "Snohomish County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Snohomish County",
+    "type": "bus",
+    "transit_provider": "Everett Transit",
+    "vehicle_positions_url": "https://api.pugetsound.onebusaway.org/api/gtfs_realtime/vehicle-positions-for-agency/97.pb",
+    "authentication_type": 1,
+    "authentication_info_url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/otd-downloads",
+    "api_key_parameter_name": "key",
+    "license_url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1549"
+}

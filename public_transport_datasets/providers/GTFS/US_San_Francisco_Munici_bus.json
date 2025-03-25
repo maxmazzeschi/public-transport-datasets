@@ -1,0 +1,18 @@
+{
+    "id": "6e4feae09029dfcf0a7bb262e5a5204be98be40df8e4e91c031a84d9c6dde3c4",
+    "enabled": false,
+    "country": "US",
+    "city": "San Mateo County, San Francisco",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, San Mateo County, San Francisco",
+    "type": "bus",
+    "transit_provider": "San Francisco Municipal Transportation Agency (SFMTA)",
+    "vehicle_positions_url": "http://api.511.org/transit/vehiclepositions?agency=SF",
+    "authentication_type": 1,
+    "authentication_info_url": "https://511.org/open-data/token",
+    "api_key_parameter_name": "api_key",
+    "license_url": "https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1843"
+}

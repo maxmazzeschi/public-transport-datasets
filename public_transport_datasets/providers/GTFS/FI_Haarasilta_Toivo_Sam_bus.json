@@ -1,0 +1,18 @@
+{
+    "id": "7c221d34715440b35e9a7c5a803eff49cba46dee42775c96a39bda6e20a2b160",
+    "enabled": false,
+    "country": "FI",
+    "city": "Lahti, Asikkala, K\u00e4rk\u00f6l\u00e4, Orimattila, Padasjoki, Hollola, Heinola",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Finland, P\u00e4ij\u00e4t-H\u00e4me, Lahti, Asikkala, K\u00e4rk\u00f6l\u00e4, Orimattila, Padasjoki, Hollola, Heinola",
+    "type": "bus",
+    "transit_provider": "Haarasilta Toivo Samuli, J\u00e4rvisen Liikenne Oy, Koiviston Auto Oy, Lehtim\u00e4en Liikenne Oy, Bus Travel Oy Reissu Ruoti, Tilausliikenne Kuisma Ky",
+    "vehicle_positions_url": "https://data.waltti.fi/lahti/api/gtfsrealtime/v1.0/feed/vehicleposition",
+    "authentication_type": 2,
+    "authentication_info_url": "https://opendata.waltti.fi/getting-started#api-tokens",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://opendata.waltti.fi/docs",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1591"
+}

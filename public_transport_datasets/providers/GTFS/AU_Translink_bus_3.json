@@ -1,0 +1,18 @@
+{
+    "id": "9e33ca0321d0ae119a0310058cfa3a774acd4f87a7da7f38bb94ba501ba7a4d5",
+    "enabled": true,
+    "country": "AU",
+    "city": "Maryborough Hervey Bay",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, Queensland, Fraser Coast Regional",
+    "type": "bus",
+    "transit_provider": "Translink",
+    "vehicle_positions_url": "https://gtfsrt.api.translink.com.au/api/realtime/MHB/VehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://translink.com.au/about-translink/open-data/gtfs-rt",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4488-vp"
+}

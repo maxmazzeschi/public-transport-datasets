@@ -1,0 +1,18 @@
+{
+    "id": "8f53c692771fbcebd3ace7d20144955affa00a5d1b3766d6b60920938d397c56",
+    "enabled": true,
+    "country": "US",
+    "city": "Green Bay",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Wisconsin, Green Bay",
+    "type": "bus",
+    "transit_provider": "Green Bay Metro",
+    "vehicle_positions_url": "https://gbm.cadavl.com:4435/ProfilGtfsRt2_0RSProducer-GBM/VehiclePosition.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6890-vp"
+}

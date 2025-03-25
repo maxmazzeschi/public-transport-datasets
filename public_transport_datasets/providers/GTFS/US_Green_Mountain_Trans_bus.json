@@ -1,0 +1,18 @@
+{
+    "id": "6282ad7b40d8af9b497c9ef1ca864749e6f8cb9d9a3e8a66f3a578f4aa4465c8",
+    "enabled": false,
+    "country": "US",
+    "city": "Alburgh, Orange County, Caledonia County, Washington County, Swanton, Chittenden County, Addison County, Highgate, Grand Isle County, Lamoille County, Franklin County, Berkshire, Richford",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Vermont, Alburgh, Orange County, Caledonia County, Washington County, Swanton, Chittenden County, Addison County, Highgate, Grand Isle County, Lamoille County, Franklin County, Berkshire, Richford",
+    "type": "bus",
+    "transit_provider": "Green Mountain Transit Agency",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/green-mountain/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1514"
+}

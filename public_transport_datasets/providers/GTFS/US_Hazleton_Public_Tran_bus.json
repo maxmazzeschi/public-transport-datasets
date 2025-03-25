@@ -1,0 +1,18 @@
+{
+    "id": "86e642fe25859397ce3061f1bddf82533280755a3ba070117ee5fb1a695e4ea1",
+    "enabled": true,
+    "country": "US",
+    "city": "Wilkes Barre",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Wilkes Barre",
+    "type": "bus",
+    "transit_provider": "Hazleton Public Transit",
+    "vehicle_positions_url": "https://realtimehpts.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4666-vp"
+}

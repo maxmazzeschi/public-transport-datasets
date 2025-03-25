@@ -1,0 +1,18 @@
+{
+    "id": "2218a60a5436c3bbe2d8cb09cb0264963f20b17fd47ce9185475c632857e5a41",
+    "enabled": true,
+    "country": "US",
+    "city": "Washington, Alexandria, Fairfax County, Montgomery County, Fairfax, Falls Church, Arlington County, Loudoun County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, District of Columbia, Washington, Alexandria, Fairfax County, Montgomery County, Fairfax, Falls Church, Arlington County, Loudoun County",
+    "type": "bus",
+    "transit_provider": "Fairfax Connector",
+    "vehicle_positions_url": "https://www.fairfaxcounty.gov/gtfsrt/vehicles",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4347-vp"
+}

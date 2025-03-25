@@ -1,0 +1,18 @@
+{
+    "id": "fe77230e57aa48c8724e19a13d6866aa2b896edd40782ab45602062f1dca742f",
+    "enabled": true,
+    "country": "US",
+    "city": "Sumas, Whatcom County, Skagit County, Blaine",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Sumas, Whatcom County, Skagit County, Blaine",
+    "type": "bus",
+    "transit_provider": "Whatcom Transportation Authority",
+    "vehicle_positions_url": "https://bustracker.ridewta.com/gtfsrt/vehicles",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4358-vp"
+}

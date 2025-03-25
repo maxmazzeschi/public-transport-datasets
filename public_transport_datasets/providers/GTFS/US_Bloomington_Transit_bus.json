@@ -1,0 +1,18 @@
+{
+    "id": "97604edb34b768781f91e5de25ca95cab1de10820c9438c87fce1c36319105a8",
+    "enabled": true,
+    "country": "US",
+    "city": "Monroe County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Indiana, Monroe County",
+    "type": "bus",
+    "transit_provider": "Bloomington Transit",
+    "vehicle_positions_url": "https://s3.amazonaws.com/etatransit.gtfs/bloomingtontransit.etaspot.net/position_updates.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6882-vp"
+}

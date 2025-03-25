@@ -1,0 +1,18 @@
+{
+    "id": "d11c4e4e472e5e619f8e15c2cacb951f493844172a8c539edfb19e480799e87b",
+    "enabled": true,
+    "country": "IT",
+    "city": "Turin",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Italy, Turin, Turin",
+    "type": "bus",
+    "transit_provider": "GTT servizio extraurbano, GTT Servizio Urbano, GTT Servizi Turistici",
+    "vehicle_positions_url": "http://percorsieorari.gtt.to.it/das_gtfsrt/vehicle_position.aspx",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4388-vp"
+}

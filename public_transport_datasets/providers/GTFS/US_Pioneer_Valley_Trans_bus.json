@@ -1,0 +1,18 @@
+{
+    "id": "ba7d53ca53487ec142685c4d3be046c09927215826b60e2872db9f0a9decf8e3",
+    "enabled": true,
+    "country": "US",
+    "city": "Franklin County, Hampden County, Hartford County, Worcester County, Hampshire County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Massachusetts, Franklin County, Hampden County, Hartford County, Worcester County, Hampshire County",
+    "type": "bus",
+    "transit_provider": "Pioneer Valley Transit Authority",
+    "vehicle_positions_url": "https://bustracker.pvta.com/infopoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4679-vp"
+}

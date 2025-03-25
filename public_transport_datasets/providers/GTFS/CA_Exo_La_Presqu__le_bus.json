@@ -1,0 +1,18 @@
+{
+    "id": "318a8e679f5bb6cfa1abacf08d9d04a91ffb80cabfdc68ceca329054c2a55d37",
+    "enabled": false,
+    "country": "CA",
+    "city": "Sainte-Anne-de-Bellevue, Terrasse-Vaudreuil, L'\u00cele-Perrot, Rigaud, Pointe-Claire, Notre-Dame-de-l'\u00cele-Perrot, Hudson, Vaudreuil-Dorion, Dollard-Des-Ormeaux, Saint-Lazare, Montreal, Pincourt",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Sainte-Anne-de-Bellevue, Terrasse-Vaudreuil, L'\u00cele-Perrot, Rigaud, Pointe-Claire, Notre-Dame-de-l'\u00cele-Perrot, Hudson, Vaudreuil-Dorion, Dollard-Des-Ormeaux, Saint-Lazare, Montreal, Pincourt",
+    "type": "bus",
+    "transit_provider": "Exo La Presqu'\u00eele",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITPI",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1353"
+}

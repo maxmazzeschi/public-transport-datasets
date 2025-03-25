@@ -1,0 +1,18 @@
+{
+    "id": "f20d23933d9ff8f5174805bcb574b4e055b4e5533e7f4fc3bf7cb3482ffd8529",
+    "enabled": true,
+    "country": "US",
+    "city": "Travis County, Bastrop County, Williamson County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Texas, Travis County, Bastrop County, Williamson County",
+    "type": "bus",
+    "transit_provider": "Capital Metro",
+    "vehicle_positions_url": "https://data.texas.gov/download/eiei-9rpf/application%2Foctet-stream",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.capmetro.org/metrolabs/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1427"
+}

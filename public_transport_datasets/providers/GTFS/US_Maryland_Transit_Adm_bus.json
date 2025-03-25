@@ -1,0 +1,18 @@
+{
+    "id": "b1a2580cd3c7a0935781a269da18971614d859a758f78b4f250b86d3efa4e833",
+    "enabled": true,
+    "country": "US",
+    "city": "Howard County, Washington, Prince George's County, Montgomery County, Baltimore County, Harford County, Jefferson County, Cecil County, Berkeley County, Baltimore, Frederick County, Anne Arundel County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Maryland, Howard County, Washington, Prince George's County, Montgomery County, Baltimore County, Harford County, Jefferson County, Cecil County, Berkeley County, Baltimore, Frederick County, Anne Arundel County",
+    "type": "bus",
+    "transit_provider": "Maryland Transit Administration",
+    "vehicle_positions_url": "https://mdotmta-gtfs-rt.s3.amazonaws.com/MARC%20RT/marc-vp.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4451-vp"
+}

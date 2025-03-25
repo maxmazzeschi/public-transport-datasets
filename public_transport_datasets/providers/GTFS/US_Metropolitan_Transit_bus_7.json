@@ -1,0 +1,18 @@
+{
+    "id": "a3b7b0e38d28040387d4847dc9716052f8242f1f116c4533c5739e6f685f01c7",
+    "enabled": false,
+    "country": "US",
+    "city": "Richmond County, New York County, Bronx County, Queens County, Kings County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New York, Richmond County, New York County, Bronx County, Queens County, Kings County",
+    "type": "bus",
+    "transit_provider": "Metropolitan Transit Authority (MTA)",
+    "vehicle_positions_url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm",
+    "authentication_type": 2,
+    "authentication_info_url": "https://api.mta.info/#/signup",
+    "api_key_parameter_name": "x-api-key",
+    "license_url": "https://api.mta.info/#/DataFeedAgreement",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1631"
+}

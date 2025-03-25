@@ -1,0 +1,18 @@
+{
+    "id": "bffc9fddc1a42ea392e30a232eb7206130569b2414c91bbc90208f38027127df",
+    "enabled": true,
+    "country": "IT",
+    "city": "Rome",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Italy, Lazio, Sacrofano, Anguillara Sabazia, Grottaferrata, Fiumicino, Ciampino, Monte Compatri, Guidonia Montecelio, Fonte Nuova, Pomezia, Rome",
+    "type": "bus",
+    "transit_provider": "Roma Servizi per la Mobilit\u00e0",
+    "vehicle_positions_url": "https://romamobilita.it/sites/default/files/rome_rtgtfs_vehicle_positions_feed.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1776"
+}

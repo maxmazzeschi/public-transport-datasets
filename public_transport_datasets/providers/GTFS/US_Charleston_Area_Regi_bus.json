@@ -1,0 +1,18 @@
+{
+    "id": "f966745cf4a213479d5c2be879449207876d62a877a0f6523fc258ad75476801",
+    "enabled": false,
+    "country": "US",
+    "city": "Dorchester County, Williamsburg County, Charleston County, Orangeburg County, Berkeley County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, South Carolina, Dorchester County, Williamsburg County, Charleston County, Orangeburg County, Berkeley County",
+    "type": "bus",
+    "transit_provider": "Charleston Area Regional Transportation Authority",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/bcdcog/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1737"
+}

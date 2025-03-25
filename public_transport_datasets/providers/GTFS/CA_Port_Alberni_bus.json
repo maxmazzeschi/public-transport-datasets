@@ -1,0 +1,18 @@
+{
+    "id": "83c1f212a3ca8b0998f5d05806f23284203c0dc6295986ff9c5dda6d12a27e6b",
+    "enabled": true,
+    "country": "CA",
+    "city": "Area E (Beaver Creek), Port Alberni, Alberni-Clayoquot Regional District",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, British Columbia, Area E (Beaver Creek), Port Alberni, Alberni-Clayoquot Regional District",
+    "type": "bus",
+    "transit_provider": "Port Alberni",
+    "vehicle_positions_url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=11",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.bctransit.com/open-data/terms-of-use",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1405"
+}

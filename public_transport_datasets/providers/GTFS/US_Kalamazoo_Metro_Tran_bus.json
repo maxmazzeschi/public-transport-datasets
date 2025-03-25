@@ -1,0 +1,18 @@
+{
+    "id": "550bb842ac2fd42401e26abfcb23e859776703c6c8d0457ac459dc46d73440fd",
+    "enabled": true,
+    "country": "US",
+    "city": "Kalamazoo County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Michigan, Kalamazoo County",
+    "type": "bus",
+    "transit_provider": "Kalamazoo Metro Transit",
+    "vehicle_positions_url": "https://trackmybus.kmetro.org/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4677-vp"
+}

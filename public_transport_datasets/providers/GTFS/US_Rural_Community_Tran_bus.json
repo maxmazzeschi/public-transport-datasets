@@ -1,0 +1,18 @@
+{
+    "id": "e38a120f3ed37730592421ffee07eace16e1dbd60238a19a1bc508c7ffbcac7c",
+    "enabled": false,
+    "country": "US",
+    "city": "Grafton County, Chittenden County, Essex County, Washington County, Lamoille County, Troy, Derby, Orleans County, Caledonia County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New Hampshire, Grafton County, Chittenden County, Essex County, Washington County, Lamoille County, Troy, Derby, Orleans County, Caledonia County",
+    "type": "bus",
+    "transit_provider": "Rural Community Transportation (RCT)",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/rct/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1680"
+}

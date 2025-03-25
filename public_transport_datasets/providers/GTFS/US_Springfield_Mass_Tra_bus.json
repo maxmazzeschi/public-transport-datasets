@@ -1,0 +1,18 @@
+{
+    "id": "69fb7844882ce8e738af64d91e4ee6b0fb41f374a3c2cfbbd18ad68980a79935",
+    "enabled": true,
+    "country": "US",
+    "city": "Sangamon County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Illinois, Sangamon County",
+    "type": "bus",
+    "transit_provider": "Springfield Mass Transit District (SMTD)",
+    "vehicle_positions_url": "http://ride.smtd.org/gtfsrt/vehicles",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.smtd.org/gtfs-information/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1781"
+}

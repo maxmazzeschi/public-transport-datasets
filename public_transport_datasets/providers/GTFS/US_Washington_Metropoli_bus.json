@@ -1,0 +1,18 @@
+{
+    "id": "bf5c3a663637f5d3b135419022f9a7f578ae41820044d404e781970bdfce0e94",
+    "enabled": false,
+    "country": "US",
+    "city": "Loudoun County, Montgomery County, Alexandria, Washington, Prince George's County, Arlington County, Fairfax County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Virginia, Loudoun County, Montgomery County, Alexandria, Washington, Prince George's County, Arlington County, Fairfax County",
+    "type": "bus",
+    "transit_provider": "Washington Metropolitan Area Transit Authority (WMATA)",
+    "vehicle_positions_url": "https://api.wmata.com/gtfs/rail-gtfsrt-vehiclepositions.pb",
+    "authentication_type": 1,
+    "authentication_info_url": "https://developer.wmata.com/signup/",
+    "api_key_parameter_name": "api_key",
+    "license_url": "https://developer.wmata.com/license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1853"
+}

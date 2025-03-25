@@ -1,0 +1,18 @@
+{
+    "id": "7b0fe8d8bef5aa6cc2056afefe297920f9629e26d6f8de28e6d96f21dcc26194",
+    "enabled": false,
+    "country": "CA",
+    "city": "Carignan, Longueuil, Saint-Bruno-de-Montarville, Saint-Jean-sur-Richelieu, Chambly, Marieville, Richelieu, Saint-Mathias-sur-Richelieu, Brossard",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Carignan, Longueuil, Saint-Bruno-de-Montarville, Saint-Jean-sur-Richelieu, Chambly, Marieville, Richelieu, Saint-Mathias-sur-Richelieu, Brossard",
+    "type": "bus",
+    "transit_provider": "Exo Chambly-Richelieu-Carignan",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITCRC",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1365"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "4c2be4f4cdd546f84aaabbe7eff7671d2d6c7b7bc10acbc4fa5aff4c396a7e51",
+    "enabled": true,
+    "country": "US",
+    "city": "Maricopa County, Pima County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Arizona, Maricopa County, Pima County",
+    "type": "bus",
+    "transit_provider": "Valley Metro",
+    "vehicle_positions_url": "https://app.mecatran.com/utw/ws/gtfsfeed/vehicles/valleymetro?apiKey=4f22263f69671d7f49726c3011333e527368211f",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://phoenixopendata.com/dataset/valley-metro-bus-schedule/resource/28ccc0a5-49c8-495c-b91f-193de5ce2cb7",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1722"
+}

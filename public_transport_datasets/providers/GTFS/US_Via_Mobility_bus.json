@@ -1,0 +1,18 @@
+{
+    "id": "361d93e86e8739b1e3827fd5a369ba02e44bb271d8c12455bf11f7b442b1e903",
+    "enabled": false,
+    "country": "US",
+    "city": "Boulder County, Gilpin County, Larimer County, Arapahoe County, Weld County, Denver County, Adams County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Colorado, Boulder County, Gilpin County, Larimer County, Arapahoe County, Weld County, Denver County, Adams County",
+    "type": "bus",
+    "transit_provider": "Via Mobility",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/via/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1732"
+}

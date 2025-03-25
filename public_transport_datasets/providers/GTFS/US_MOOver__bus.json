@@ -1,0 +1,18 @@
+{
+    "id": "0f4767b418412d0520116b58bc392e42398920b27e4b7ea1a89295d54bb51fbb",
+    "enabled": false,
+    "country": "US",
+    "city": "Bennington County, Windham County, Cheshire County, Windsor County, Grafton County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Vermont, Bennington County, Windham County, Cheshire County, Windsor County, Grafton County",
+    "type": "bus",
+    "transit_provider": "MOOver!",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/moover/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1724"
+}

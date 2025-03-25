@@ -1,0 +1,18 @@
+{
+    "id": "e51b31de0502d06535ab149098059a465f7049504949b55143ad99adf6bae9dc",
+    "enabled": true,
+    "country": "US",
+    "city": "Montgomery County, Williamson County, Dickson County, Cheatham County, Maury County, Robertson County, Sumner County, Rutherford County, Wilson County, Davidson County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Tennessee, Montgomery County, Williamson County, Dickson County, Cheatham County, Maury County, Robertson County, Sumner County, Rutherford County, Wilson County, Davidson County",
+    "type": "bus",
+    "transit_provider": "Nashville Metropolitan Transit Authority (Nashville MTA)",
+    "vehicle_positions_url": "http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/vehicle/vehiclepositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.wegotransit.com/contact-us/data-request-submission/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1622"
+}

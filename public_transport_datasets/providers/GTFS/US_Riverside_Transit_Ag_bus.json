@@ -1,0 +1,18 @@
+{
+    "id": "be82af62db669e5e56387a2b1d32cd55928882a506e54f3578b94d5913e4aa21",
+    "enabled": true,
+    "country": "US",
+    "city": "California",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, California",
+    "type": "bus",
+    "transit_provider": "Riverside Transit Agency",
+    "vehicle_positions_url": "https://rtabus.com/gtfsrt/vehicles",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1665"
+}

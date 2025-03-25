@@ -1,0 +1,18 @@
+{
+    "id": "7620aaa7dd626c4a1a45cd3679b9d0ca19ac0ea45cc023eaa84eb20fd1243303",
+    "enabled": true,
+    "country": "AU",
+    "city": "North Stradbroke Island",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, Queensland, Redland City",
+    "type": "bus",
+    "transit_provider": "Translink",
+    "vehicle_positions_url": "https://gtfsrt.api.translink.com.au/api/realtime/NSI/VehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://translink.com.au/about-translink/open-data/gtfs-rt",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4489-vp"
+}

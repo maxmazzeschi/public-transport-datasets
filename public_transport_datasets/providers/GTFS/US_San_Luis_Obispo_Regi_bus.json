@@ -1,0 +1,18 @@
+{
+    "id": "d7702a2b909d664bd0eadf4d0dc5cf9270c9fe9fe836627da34a1c050d00ebc7",
+    "enabled": true,
+    "country": "US",
+    "city": "Santa Barbara County, San Luis Obispo County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Santa Barbara County, San Luis Obispo County",
+    "type": "bus",
+    "transit_provider": "San Luis Obispo Regional Transit Authority",
+    "vehicle_positions_url": "http://slo.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5553-vp"
+}

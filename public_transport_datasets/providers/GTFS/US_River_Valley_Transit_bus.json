@@ -1,0 +1,18 @@
+{
+    "id": "0983d443dc7b2304df7cd3b0cf9e5a3646c5366a77db81821425036d939e6d8f",
+    "enabled": true,
+    "country": "US",
+    "city": "Lycoming County, Clinton County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Lycoming County, Clinton County",
+    "type": "bus",
+    "transit_provider": "River Valley Transit",
+    "vehicle_positions_url": "https://my.ridervt.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4549-vp"
+}

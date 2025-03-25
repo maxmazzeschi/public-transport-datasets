@@ -1,0 +1,18 @@
+{
+    "id": "6a876e214aaabc75f0c84ad1761f2b774adb72b6a771d14e1fae9e419c1d68e3",
+    "enabled": false,
+    "country": "FI",
+    "city": "Kitee, Liperi, Tohmaj\u00e4rvi, Joensuu, Kontiolahti, Lieksa",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Finland, North Karelia, Kitee, Liperi, Tohmaj\u00e4rvi, Joensuu, Kontiolahti, Lieksa",
+    "type": "bus",
+    "transit_provider": "Linja-Karjala Oy, Savo-Karjalan Linja Oy",
+    "vehicle_positions_url": "https://data.waltti.fi/joensuu/api/gtfsrealtime/v1.0/feed/vehicleposition",
+    "authentication_type": 2,
+    "authentication_info_url": "https://opendata.waltti.fi/getting-started#api-tokens",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://opendata.waltti.fi/docs",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1594"
+}

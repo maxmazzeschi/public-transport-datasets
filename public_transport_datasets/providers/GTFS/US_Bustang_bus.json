@@ -1,0 +1,18 @@
+{
+    "id": "b18930c09d2aece1523fd26100bb8eb40332ba240efcbea028b812557280763c",
+    "enabled": true,
+    "country": "US",
+    "city": "Denver County, Eagle County, Larimer County, Garfield County, Summit County, Clear Creek County, City and County of Broomfield, Mesa County, Adams County, Jefferson County, Boulder County, Weld County, El Paso County, Douglas County, Arapahoe County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Colorado, Denver County, Eagle County, Larimer County, Garfield County, Summit County, Clear Creek County, City and County of Broomfield, Mesa County, Adams County, Jefferson County, Boulder County, Weld County, El Paso County, Douglas County, Arapahoe County",
+    "type": "bus",
+    "transit_provider": "Bustang",
+    "vehicle_positions_url": "https://www.rtd-denver.com/files/bustang/gtfs-rt/Bustang_VehiclePosition.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4923-vp"
+}

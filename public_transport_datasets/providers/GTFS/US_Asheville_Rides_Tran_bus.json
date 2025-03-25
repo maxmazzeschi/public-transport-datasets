@@ -1,0 +1,18 @@
+{
+    "id": "68be090f3be60f5604de9babc9e2bd5189ab2574029a310c34d6a34f637bd489",
+    "enabled": false,
+    "country": "US",
+    "city": "Henderson County, Buncombe County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, North Carolina, Henderson County, Buncombe County",
+    "type": "bus",
+    "transit_provider": "Asheville Rides Transit",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/art-asheville/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1764"
+}

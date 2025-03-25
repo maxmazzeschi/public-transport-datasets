@@ -1,0 +1,18 @@
+{
+    "id": "3327f69a9a3e0e4694c9e5ead73761787794557c6cfa0b314c630d5408af1e7d",
+    "enabled": true,
+    "country": "UA",
+    "city": "Lviv Raion, Yavoriv Raion",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Ukraine, Lviv Oblast, Lviv Raion, Yavoriv Raion",
+    "type": "bus",
+    "transit_provider": "Lvivavtodor",
+    "vehicle_positions_url": "https://track.ua-gis.com/gtfs/lviv/vehicle_position",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://opendata.city-adm.lviv.ua/ne/dataset/lviv-public-transport-gtfs-real-time/resource/d45fd95a-ffc9-45b1-be05-52012707d51f?inner_span=True",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2376"
+}

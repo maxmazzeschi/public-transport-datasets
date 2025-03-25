@@ -1,0 +1,18 @@
+{
+    "id": "0e23f8fea35034ddfe99956936fce857f770833c5b52001de6c303a38609d3cd",
+    "enabled": false,
+    "country": "CA",
+    "city": "Longueuil, Sainte-Julie, Sorel-Tracy, Verch\u00e8res, Saint-Amable, Contrec\u0153ur, Montreal, Boucherville, Varennes",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Longueuil, Sainte-Julie, Sorel-Tracy, Verch\u00e8res, Saint-Amable, Contrec\u0153ur, Montreal, Boucherville, Varennes",
+    "type": "bus",
+    "transit_provider": "Exo Sorel-Varennes",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITSV",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1359"
+}

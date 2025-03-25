@@ -1,0 +1,18 @@
+{
+    "id": "e58af32030345e40e29c203c5d9c608bf02b6f0901ff462e185de88f1d29341d",
+    "enabled": false,
+    "country": "US",
+    "city": "Stanislaus County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Stanislaus County",
+    "type": "bus",
+    "transit_provider": "Turlock Transit",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/turlock/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1717"
+}

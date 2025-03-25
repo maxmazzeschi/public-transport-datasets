@@ -1,0 +1,18 @@
+{
+    "id": "4517afd0f1b09b9799ba6a0275ba94796411bc716950a4f61a23f98ab35f874b",
+    "enabled": true,
+    "country": "RO",
+    "city": "Ia\u0219i",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Romania, Ia\u0219i, Ia\u0219i",
+    "type": "bus",
+    "transit_provider": "Compania de Transport Public Ia\u0219i",
+    "vehicle_positions_url": "https://iasi-rt-feed.gtfs.ro/vehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2118"
+}

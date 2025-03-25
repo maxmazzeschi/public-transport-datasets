@@ -1,0 +1,18 @@
+{
+    "id": "7398326131f8346fc42548c4f7c2b1360708ffa3052c0abd88e4c84569e6402c",
+    "enabled": true,
+    "country": "US",
+    "city": "Alexandria, Fairfax County, Arlington County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Virginia, Alexandria, Fairfax County, Arlington County",
+    "type": "bus",
+    "transit_provider": "Alexandria Transit Company",
+    "vehicle_positions_url": "https://realtime.prod.dash.obaweb.org/agency/71/tripUpdates",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4758-sa_tu_vp"
+}

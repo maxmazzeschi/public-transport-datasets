@@ -1,0 +1,18 @@
+{
+    "id": "bb082526cb3b0bd6feb34a072ed31ee1d5d1338ed9ec7aad7819989f0bf8d068",
+    "enabled": true,
+    "country": "US",
+    "city": "California",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, California",
+    "type": "bus",
+    "transit_provider": "Marin County Transit District (MCTD)",
+    "vehicle_positions_url": "https://marintransit.net/gtfs-rt/vehiclepositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1578"
+}

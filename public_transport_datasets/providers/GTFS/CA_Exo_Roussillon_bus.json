@@ -1,0 +1,18 @@
+{
+    "id": "51ecb1ef7466f0d1deabd359528370517b22c90a4c12a3f8105c9901704e763d",
+    "enabled": false,
+    "country": "CA",
+    "city": "Montreal, Brossard, Saint-Constant, Longueuil, Candiac, Delson, Sainte-Catherine",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Montreal, Brossard, Saint-Constant, Longueuil, Candiac, Delson, Sainte-Catherine",
+    "type": "bus",
+    "transit_provider": "Exo Roussillon",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITROUS",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1350"
+}

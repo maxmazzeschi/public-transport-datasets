@@ -1,0 +1,18 @@
+{
+    "id": "a871df111304c41cd7df99527f0ed3379735ebc11fee9117f4eb2593df2dc8b8",
+    "enabled": false,
+    "country": "US",
+    "city": "Linn County, Benton County, Lincoln County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Linn County, Benton County, Lincoln County",
+    "type": "bus",
+    "transit_provider": "Benton Area Transportation",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/ocwcog-benton/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1761"
+}

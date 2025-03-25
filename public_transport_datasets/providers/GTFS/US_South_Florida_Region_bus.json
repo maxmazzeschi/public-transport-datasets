@@ -1,0 +1,18 @@
+{
+    "id": "bd2f00b84c89040ed29c9581cf8a8cea39575632d28ae7335b0a0572922dcf6e",
+    "enabled": true,
+    "country": "US",
+    "city": "Palm Beach County, Broward County, Miami-Dade County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Palm Beach County, Broward County, Miami-Dade County",
+    "type": "bus",
+    "transit_provider": "South Florida Regional Transportation Authority",
+    "vehicle_positions_url": "http://gtfsr.tri-rail.com/download.aspx?file=position_updates.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5584-vp"
+}

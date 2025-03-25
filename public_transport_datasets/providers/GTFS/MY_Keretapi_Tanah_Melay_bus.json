@@ -1,0 +1,18 @@
+{
+    "id": "5b78ce455c6202708eb2855fc5aa4e22b92a23a76e4dd170d8bfa1287dc903a4",
+    "enabled": true,
+    "country": "MY",
+    "city": "Selangor",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Malaysia, Selangor, Selangor",
+    "type": "bus",
+    "transit_provider": "Keretapi Tanah Melayu Berhad",
+    "vehicle_positions_url": "https://api.data.gov.my/gtfs-realtime/vehicle-position/ktmb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6759-vp"
+}

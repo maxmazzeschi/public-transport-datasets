@@ -1,0 +1,18 @@
+{
+    "id": "0b43754f913f3df992b2600d24308c3070d1a8a7f55a125c6b45c158de756dec",
+    "enabled": false,
+    "country": "US",
+    "city": "Monroe County, Miami-Dade County, Broward County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Monroe County, Miami-Dade County, Broward County",
+    "type": "bus",
+    "transit_provider": "Miami Dade Transit",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/miami/gtfs-rt-vehicle-positions/",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1739"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "65a8ec10a20ef310e49ea9bcc6d9db17ce0e4298ba2a471f0f0fe381ab600e45",
+    "enabled": true,
+    "country": "US",
+    "city": "Lancaster County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Lancaster County",
+    "type": "bus",
+    "transit_provider": "Red Rose Transit Authority",
+    "vehicle_positions_url": "https://busfinder.redrosetransit.com/Infopoint/gtfs-realtime.ashx?type=vehicleposition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5840-vp"
+}

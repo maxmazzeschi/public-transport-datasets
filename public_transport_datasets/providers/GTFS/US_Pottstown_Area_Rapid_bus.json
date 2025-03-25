@@ -1,0 +1,18 @@
+{
+    "id": "aff074b41c5c6307c8c05bcc071b4a7049ea707e2101a42653684b4e09158bd6",
+    "enabled": true,
+    "country": "US",
+    "city": "Montgomery County, Chester County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Montgomery County, Chester County",
+    "type": "bus",
+    "transit_provider": "Pottstown Area Rapid Transit",
+    "vehicle_positions_url": "https://part.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-7026-vp"
+}

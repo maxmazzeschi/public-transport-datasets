@@ -1,0 +1,18 @@
+{
+    "id": "e8382b05e9918d82ff6adc0046c90ed5d486ce3b1f45ae922b3bd3ff684f69ce",
+    "enabled": false,
+    "country": "US",
+    "city": "Baltimore County, Queen Anne's County, Prince George's County, Howard County, Anne Arundel County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Maryland, Baltimore County, Queen Anne's County, Prince George's County, Howard County, Anne Arundel County",
+    "type": "bus",
+    "transit_provider": "Regional Transportation Agency of Central Maryland (RTA)",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/rtamaryland/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1657"
+}

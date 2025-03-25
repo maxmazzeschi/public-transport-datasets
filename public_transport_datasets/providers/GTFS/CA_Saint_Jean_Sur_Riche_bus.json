@@ -1,0 +1,18 @@
+{
+    "id": "0421ebc9cfb1143bc500a9e4fb01c97571426aa37d0b64a3191689ac10aaca3a",
+    "enabled": true,
+    "country": "CA",
+    "city": "La Prairie, Saint-Jean-sur-Richelieu, Brossard, Montreal",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, La Prairie, Saint-Jean-sur-Richelieu, Brossard, Montreal",
+    "type": "bus",
+    "transit_provider": "Saint Jean Sur Richelieu",
+    "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?file=vp&dataset=saint-jean-sur-richelieu",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5631-vp"
+}

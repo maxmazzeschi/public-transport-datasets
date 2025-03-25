@@ -1,0 +1,18 @@
+{
+    "id": "d92513d1887d78b127a07390e4d4a50b849024d35fd28096477e431a575e87fb",
+    "enabled": true,
+    "country": "RO",
+    "city": "Ilfov, D\u00e2mbovi\u021ba, C\u0103l\u0103ra\u0219i, Bucharest",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Romania, Ilfov, Ilfov, D\u00e2mbovi\u021ba, C\u0103l\u0103ra\u0219i, Bucharest",
+    "type": "bus",
+    "transit_provider": "Asocia\u021bia de Dezvoltare Intercomunitar\u0103 pentru Transport Public Bucure\u0219ti \u2013 Ilfov (TPBI)",
+    "vehicle_positions_url": "https://gtfs.tpbi.ro/api/gtfs-rt/vehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2104"
+}

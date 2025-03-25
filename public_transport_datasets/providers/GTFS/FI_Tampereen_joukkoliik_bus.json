@@ -1,0 +1,18 @@
+{
+    "id": "ab48b4b1e4d6100944333ce0d342476aa0dcec7825f0045ccf7ece93860b6cc4",
+    "enabled": false,
+    "country": "FI",
+    "city": "Lemp\u00e4\u00e4l\u00e4, Kangasala, Vesilahti, Valkeakoski, H\u00e4meenkyr\u00f6, Pirkkala, Yl\u00f6j\u00e4rvi, Nokia, Tampere, Kuhmoinen, Orivesi",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Finland, Pirkanmaa, Lemp\u00e4\u00e4l\u00e4, Kangasala, Vesilahti, Valkeakoski, H\u00e4meenkyr\u00f6, Pirkkala, Yl\u00f6j\u00e4rvi, Nokia, Tampere, Kuhmoinen, Orivesi",
+    "type": "bus",
+    "transit_provider": "Tampereen joukkoliikenne (JOLI)",
+    "vehicle_positions_url": "https://data.waltti.fi/tampere/api/gtfsrealtime/v1.0/feed/vehicleposition",
+    "authentication_type": 2,
+    "authentication_info_url": "https://opendata.waltti.fi/getting-started#api-tokens",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://opendata.waltti.fi/docs",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1588"
+}

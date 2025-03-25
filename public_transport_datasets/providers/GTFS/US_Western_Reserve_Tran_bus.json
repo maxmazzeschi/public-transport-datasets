@@ -1,0 +1,18 @@
+{
+    "id": "4e093394ed6370551873e3952a59ae64be6c463bf64af47d1a30e0fd89aae97d",
+    "enabled": true,
+    "country": "US",
+    "city": "Mahoning County, Trumbull County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Ohio, Mahoning County, Trumbull County",
+    "type": "bus",
+    "transit_provider": "Western Reserve Transit Authority",
+    "vehicle_positions_url": "https://myvalleystops.wrtaonline.com/infopoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4692-vp"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "4242e623e7bfeff7f908796c6cee2d5a42d23182d01c89a9814228ec4c46d80d",
+    "enabled": true,
+    "country": "US",
+    "city": "Northumberland County, Schuylkill County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Northumberland County, Schuylkill County",
+    "type": "bus",
+    "transit_provider": "Lower Anthracite Transit System",
+    "vehicle_positions_url": "https://lats.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-7024-vp"
+}

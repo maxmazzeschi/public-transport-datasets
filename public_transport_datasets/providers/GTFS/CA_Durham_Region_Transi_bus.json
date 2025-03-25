@@ -1,0 +1,18 @@
+{
+    "id": "dd0bfe30539115d8d37a44c2f3e66f5bd31659cd4a188dfcb7f75660d6886ad0",
+    "enabled": true,
+    "country": "CA",
+    "city": "Ajax, Uxbridge, Scugog, Whitby, Oshawa, Clarington, Pickering, Scarborough",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, Ajax, Uxbridge, Scugog, Whitby, Oshawa, Clarington, Pickering, Scarborough",
+    "type": "bus",
+    "transit_provider": "Durham Region Transit",
+    "vehicle_positions_url": "https://drtonline.durhamregiontransit.com/gtfsrealtime/VehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://opendata.durham.ca/search?q=service%20alert",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1466"
+}

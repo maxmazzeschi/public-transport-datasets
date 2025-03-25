@@ -1,0 +1,18 @@
+{
+    "id": "200490252900fe4aa7adb859777047f5ef2ab463772c651e88bc12a018a049ed",
+    "enabled": true,
+    "country": "CA",
+    "city": "Cherry Brook, Shearwater, Middle Sackville, Fall River, Lake Loon, Lake Echo, Dartmouth, Cole Harbour, Westphal, Timberlea, Beechville, Lakeside, Lower Sackville, North Preston, Eastern Passage, Hammonds Plains, Stillwater Lake, Herring Cove, Upper Tantallon, East Preston, Fergusons Cove, Porters Lake, Goffs, Beaver Bank, Halifax, Bedford",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Nova Scotia, Cherry Brook, Shearwater, Middle Sackville, Fall River, Lake Loon, Lake Echo, Dartmouth, Cole Harbour, Westphal, Timberlea, Beechville, Lakeside, Lower Sackville, North Preston, Eastern Passage, Hammonds Plains, Stillwater Lake, Herring Cove, Upper Tantallon, East Preston, Fergusons Cove, Porters Lake, Goffs, Beaver Bank, Halifax, Bedford",
+    "type": "bus",
+    "transit_provider": "Halifax Transit",
+    "vehicle_positions_url": "http://gtfs.halifax.ca/realtime/Vehicle/VehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "http://www.halifax.ca/opendata/transit.php",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1607"
+}

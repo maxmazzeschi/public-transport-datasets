@@ -1,0 +1,18 @@
+{
+    "id": "134cdcb5a9afc69546ae5bb0f1d88074b74df05b81616f466afb0840c7a62c3e",
+    "enabled": false,
+    "country": "US",
+    "city": "Pierce County, Snohomish County, King County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Pierce County, Snohomish County, King County",
+    "type": "bus",
+    "transit_provider": "Sound Transit",
+    "vehicle_positions_url": "https://api.pugetsound.onebusaway.org/api/gtfs_realtime/vehicle-positions-for-agency/40.pb",
+    "authentication_type": 1,
+    "authentication_info_url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/otd-downloads",
+    "api_key_parameter_name": "key",
+    "license_url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1552"
+}

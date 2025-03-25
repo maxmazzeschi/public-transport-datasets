@@ -1,0 +1,18 @@
+{
+    "id": "a8809136fd3faaf7496ce2fb4ce690a8941e5cea6e4bb615d0fd667ae7f68792",
+    "enabled": false,
+    "country": "US",
+    "city": "Multnomah County, Washington County, Clackamas County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Multnomah County, Washington County, Clackamas County",
+    "type": "bus",
+    "transit_provider": "TriMet",
+    "vehicle_positions_url": "http://developer.trimet.org/ws/V1/VehiclePositions",
+    "authentication_type": 1,
+    "authentication_info_url": "https://developer.trimet.org/GTFS.shtml",
+    "api_key_parameter_name": "AppID",
+    "license_url": "http://developer.trimet.org/terms_of_use.shtml",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1710"
+}

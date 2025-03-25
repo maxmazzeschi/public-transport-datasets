@@ -1,0 +1,18 @@
+{
+    "id": "dcc21593ee57aed3d96194b749267f6a9bf1e3c14a6bea1f16f149c20d4d62cc",
+    "enabled": true,
+    "country": "ES",
+    "city": "M\u00e1laga",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Spain, Andalusia, M\u00e1laga",
+    "type": "bus",
+    "transit_provider": "Empresa Malague\u00f1a de Transportes (EMT)",
+    "vehicle_positions_url": "https://gtfs.emtmalaga.es/GTFSRTapi/api/vehicleposition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2213"
+}

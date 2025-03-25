@@ -1,0 +1,18 @@
+{
+    "id": "d02cc8dbaba7d41f2f9d748cc3023c9f21bdbd28d7ade7f1e24702431b0f038d",
+    "enabled": false,
+    "country": "CA",
+    "city": "L\u00e9ry, Mercier, Sainte-Martine, Montreal, Ch\u00e2teauguay, Beauharnois, Salaberry-de-Valleyfield, Mont\u00e9r\u00e9gie",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, L\u00e9ry, Mercier, Sainte-Martine, Montreal, Ch\u00e2teauguay, Beauharnois, Salaberry-de-Valleyfield, Mont\u00e9r\u00e9gie",
+    "type": "bus",
+    "transit_provider": "Exo Sud-ouest",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITSO",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1356"
+}

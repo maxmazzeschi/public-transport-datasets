@@ -1,0 +1,18 @@
+{
+    "id": "6e690d17ed545b6b4bbea5df9de9390469a2d01489d73b527a091f0a787ecd0a",
+    "enabled": true,
+    "country": "NO",
+    "city": "M\u00f8re og Romsdal, G\u00e4vleborg County, V\u00e4sternorrland County, Ume\u00e5 kommun, S\u00f6dermanland County, J\u00e4mtland County, Innlandet, Stockholm County, V\u00e4stmanland County, \u00d6rebro County, Ostholstein, Rostock, Vestland, Prague, Hamburg, L\u00fcbeck, Sk\u00e5ne County, Berlin, V\u00e4rmland County, V\u00e4stra G\u00f6taland County, Kalmar County, \u00d6sterg\u00f6tland County, Unj\u00e1rga, Guovdageaidnu, Utsjoki, Karasjok, Deatnu, Halland County, Rogaland, Troms og Finnmark, Tr\u00f8ndelag, Storfjord, Oslo, Svalbard, J\u00f6nk\u00f6ping County, K\u00e5fjord, V\u00e4sterbotten County, South Varanki, Nordland, Nordreisa, Uppsala County, Agder, Vestfold og Telemark, Vuoreija, Viken",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Norway, M\u00f8re og Romsdal, M\u00f8re og Romsdal, G\u00e4vleborg County, V\u00e4sternorrland County, Ume\u00e5 kommun, S\u00f6dermanland County, J\u00e4mtland County, Innlandet, Stockholm County, V\u00e4stmanland County, \u00d6rebro County, Ostholstein, Rostock, Vestland, Prague, Hamburg, L\u00fcbeck, Sk\u00e5ne County, Berlin, V\u00e4rmland County, V\u00e4stra G\u00f6taland County, Kalmar County, \u00d6sterg\u00f6tland County, Unj\u00e1rga, Guovdageaidnu, Utsjoki, Karasjok, Deatnu, Halland County, Rogaland, Troms og Finnmark, Tr\u00f8ndelag, Storfjord, Oslo, Svalbard, J\u00f6nk\u00f6ping County, K\u00e5fjord, V\u00e4sterbotten County, South Varanki, Nordland, Nordreisa, Uppsala County, Agder, Vestfold og Telemark, Vuoreija, Viken",
+    "type": "bus",
+    "transit_provider": "Vy Buss (SE)",
+    "vehicle_positions_url": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=VYB",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://data.norge.no/nlod/en/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1801"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "00b1b5828616435dccbe7b28472640452f79a2d747732162d25c52eca6582959",
+    "enabled": true,
+    "country": "US",
+    "city": "Santa Cruz County, Santa Clara County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Santa Cruz County, Santa Clara County",
+    "type": "bus",
+    "transit_provider": "Santa Cruz Metro (SCMTD)",
+    "vehicle_positions_url": "https://rt.scmetro.org/gtfsrt/vehicles",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://scmtd.com/en/riders-guide/google-transit/gtfs-dev-data",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1910"
+}

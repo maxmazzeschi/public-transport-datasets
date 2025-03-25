@@ -1,0 +1,18 @@
+{
+    "id": "343b6c06bdc2e495ce93062517e4c0b1ed7ce7cf2e2a4409bc8d7d1788629769",
+    "enabled": true,
+    "country": "RO",
+    "city": "Buz\u0103u",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Romania, Buz\u0103u, Buz\u0103u",
+    "type": "bus",
+    "transit_provider": "Transbus Buz\u0103u",
+    "vehicle_positions_url": "https://gtfsagent.transportpublic.ro/transbus/vehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2113"
+}

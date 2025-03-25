@@ -1,0 +1,18 @@
+{
+    "id": "1ee002b11a55d7cf9e268468f782b955f4d861568f2733d420a85c0ba44a6285",
+    "enabled": true,
+    "country": "US",
+    "city": "Essex County, Middlesex County, Plymouth County, Suffolk County, South County, Bristol County, Worcester County, Barnstable County, Norfolk County, Providence County, Kent County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Massachusetts, Essex County, Middlesex County, Plymouth County, Suffolk County, South County, Bristol County, Worcester County, Barnstable County, Norfolk County, Providence County, Kent County",
+    "type": "bus",
+    "transit_provider": "Massachusetts Bay Transportation Authority (MBTA)",
+    "vehicle_positions_url": "https://cdn.mbta.com/realtime/VehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1602"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "54bcc8e819f2f8f8039ba3b3984adbb5473d0f568b2605f665af8a34020b6417",
+    "enabled": true,
+    "country": "CA",
+    "city": "Ellerslie, Clover Bar, Clareview, Southeast, Riverbend, Pilot Sound, Kaskitayo, Casselman-Steele Heights, The Palisades, Northern Mature Area, Central Core, Leduc County, Mill Woods, Lewis Farms, Greater Highlands, The Grange, City of Spruce Grove, The Meadows District, Windermere, Beaumont, Heritage Valley, Fort Saskatchewan, Lake District, City of Leduc, Riverview, West Jasper Place, Sherwood Park, Hermitage, Strathcona County, Terwillegar Heights, St. Albert, Horse Hill, South Industrial District, Greater Strathcona, Castle Downs, Beverly, Edmonton, Avenue District, Northwest Industrial, Jasper Place",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Alberta, Ellerslie, Clover Bar, Clareview, Southeast, Riverbend, Pilot Sound, Kaskitayo, Casselman-Steele Heights, The Palisades, Northern Mature Area, Central Core, Leduc County, Mill Woods, Lewis Farms, Greater Highlands, The Grange, City of Spruce Grove, The Meadows District, Windermere, Beaumont, Heritage Valley, Fort Saskatchewan, Lake District, City of Leduc, Riverview, West Jasper Place, Sherwood Park, Hermitage, Strathcona County, Terwillegar Heights, St. Albert, Horse Hill, South Industrial District, Greater Strathcona, Castle Downs, Beverly, Edmonton, Avenue District, Northwest Industrial, Jasper Place",
+    "type": "bus",
+    "transit_provider": "Edmonton Transit System",
+    "vehicle_positions_url": "http://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.edmonton.ca/transportation/Web-version2.1-OpenDataAgreement.pdf",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1496"
+}

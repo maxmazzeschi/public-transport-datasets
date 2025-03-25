@@ -1,0 +1,18 @@
+{
+    "id": "7cf8a33ff931be7afa7c4adcd59d7fa1a962591fd6af41147c62baf2418dbbcc",
+    "enabled": true,
+    "country": "US",
+    "city": "Chelan County, Douglas County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Chelan County, Douglas County",
+    "type": "bus",
+    "transit_provider": "Link Transit",
+    "vehicle_positions_url": "https://link.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5502-vp"
+}

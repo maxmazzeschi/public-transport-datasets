@@ -1,0 +1,18 @@
+{
+    "id": "962296a55e6e671a2a3f7888bdc59db02132cba7ff31bd80729e82d09d8ba159",
+    "enabled": true,
+    "country": "LT",
+    "city": "Rudamina Eldership, Mick\u016bnai Eldership, Juod\u0161iliai Eldership, \u0160atrininkai Eldership, Nem\u0117\u017eio seni\u016bnija, Avi\u017eieni\u0173 seni\u016bnija, Zuj\u016bnai Eldership, Pagiriai Eldership, Lentvaris Eldership, Vilnius city municipality, Rie\u0161\u0117s seni\u016bnija",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Lithuania, Vilnius County, Rudamina Eldership, Mick\u016bnai Eldership, Juod\u0161iliai Eldership, \u0160atrininkai Eldership, Nem\u0117\u017eio seni\u016bnija, Avi\u017eieni\u0173 seni\u016bnija, Zuj\u016bnai Eldership, Pagiriai Eldership, Lentvaris Eldership, Vilnius city municipality, Rie\u0161\u0117s seni\u016bnija",
+    "type": "bus",
+    "transit_provider": "S\u012e 'Susisiekimo paslaugos'",
+    "vehicle_positions_url": "https://www.stops.lt/vilnius/vehicle_positions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2383"
+}

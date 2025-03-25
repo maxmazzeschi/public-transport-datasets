@@ -1,0 +1,18 @@
+{
+    "id": "bd5fa4c405e5a568bccb8543ecc37d96fdc6249dbced66f8b04e60785e2e9dd6",
+    "enabled": true,
+    "country": "US",
+    "city": "Redondo Beach",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Redondo Beach",
+    "type": "bus",
+    "transit_provider": "Beach Cities Transit",
+    "vehicle_positions_url": "https://redondobeachbct.com/gtfs-rt/vehiclepositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1566"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "36e2fc4b83454bc75722ed39fc5d61fde869729fea319afb194b445fd68c41ac",
+    "enabled": true,
+    "country": "CA",
+    "city": "Saskatoon",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Saskatchewan, Saskatoon",
+    "type": "bus",
+    "transit_provider": "Saskatoon Transit",
+    "vehicle_positions_url": "http://apps2.saskatoon.ca/app/data/Vehicle/VehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1445"
+}

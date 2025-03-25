@@ -1,0 +1,18 @@
+{
+    "id": "8ca07c9e82566352d114efc1977b5b2a57931ddc12f80796b1d6a874455f887d",
+    "enabled": false,
+    "country": "US",
+    "city": "Chester County, Union County, Middlesex County, Delaware County, Bucks County, Lancaster County, Dauphin County, Richmond County, Somerset County, Cecil County, New Castle County, Montgomery County, Philadelphia County, Perry County, Mercer County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Chester County, Union County, Middlesex County, Delaware County, Bucks County, Lancaster County, Dauphin County, Richmond County, Somerset County, Cecil County, New Castle County, Montgomery County, Philadelphia County, Perry County, Mercer County",
+    "type": "bus",
+    "transit_provider": "Southeastern Pennsylvania Transportation Authority (SEPTA)",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/septa-rail/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1567"
+}

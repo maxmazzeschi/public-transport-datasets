@@ -1,0 +1,18 @@
+{
+    "id": "97578f498d01a14711cdec88ed012e8393e03086d30ac2e0f661d754beba9733",
+    "enabled": false,
+    "country": "CA",
+    "city": "McMasterville, Sainte-Madeleine, Sainte-Marie-Madeleine, Otterburn Park, Saint-Hyacinthe, Longueuil, Beloeil, Sainte-Julie, Saint-Mathieu-de-Beloeil, Montreal, Brossard, Mont-Saint-Hilaire, Saint-Bruno-de-Montarville, Saint-Basile-le-Grand",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, McMasterville, Sainte-Madeleine, Sainte-Marie-Madeleine, Otterburn Park, Saint-Hyacinthe, Longueuil, Beloeil, Sainte-Julie, Saint-Mathieu-de-Beloeil, Montreal, Brossard, Mont-Saint-Hilaire, Saint-Bruno-de-Montarville, Saint-Basile-le-Grand",
+    "type": "bus",
+    "transit_provider": "Exo Vall\u00e9e du Richelieu",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITVR",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1347"
+}

@@ -1,0 +1,23 @@
+{
+    "id": "bcc4b791b2abccda2063ac736b97c973e8774ce5e428abcfe8a4a619c23101e4",
+    "enabled": true,
+    "country": "US",
+    "city": "Ada County, Canyon County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Idaho, Ada County, Canyon County",
+    "type": "bus",
+    "transit_provider": "Valley Regional Transit",
+    "vehicle_positions_url": "https://www.valleyregionaltransit.org/GTFS/position_updates.pb",
+    "vehicle_positions_headers":  {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Connection": "keep-alive" },
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4375-vp"
+}

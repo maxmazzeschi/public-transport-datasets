@@ -1,0 +1,18 @@
+{
+    "id": "7c768d9235ffa960d2f23e087a5a3b34f8e88cabd190a5111e331b587d4f5519",
+    "enabled": false,
+    "country": "US",
+    "city": "Windsor County, Rutland County, Bennington County, Addison County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Vermont, Windsor County, Rutland County, Bennington County, Addison County",
+    "type": "bus",
+    "transit_provider": "Marble Valley Regional Transit District (MVRTD)",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/marble-valley/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1502"
+}

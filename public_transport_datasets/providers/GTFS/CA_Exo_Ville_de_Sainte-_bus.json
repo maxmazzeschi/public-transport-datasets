@@ -1,0 +1,18 @@
+{
+    "id": "325fcc5e2606c62af366cde33de8043158f8cf20f18dbef294e6271486ad072b",
+    "enabled": false,
+    "country": "CA",
+    "city": "Saint-Mathieu-de-Beloeil, Saint-Bruno-de-Montarville, Longueuil, Sainte-Julie, Beloeil, Saint-Hyacinthe, Brossard",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Saint-Mathieu-de-Beloeil, Saint-Bruno-de-Montarville, Longueuil, Sainte-Julie, Beloeil, Saint-Hyacinthe, Brossard",
+    "type": "bus",
+    "transit_provider": "Exo Ville de Sainte-Julie",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=OMITSJU",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1362"
+}

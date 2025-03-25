@@ -1,0 +1,18 @@
+{
+    "id": "8f5a8414227514b096bab955bc1189d39d29ada463a7fdd0379701fa86cf5264",
+    "enabled": true,
+    "country": "CA",
+    "city": "Saint-Lin\u2013Laurentides, Terrebonne, Sainte-Sophie, Saint-J\u00e9r\u00f4me",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Saint-Lin\u2013Laurentides, Terrebonne, Sainte-Sophie, Saint-J\u00e9r\u00f4me",
+    "type": "bus",
+    "transit_provider": "MRC de Montcalm",
+    "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?file=vp&dataset=mrc-montcalm",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5870-vp"
+}

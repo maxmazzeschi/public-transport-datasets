@@ -1,0 +1,18 @@
+{
+    "id": "bb1e6316305ddc1e9ba99a58ad2c9f71d96082c4c2b299f561fbc257bf259526",
+    "enabled": false,
+    "country": "US",
+    "city": "Santa Clara County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Santa Clara County",
+    "type": "bus",
+    "transit_provider": "Santa Clara Valley Transportation Authority (VTA)",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/vta/gtfs-rt-vehicle-positions/",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1743"
+}

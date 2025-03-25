@@ -1,0 +1,18 @@
+{
+    "id": "35ba2a1b54a79e4bb1e21b2b693a1781250a1ecfc1ed3d62b9b11dc63033473a",
+    "enabled": true,
+    "country": "US",
+    "city": "Westmoreland County, Allegheny County, Indiana County, Cambria County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Westmoreland County, Allegheny County, Indiana County, Cambria County",
+    "type": "bus",
+    "transit_provider": "Westmoreland County Transit Authority",
+    "vehicle_positions_url": "https://wcta.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=vehicleposition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6786-vp"
+}

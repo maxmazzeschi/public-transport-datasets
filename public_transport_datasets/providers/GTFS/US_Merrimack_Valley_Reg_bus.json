@@ -1,0 +1,18 @@
+{
+    "id": "e4421d3b9306df0398e032decdcbabd527e1596842fb8035b967f44bf84d8155",
+    "enabled": false,
+    "country": "US",
+    "city": "Suffolk County, Rockingham County, Middlesex County, Essex County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Massachusetts, Suffolk County, Rockingham County, Middlesex County, Essex County",
+    "type": "bus",
+    "transit_provider": "Merrimack Valley Regional Transit Authority (MVRTA)",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/massdot-mvrta/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1516"
+}

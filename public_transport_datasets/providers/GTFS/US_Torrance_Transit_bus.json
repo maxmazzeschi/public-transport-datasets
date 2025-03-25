@@ -1,0 +1,18 @@
+{
+    "id": "f772a3d0bc5c7d316a0cdb5c7d9a980c93032dddb993a62c3dae12e148682f26",
+    "enabled": true,
+    "country": "US",
+    "city": "Long Beach",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Long Beach",
+    "type": "bus",
+    "transit_provider": "Torrance Transit",
+    "vehicle_positions_url": "http://www.mybusinfo.com/gtfsrt/vehicles",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4364-vp"
+}

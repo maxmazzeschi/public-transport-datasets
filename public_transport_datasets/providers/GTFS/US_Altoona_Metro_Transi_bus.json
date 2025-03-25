@@ -1,0 +1,18 @@
+{
+    "id": "1e182d559b81945b3330f0a372a03c78c1aadd88f326a76f1b9ff525b01c06b1",
+    "enabled": true,
+    "country": "US",
+    "city": "Blair County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Blair County",
+    "type": "bus",
+    "transit_provider": "Altoona Metro Transit",
+    "vehicle_positions_url": "https://amtran.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4670-vp"
+}

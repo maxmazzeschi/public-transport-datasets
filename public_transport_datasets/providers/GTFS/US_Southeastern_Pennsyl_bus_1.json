@@ -1,0 +1,18 @@
+{
+    "id": "62ba100c91650bb7e1d88d550089a30f3554e768fa875f110d299d253b561cbc",
+    "enabled": false,
+    "country": "US",
+    "city": "Delaware County, Philadelphia County, New Castle County, Mercer County, Chester County, Bucks County, Montgomery County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Delaware County, Philadelphia County, New Castle County, Mercer County, Chester County, Bucks County, Montgomery County",
+    "type": "bus",
+    "transit_provider": "Southeastern Pennsylvania Transportation Authority (SEPTA)",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/septa/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1569"
+}

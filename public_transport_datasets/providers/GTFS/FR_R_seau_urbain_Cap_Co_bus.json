@@ -1,0 +1,18 @@
+{
+    "id": "34e44ad7c79b29dd7ea40278573c3ce6a16671886489541106e7de607f3b8d03",
+    "enabled": true,
+    "country": "FR",
+    "city": "Ille-et-Vilaine, Manche",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 France, Brittany, Ille-et-Vilaine, Manche",
+    "type": "bus",
+    "transit_provider": "R\u00e9seau urbain Cap Cotentin",
+    "vehicle_positions_url": "https://pysae.com/api/v2/groups/transdev-cotentin/gtfs-rt",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1841"
+}

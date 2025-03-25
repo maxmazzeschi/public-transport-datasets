@@ -1,0 +1,18 @@
+{
+    "id": "54927466f84820d6a49bbaa30dacae1fdf8588362633fe77e84d6acfb5a893ce",
+    "enabled": true,
+    "country": "US",
+    "city": "Lake County, Medina County, Cuyahoga County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Ohio, Lake County, Medina County, Cuyahoga County",
+    "type": "bus",
+    "transit_provider": "Greater Cleveland Regional Transit Authority",
+    "vehicle_positions_url": "http://gtfs.gcrta.org/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1526"
+}

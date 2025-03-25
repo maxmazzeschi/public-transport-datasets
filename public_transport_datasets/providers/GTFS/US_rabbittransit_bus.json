@@ -1,0 +1,18 @@
+{
+    "id": "bd46b9df0c05b4b6ae4c6dda4460472e0f6e7591312d27b5dfe607954089c9a8",
+    "enabled": true,
+    "country": "US",
+    "city": "Lancaster County, Adams County, Cumberland County, York County, Baltimore County, Dauphin County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Lancaster County, Adams County, Cumberland County, York County, Baltimore County, Dauphin County",
+    "type": "bus",
+    "transit_provider": "rabbittransit",
+    "vehicle_positions_url": "https://realtime.rabbittransit.org/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5539-vp"
+}

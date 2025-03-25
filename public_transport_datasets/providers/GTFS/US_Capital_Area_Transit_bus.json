@@ -1,0 +1,18 @@
+{
+    "id": "85b93978c8f02dc7d976fc22814b7c513c2024b1aa22b353df0f7cd2372c28d5",
+    "enabled": true,
+    "country": "US",
+    "city": "East Baton Rouge Parish",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Louisiana, East Baton Rouge Parish",
+    "type": "bus",
+    "transit_provider": "Capital Area Transit System",
+    "vehicle_positions_url": "https://cats.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=vehicleposition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6784-vp"
+}

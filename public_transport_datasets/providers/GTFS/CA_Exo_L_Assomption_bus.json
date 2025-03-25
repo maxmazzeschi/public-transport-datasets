@@ -1,0 +1,18 @@
+{
+    "id": "059bc31036bf544f9e9517cdc579b70687e82de61731d9ab7236f0eae17a3449",
+    "enabled": false,
+    "country": "CA",
+    "city": "Terrebonne, Repentigny, Lavaltrie, Montreal, Saint-Sulpice, L'Assomption, Charlemagne, Montr\u00e9al-Est, L'\u00c9piphanie",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Terrebonne, Repentigny, Lavaltrie, Montreal, Saint-Sulpice, L'Assomption, Charlemagne, Montr\u00e9al-Est, L'\u00c9piphanie",
+    "type": "bus",
+    "transit_provider": "Exo L'Assomption",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=MRCLASSO",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1341"
+}

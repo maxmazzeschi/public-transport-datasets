@@ -1,0 +1,18 @@
+{
+    "id": "d135baeaae06e1d87f2f2b3f8b7b81cbaa7dc91adc4c0a6d979c8cc58d0848d3",
+    "enabled": true,
+    "country": "CA",
+    "city": "Longueuil, Sainte-Julie, Saint-Roch-de-Richelieu, Varennes, Sorel-Tracy",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Longueuil, Sainte-Julie, Saint-Roch-de-Richelieu, Varennes, Sorel-Tracy",
+    "type": "bus",
+    "transit_provider": "Soci\u00e9t\u00e9 de transport collectif de Pierre-De Saurel",
+    "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=pierre-de-saurel",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2380"
+}

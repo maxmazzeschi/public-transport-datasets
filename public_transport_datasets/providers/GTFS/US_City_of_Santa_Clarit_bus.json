@@ -1,0 +1,18 @@
+{
+    "id": "76319d3d17f448b1324671067e428936a60ce65b5f4316928e0955d78e6890a5",
+    "enabled": true,
+    "country": "US",
+    "city": "Los Angeles County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Los Angeles County",
+    "type": "bus",
+    "transit_provider": "City of Santa Clarita Transit",
+    "vehicle_positions_url": "http://apps.santaclaritatransit.com/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4328-vp"
+}

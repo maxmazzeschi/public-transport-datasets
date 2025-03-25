@@ -1,0 +1,18 @@
+{
+    "id": "3e2f3344ef625115c4c806b8c5442713a9a486fb1ce89bc28fa45f49dd265dbc",
+    "enabled": true,
+    "country": "US",
+    "city": "Yellowstone County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Montana, Yellowstone County",
+    "type": "bus",
+    "transit_provider": "Billings Metropolitan Transit",
+    "vehicle_positions_url": "https://passio3.com/billings/passioTransit/gtfs/realtime/vehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5894-vp"
+}

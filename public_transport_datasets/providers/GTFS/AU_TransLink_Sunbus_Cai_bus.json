@@ -1,0 +1,18 @@
+{
+    "id": "4488b7edd36a144c9fb138320ae448d876b6e4091f0edc8f15ff29841b2c93b7",
+    "enabled": true,
+    "country": "AU",
+    "city": "Cairns",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, Queensland, Queensland",
+    "type": "bus",
+    "transit_provider": "TransLink Sunbus Cairns",
+    "vehicle_positions_url": "https://gtfsrt.api.translink.com.au/api/realtime/CNS/VehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1704"
+}

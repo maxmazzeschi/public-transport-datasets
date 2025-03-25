@@ -1,0 +1,18 @@
+{
+    "id": "9d97f36df6321f8cd84300e0ef9cd63aa9337a921745ba244a381d0e03280200",
+    "enabled": true,
+    "country": "OM",
+    "city": "Muscat, Dhofar",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Oman, Muscat, Muscat, Dhofar",
+    "type": "bus",
+    "transit_provider": "Oman National Transport Company",
+    "vehicle_positions_url": "https://app.mwasalat.om/tmsp/data/gtfs/vehicle-positions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6862-vp"
+}

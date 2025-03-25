@@ -1,0 +1,18 @@
+{
+    "id": "edeb50ff3396df40064560dd00974e426db7e71f700cbe3b129d58a3019c8f50",
+    "enabled": false,
+    "country": "US",
+    "city": "Shasta County, Butte County, Tehama County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Shasta County, Butte County, Tehama County",
+    "type": "bus",
+    "transit_provider": "Redding Area Bus Authority",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/redding/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1486"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "def0d3f983231ebb092beb3369c094d5f2c037b21c6bf9d33e867de45b3d12af",
+    "enabled": true,
+    "country": "US",
+    "city": "Yamhill County, Polk County, Washington County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Yamhill County, Polk County, Washington County",
+    "type": "bus",
+    "transit_provider": "Yamhill County Transit Area",
+    "vehicle_positions_url": "https://ycta.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5555-vp"
+}

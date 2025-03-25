@@ -1,0 +1,18 @@
+{
+    "id": "60d75a260551c673ee18a319ee0dba5844169b00c20100eafe8f49322ed0638a",
+    "enabled": true,
+    "country": "CA",
+    "city": "Sherbrooke",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Sherbrooke",
+    "type": "bus",
+    "transit_provider": "Soci\u00e9t\u00e9 de Transport de Sherbrooke, Service op\u00e9r\u00e9 par Taxis de Sherbrooke",
+    "vehicle_positions_url": "https://gtfs.sts.qc.ca:8443/gtfsrt/vehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4753-vp"
+}

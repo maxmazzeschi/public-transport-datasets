@@ -1,0 +1,18 @@
+{
+    "id": "d5a649ef328818cded66ea3fc34b7726e003e754a72cc5ce17b8a90af8f729c1",
+    "enabled": true,
+    "country": "PL",
+    "city": "Warsaw West County, Warsaw, Legionowo County, Wo\u0142omin County, Nowy Dw\u00f3r Mazowiecki County, Otwock County, Mi\u0144sk County, Pruszk\u00f3w County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Poland, Masovian Voivodeship, Warsaw West County, Warsaw, Legionowo County, Wo\u0142omin County, Nowy Dw\u00f3r Mazowiecki County, Otwock County, Mi\u0144sk County, Pruszk\u00f3w County",
+    "type": "bus",
+    "transit_provider": "Zarz\u0105d Transportu Miejskiego w Warszawie",
+    "vehicle_positions_url": "https://mkuran.pl/gtfs/warsaw/vehicles.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6068-vp"
+}

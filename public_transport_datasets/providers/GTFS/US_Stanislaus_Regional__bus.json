@@ -1,0 +1,18 @@
+{
+    "id": "4d9d6410d09c02e96fc48d375a21a2cb5d08530b4c4d97717be49a65b24a88a9",
+    "enabled": true,
+    "country": "US",
+    "city": "Stanislaus County, Alameda County, San Joaquin County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Stanislaus County, Alameda County, San Joaquin County",
+    "type": "bus",
+    "transit_provider": "Stanislaus Regional Transit Authority (StanRTA)",
+    "vehicle_positions_url": "https://max.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1614"
+}

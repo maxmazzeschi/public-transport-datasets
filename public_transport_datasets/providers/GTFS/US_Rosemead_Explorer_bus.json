@@ -1,0 +1,18 @@
+{
+    "id": "c11bb2ba269d7d65f8b5d8ccf9299dc60d456475148b0cc5a6d74bb55021e020",
+    "enabled": true,
+    "country": "US",
+    "city": "Los Angeles County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Los Angeles County",
+    "type": "bus",
+    "transit_provider": "Rosemead Explorer",
+    "vehicle_positions_url": "https://passio3.com/rosemead/passioTransit/gtfs/realtime/vehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6732-vp"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "7cda91486da7274beee11a0e4b41599b909bacdf7be5bd6900560f4706039cb5",
+    "enabled": true,
+    "country": "US",
+    "city": "Mora County, Santa Fe County, Rio Arriba County, Taos County, San Miguel County, Torrance County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New Mexico, Mora County, Santa Fe County, Rio Arriba County, Taos County, San Miguel County, Torrance County",
+    "type": "bus",
+    "transit_provider": "North Central Regional Transit District",
+    "vehicle_positions_url": "https://bluebustracker.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6744-vp"
+}

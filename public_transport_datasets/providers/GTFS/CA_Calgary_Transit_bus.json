@@ -1,0 +1,18 @@
+{
+    "id": "877f88564b1649c2e983c5d1b02ab8859928259b3063a0ba008a44ac4ff0566c",
+    "enabled": true,
+    "country": "CA",
+    "city": "Calgary",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Alberta, Calgary",
+    "type": "bus",
+    "transit_provider": "Calgary Transit",
+    "vehicle_positions_url": "https://data.calgary.ca/download/am7c-qe3u/application%2Foctet-stream",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-1080-vp"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "1433a6b836eb99944c7a40b1ac43949f3415bb042cf1409c6df3026ac1840736",
+    "enabled": false,
+    "country": "NZ",
+    "city": "Thames-Coromandel District, Waikato District, Auckland, Hamilton City",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 New Zealand, Waikato, Thames-Coromandel District, Waikato District, Auckland, Hamilton City",
+    "type": "bus",
+    "transit_provider": "SeaLink Pine Harbour, Waikato Regional Council, Pavlovich Transport Solutions, AT Metro",
+    "vehicle_positions_url": "https://api.at.govt.nz/v2/public/realtime/vehiclelocations",
+    "authentication_type": 2,
+    "authentication_info_url": "https://dev-portal.at.govt.nz/",
+    "api_key_parameter_name": "Ocp-Apim-Subscription-Key",
+    "license_url": "https://dev-portal.at.govt.nz/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1375"
+}

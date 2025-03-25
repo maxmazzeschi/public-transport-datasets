@@ -1,0 +1,18 @@
+{
+    "id": "1d1770e97ad33cbddbedbd06603760f78c0bdf7e08f7d0c847de8987bb3f71b0",
+    "enabled": true,
+    "country": "PL",
+    "city": "Pozna\u0144 County, Szamotu\u0142y County, \u015aroda Wielkopolska County, Pozna\u0144",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Poland, Greater Poland Voivodeship, Pozna\u0144 County, Szamotu\u0142y County, \u015aroda Wielkopolska County, Pozna\u0144",
+    "type": "bus",
+    "transit_provider": "Zarz\u0105d Transportu Miejskiego Pozna\u0144 (ZTM Pozna\u0144)",
+    "vehicle_positions_url": "https://www.ztm.poznan.pl/pl/dla-deweloperow/getGtfsRtFile/?file=vehicle_positions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.ztm.poznan.pl/otwarte-dane/dla-deweloperow/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2335"
+}

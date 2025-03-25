@@ -1,0 +1,18 @@
+{
+    "id": "86c7020c77d0422f77ef6f41e9ca883490a37f773aacf6bd43d02d5ebddf443e",
+    "enabled": true,
+    "country": "US",
+    "city": "Wake County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, North Carolina, Wake County",
+    "type": "bus",
+    "transit_provider": "GoCary",
+    "vehicle_positions_url": "https://www.gocarylive.org/gtfs/Realtime/GTFS_VehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6821-vp"
+}

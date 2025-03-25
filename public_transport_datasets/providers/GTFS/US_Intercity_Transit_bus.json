@@ -1,0 +1,18 @@
+{
+    "id": "598befcb6a849663462d0736c0024896dd25984e2f4c07da3a0fdad4b3698ce1",
+    "enabled": true,
+    "country": "US",
+    "city": "Thurston County, Pierce County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Thurston County, Pierce County",
+    "type": "bus",
+    "transit_provider": "Intercity Transit",
+    "vehicle_positions_url": "https://its.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1537"
+}

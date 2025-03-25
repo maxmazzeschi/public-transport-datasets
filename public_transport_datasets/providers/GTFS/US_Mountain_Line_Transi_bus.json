@@ -1,0 +1,18 @@
+{
+    "id": "e412678ceda05dff6f13c7aee9eb41158db72b241fd95c0ac258de5ee527369d",
+    "enabled": true,
+    "country": "US",
+    "city": "Coconino County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Arizona, Coconino County",
+    "type": "bus",
+    "transit_provider": "Mountain Line Transit",
+    "vehicle_positions_url": "https://mountainline.syncromatics.com/gtfs-rt/vehiclepositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1980"
+}

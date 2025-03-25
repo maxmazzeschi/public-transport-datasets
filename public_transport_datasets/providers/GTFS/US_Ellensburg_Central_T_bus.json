@@ -1,0 +1,18 @@
+{
+    "id": "c4366dc87df32a457e0e9b0f9a40c625f1abb3bde4dcfcd45e1d5f1f7cf3d868",
+    "enabled": false,
+    "country": "US",
+    "city": "Kittitas County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Kittitas County",
+    "type": "bus",
+    "transit_provider": "Ellensburg Central Transit",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/central-transit-wa/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1583"
+}

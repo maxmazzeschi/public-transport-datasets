@@ -1,0 +1,18 @@
+{
+    "id": "f1a090d8cad089e2655430ea8302de5045e8d85307b57821114178c1169a9791",
+    "enabled": true,
+    "country": "FR",
+    "city": "Moselle",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 France, Grand Est, Moselle",
+    "type": "bus",
+    "transit_provider": "Transavold",
+    "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?file=vp&dataset=transavold-stavold",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5645-vp"
+}

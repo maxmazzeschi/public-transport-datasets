@@ -1,0 +1,18 @@
+{
+    "id": "792d802e39fee79cc864897fee5b63670dd1e8618934f20ce160570906ea1a9f",
+    "enabled": true,
+    "country": "US",
+    "city": "Fayette County, Fulton County, DeKalb County, Forsyth County, Clayton County, Cobb County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Georgia, Fayette County, Fulton County, DeKalb County, Forsyth County, Clayton County, Cobb County",
+    "type": "bus",
+    "transit_provider": "Metropolitan Atlanta Rapid Transit Authority (MARTA)",
+    "vehicle_positions_url": "https://gtfs-rt.itsmarta.com/TMGTFSRealTimeWebService/vehicle/vehiclepositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1601"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "ed837db73228ce11394b638e6de7d12610f943e798df21e71d375cce86a5b945",
+    "enabled": true,
+    "country": "US",
+    "city": "Los Angeles County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Los Angeles County",
+    "type": "bus",
+    "transit_provider": "Big Blue Bus",
+    "vehicle_positions_url": "http://gtfs.bigbluebus.com/vehiclepositions.bin",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "http://gtfs.bigbluebus.com/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1436"
+}

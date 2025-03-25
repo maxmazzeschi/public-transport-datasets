@@ -1,0 +1,18 @@
+{
+    "id": "0f247c349ff1b5f5e8c531367c4e30515a8905d698fe3c83268cca5bfd02b073",
+    "enabled": true,
+    "country": "US",
+    "city": "Fulton County, Tom Green County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Georgia, Fulton County, Tom Green County",
+    "type": "bus",
+    "transit_provider": "Concho Valley Transit District",
+    "vehicle_positions_url": "https://passio3.com/conchovt/passioTransit/gtfs/realtime/vehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5865-vp"
+}

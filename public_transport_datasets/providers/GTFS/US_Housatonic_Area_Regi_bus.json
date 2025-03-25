@@ -1,0 +1,18 @@
+{
+    "id": "6de7542744485f1377206b2c863527218577457721ac72e130beaee69cdbcd12",
+    "enabled": true,
+    "country": "US",
+    "city": "Fairfield County, Westchester County, Putnam County, Litchfield County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Connecticut, Fairfield County, Westchester County, Putnam County, Litchfield County",
+    "type": "bus",
+    "transit_provider": "Housatonic Area Regional Transit",
+    "vehicle_positions_url": "https://passio3.com/hart/passioTransit/gtfs/realtime/vehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5903-vp"
+}

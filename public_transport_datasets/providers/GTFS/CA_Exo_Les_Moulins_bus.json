@@ -1,0 +1,18 @@
+{
+    "id": "a2e316013d97a42e5161476685e24c3252921d25d3cb8e60779b283f23e1c391",
+    "enabled": false,
+    "country": "CA",
+    "city": "Terrebonne, Montreal, Mascouche, Bois-des-Filion, Laval, Sainte-Th\u00e9r\u00e8se",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Terrebonne, Montreal, Mascouche, Bois-des-Filion, Laval, Sainte-Th\u00e9r\u00e8se",
+    "type": "bus",
+    "transit_provider": "Exo Les Moulins",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=MRCLM",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1344"
+}

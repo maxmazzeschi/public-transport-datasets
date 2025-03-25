@@ -1,0 +1,18 @@
+{
+    "id": "f8c202bf2d85b503c4f442bdcf4981585d7ea7beaad5e3e712f21f6df1208517",
+    "enabled": false,
+    "country": "US",
+    "city": "Contra Costa County, Napa County, Solano County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Contra Costa County, Napa County, Solano County",
+    "type": "bus",
+    "transit_provider": "VINE Transit",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/napa-valley/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1523"
+}

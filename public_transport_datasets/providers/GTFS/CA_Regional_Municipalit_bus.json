@@ -1,0 +1,18 @@
+{
+    "id": "2d1adf48e34dee81ebb5e12664e8649fea7aa8686a307bb90f8850b500e46c5f",
+    "enabled": true,
+    "country": "CA",
+    "city": "Fort McMurray, Wood Buffalo",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Alberta, Fort McMurray, Wood Buffalo",
+    "type": "bus",
+    "transit_provider": "Regional Municipality of Wood Buffalo Transit",
+    "vehicle_positions_url": "https://rmwb-gtfsrt.civilia.ca/pb/vehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4691-vp"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "5d4b10d566b0e65f091cf6212786c4c05821d3965b3ed37d09885e524bf64733",
+    "enabled": true,
+    "country": "CZ",
+    "city": "Prague (Praha)",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Czechia, None, None",
+    "type": "bus",
+    "transit_provider": "Prazska integrovana doprava (PID))",
+    "vehicle_positions_url": "https://api.golemio.cz/v2/vehiclepositions/gtfsrt/vehicle_positions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2345"
+}

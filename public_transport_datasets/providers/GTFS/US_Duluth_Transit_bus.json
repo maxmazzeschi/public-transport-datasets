@@ -1,0 +1,18 @@
+{
+    "id": "d84530c50217245964b259e7a3600280c3b272e186fccb10b0c8e75e896e7931",
+    "enabled": true,
+    "country": "US",
+    "city": "Douglas County, Saint Louis County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Wisconsin, Douglas County, Saint Louis County",
+    "type": "bus",
+    "transit_provider": "Duluth Transit",
+    "vehicle_positions_url": "https://duluthtransit.com/gtfsrt/Vehicle/VehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.duluthtransit.com/home/doing-business/developer-resources/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1461"
+}

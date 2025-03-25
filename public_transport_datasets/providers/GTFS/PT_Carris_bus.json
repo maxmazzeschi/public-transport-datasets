@@ -1,0 +1,18 @@
+{
+    "id": "1413b696238273103b99117ca9003d7934b28fe681545438bbeadce6e2bd5e0a",
+    "enabled": true,
+    "country": "PT",
+    "city": "Campo de Ourique, Bel\u00e9m, Estrela, Beato, Alg\u00e9s, Linda-a-Velha e Cruz Quebrada-Dafundo, Alfragide, Alc\u00e2ntara, Ajuda, P\u00f3voa de Santo Adri\u00e3o e Olival Basto, S\u00e3o Domingos de Benfica, Santo Ant\u00f3nio, Almada, Cova da Piedade, Pragal e Cacilhas, Parque das Na\u00e7\u00f5es, Pontinha e Fam\u00f5es, Santa Maria Maior, Campolide, Penha de Fran\u00e7a, Avenidas Novas, Benfica, Carnide, Marvila, Odivelas, \u00c1guas Livres, Falagueira-Venda Nova, Arroios, Alvalade, Camarate, Unhos e Apela\u00e7\u00e3o, Lumiar, Santa Clara, Sacav\u00e9m e Prior Velho, Carnaxide e Queijas, Encosta do Sol, Areeiro, Miseric\u00f3rdia, Moscavide e Portela, S\u00e3o Vicente, Santa Maria de Olivais",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Portugal, Lisbon, Campo de Ourique, Bel\u00e9m, Estrela, Beato, Alg\u00e9s, Linda-a-Velha e Cruz Quebrada-Dafundo, Alfragide, Alc\u00e2ntara, Ajuda, P\u00f3voa de Santo Adri\u00e3o e Olival Basto, S\u00e3o Domingos de Benfica, Santo Ant\u00f3nio, Almada, Cova da Piedade, Pragal e Cacilhas, Parque das Na\u00e7\u00f5es, Pontinha e Fam\u00f5es, Santa Maria Maior, Campolide, Penha de Fran\u00e7a, Avenidas Novas, Benfica, Carnide, Marvila, Odivelas, \u00c1guas Livres, Falagueira-Venda Nova, Arroios, Alvalade, Camarate, Unhos e Apela\u00e7\u00e3o, Lumiar, Santa Clara, Sacav\u00e9m e Prior Velho, Carnaxide e Queijas, Encosta do Sol, Areeiro, Miseric\u00f3rdia, Moscavide e Portela, S\u00e3o Vicente, Santa Maria de Olivais",
+    "type": "bus",
+    "transit_provider": "Carris",
+    "vehicle_positions_url": "https://gateway.carris.pt/gateway/gtfs/api/v2.8/GTFS/realtime/vehiclepositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2058"
+}

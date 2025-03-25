@@ -1,0 +1,18 @@
+{
+    "id": "704ea0ab1c99be6a1bcb6c2a5774a6d2497ea8d0cb0a7b4a5f5adf848bc39782",
+    "enabled": true,
+    "country": "CA",
+    "city": "Barrie",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, Barrie",
+    "type": "bus",
+    "transit_provider": "Barrie Transit",
+    "vehicle_positions_url": "http://www.myridebarrie.ca/gtfs/GTFS_VehiclePositions.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1382"
+}

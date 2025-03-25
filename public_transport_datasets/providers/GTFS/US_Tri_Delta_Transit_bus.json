@@ -1,0 +1,18 @@
+{
+    "id": "32aad757031648bc9c3a854b9eb709eee824bef02e8cfad742e531158eadb3fb",
+    "enabled": false,
+    "country": "US",
+    "city": "Concord",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Concord",
+    "type": "bus",
+    "transit_provider": "Tri Delta Transit",
+    "vehicle_positions_url": "https://api.511.org/transit/vehiclepositions?agency=3D",
+    "authentication_type": 1,
+    "authentication_info_url": "https://511.org/open-data/token",
+    "api_key_parameter_name": "api_key",
+    "license_url": "https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1976"
+}

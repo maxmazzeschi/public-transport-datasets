@@ -1,0 +1,23 @@
+{
+    "id": "c265c8ca13fb0ad4e37608313528ecb09473d9ddc8d858feb9077b81fbb36e5d",
+    "enabled": true,
+    "country": "US",
+    "city": "City of Saint Louis, Saint Clair County, Madison County, Saint Louis County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Missouri, City of Saint Louis, Saint Clair County, Madison County, Saint Louis County",
+    "type": "bus",
+    "transit_provider": "Metro St. Louis",
+    "vehicle_positions_url": "https://www.metrostlouis.org/RealTimeData/StlRealTimeVehicles.pb",
+    "vehicle_positions_headers":  {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Connection": "keep-alive" },
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "https://www.metrostlouis.org/developer-resources/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1414"
+}

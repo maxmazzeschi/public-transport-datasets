@@ -1,0 +1,18 @@
+{
+    "id": "2a9c5ac9f2a5bcc1ab39ac73863f6a4da872ffa878c5a8a2087b31248bffde75",
+    "enabled": true,
+    "country": "US",
+    "city": "Butler County, Lawrence County, Mercer County, Allegheny County, Beaver County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Butler County, Lawrence County, Mercer County, Allegheny County, Beaver County",
+    "type": "bus",
+    "transit_provider": "New Castle Area Transit Authority",
+    "vehicle_positions_url": "https://ncata.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-7031-vp"
+}

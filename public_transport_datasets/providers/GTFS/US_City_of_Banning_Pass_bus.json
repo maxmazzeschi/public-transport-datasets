@@ -1,0 +1,18 @@
+{
+    "id": "cbe1f5af24642ccc1ba7ca0dcae17745c4f099adc4e89ab6c10e5905b1199407",
+    "enabled": false,
+    "country": "US",
+    "city": "Riverside County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Riverside County",
+    "type": "bus",
+    "transit_provider": "City of Banning Pass Transit System",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/banning/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1481"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "7f1479a83ad26a71f098b2991161759dbce70fba946f1460fde962394d5f0ce5",
+    "enabled": false,
+    "country": "US",
+    "city": "Vermont",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Vermont, Vermont",
+    "type": "bus",
+    "transit_provider": "Tri-Valley Transit",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/trivalleytransit/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1753"
+}

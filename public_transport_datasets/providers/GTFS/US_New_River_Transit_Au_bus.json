@@ -1,0 +1,18 @@
+{
+    "id": "bbf89d6c234095ca54add26a3351c268a48a93f12ffb733f84d5d727b86800dc",
+    "enabled": true,
+    "country": "US",
+    "city": "Raleigh County, Fayette County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, West Virginia, Raleigh County, Fayette County",
+    "type": "bus",
+    "transit_provider": "New River Transit Authority",
+    "vehicle_positions_url": "https://passio3.com/beckley/passioTransit/gtfs/realtime/vehiclePositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-6714-vp"
+}

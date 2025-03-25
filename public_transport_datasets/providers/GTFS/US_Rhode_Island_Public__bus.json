@@ -1,0 +1,18 @@
+{
+    "id": "21fc3aa6918521bc1cc514e7af9ed1aa3e25a48e8a0c7b0314a8328755fe90dc",
+    "enabled": true,
+    "country": "US",
+    "city": "Kent County, Providence County, Newport County, Bristol County, South County, Bristol County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Rhode Island, Kent County, Providence County, Newport County, Bristol County, South County, Bristol County",
+    "type": "bus",
+    "transit_provider": "Rhode Island Public Transit Authority",
+    "vehicle_positions_url": "http://realtime.ripta.com:81/api/vehiclepositions?format=gtfs.proto",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1662"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "072a2f9391300cc7acc02f276a1bb903f02e3393133531daa431757008f26c5c",
+    "enabled": false,
+    "country": "CA",
+    "city": "Sainte-Martine, Ch\u00e2teauguay, Montreal, Mercier, Mont\u00e9r\u00e9gie",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Sainte-Martine, Ch\u00e2teauguay, Montreal, Mercier, Mont\u00e9r\u00e9gie",
+    "type": "bus",
+    "transit_provider": "Exo Haut-Saint-Laurent",
+    "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITHSL",
+    "authentication_type": 1,
+    "authentication_info_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "api_key_parameter_name": "token",
+    "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1368"
+}

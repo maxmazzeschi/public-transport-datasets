@@ -1,0 +1,18 @@
+{
+    "id": "f21e0ef4f2e16bcfd27fa8d0ec288b9778c8c745583b4f85a61a270c1dd769cb",
+    "enabled": false,
+    "country": "US",
+    "city": "Tillamook County, Clatsop County, Polk County, Marion County, Lincoln County, Washington County, Multnomah County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Tillamook County, Clatsop County, Polk County, Marion County, Lincoln County, Washington County, Multnomah County",
+    "type": "bus",
+    "transit_provider": "Tillamook County Transportation District",
+    "vehicle_positions_url": "https://api.goswift.ly/real-time/tillamook/gtfs-rt-vehicle-positions",
+    "authentication_type": 2,
+    "authentication_info_url": "https://goswift.ly/realtime-api-key",
+    "api_key_parameter_name": "authorization",
+    "license_url": "https://www.goswift.ly/api-license",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1478"
+}

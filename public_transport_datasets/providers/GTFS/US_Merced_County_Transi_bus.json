@@ -1,0 +1,18 @@
+{
+    "id": "1ec26c6dd948be82ac284ea89744c687230c6199897ec984da7bb2c359821075",
+    "enabled": true,
+    "country": "US",
+    "city": "Merced County, Stanislaus County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Merced County, Stanislaus County",
+    "type": "bus",
+    "transit_provider": "Merced County Transit (The Bus)",
+    "vehicle_positions_url": "https://thebuslive.com/gtfs-rt/vehiclepositions",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1506"
+}

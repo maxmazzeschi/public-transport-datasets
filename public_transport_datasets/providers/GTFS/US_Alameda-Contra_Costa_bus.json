@@ -1,0 +1,18 @@
+{
+    "id": "83217c2d4d929b8113bc215804ea9451d0207f4988a13d3e092d5abc76681497",
+    "enabled": false,
+    "country": "US",
+    "city": "Santa Clara County, Contra Costa County, Alameda County, San Francisco",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Santa Clara County, Contra Costa County, Alameda County, San Francisco",
+    "type": "bus",
+    "transit_provider": "Alameda-Contra Costa Transit District (AC Transit)",
+    "vehicle_positions_url": "http://api.actransit.org/transit/gtfsrt/vehicles",
+    "authentication_type": 1,
+    "authentication_info_url": "https://api.actransit.org/transit/Account/Register",
+    "api_key_parameter_name": "token",
+    "license_url": "http://www.actransit.org/data-terms-and-conditions/",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1399"
+}

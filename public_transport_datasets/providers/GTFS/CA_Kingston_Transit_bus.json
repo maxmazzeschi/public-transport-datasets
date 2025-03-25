@@ -1,0 +1,18 @@
+{
+    "id": "494f43736b9961bf63be424200710b3bbf0570436e7d8dec8b93a57a724777c9",
+    "enabled": true,
+    "country": "CA",
+    "city": "Kingston",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, Kingston",
+    "type": "bus",
+    "transit_provider": "Kingston Transit",
+    "vehicle_positions_url": "https://api.cityofkingston.ca/gtfs-realtime/vehicleupdates.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1433"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "89e5e364273c5562652ec4e3e694c5afce6dfb7818664c907ae061737dc6b900",
+    "enabled": true,
+    "country": "CA",
+    "city": "Thunder Bay District, Thunder Bay",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, Thunder Bay District, Thunder Bay",
+    "type": "bus",
+    "transit_provider": "Thunder Bay Transit",
+    "vehicle_positions_url": "http://api.nextlift.ca/gtfs-realtime/vehicleupdates.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1690"
+}

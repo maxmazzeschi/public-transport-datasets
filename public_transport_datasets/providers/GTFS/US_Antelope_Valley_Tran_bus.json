@@ -1,0 +1,18 @@
+{
+    "id": "389d2ccdcc8136dee041af4914c74c849d6999d7ba3c320c24a503d6e7fb53fa",
+    "enabled": true,
+    "country": "US",
+    "city": "Lancaster",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Lancaster",
+    "type": "bus",
+    "transit_provider": "Antelope Valley Transit Authority",
+    "vehicle_positions_url": "https://track-it.avta.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-4485-vp"
+}

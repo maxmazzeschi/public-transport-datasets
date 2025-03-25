@@ -1,0 +1,18 @@
+{
+    "id": "0780f02ed142e8780252f00b81c5cde4b218a5671128db29ff97f31e761a02e1",
+    "enabled": false,
+    "country": "US",
+    "city": "Queens County, Kings County, New York County, Bronx County, Richmond County",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New York, Queens County, Kings County, New York County, Bronx County, Richmond County",
+    "type": "bus",
+    "transit_provider": "Staten Island Railway",
+    "vehicle_positions_url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-si",
+    "authentication_type": 2,
+    "authentication_info_url": "https://api.mta.info/#/signup",
+    "api_key_parameter_name": "x-api-key",
+    "license_url": "https://api.mta.info/#/DataFeedAgreement",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1637"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "7ac6eb1614a6c600d829eaf40308c6ce0f26250721bea3972854f7753a798cbc",
+    "enabled": true,
+    "country": "CA",
+    "city": "Campbell River",
+    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, British Columbia, Campbell River",
+    "type": "bus",
+    "transit_provider": "BC Transit (Campbell River Transit)",
+    "vehicle_positions_url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=12",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1378"
+}
