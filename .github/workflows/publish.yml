@@ -20,6 +20,7 @@ jobs:
           python-version: "3.x"
 
       - name: Update version
+        id: update-version # Add an ID to reference this step
         run: |
           # Increment version in VERSION file
           IFS='.' read -r major minor patch < VERSION
@@ -28,23 +29,23 @@ jobs:
           echo "$new_version" > VERSION
           echo "Updating setup.py with version $new_version"
           python -c "import re; f=open('setup.py', 'r+'); content=f.read(); f.seek(0); f.write(re.sub(r'version=\"[0-9]+\.[0-9]+\.[0-9]+\"', f'version=\"$new_version\"', content, count=1)); f.truncate(); f.close()"
+          echo "new_version=$new_version" >> $GITHUB_ENV # Store new_version in the environment
 
       - name: Commit and push version update
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add VERSION setup.py
-          git commit -m "Bump version to $new_version"
+          git commit -m "Bump version to latest version"
           git push origin main
 
       - name: Create and push tag
         run: |
-          git tag "v$new_version"
-          git push origin "v$new_version"
+          git tag "v${{ env.new_version }}" # Use the new_version from the environment
+          git push origin "v${{ env.new_version }}"
 
       - name: Build release distributions
         run: |
-          # NOTE: put your own distribution build steps here.
           python -m pip install build
           python -m build
 
@@ -59,19 +60,10 @@ jobs:
     needs:
       - release-build
     permissions:
-      # IMPORTANT: this permission is mandatory for trusted publishing
       id-token: write
 
-    # Dedicated environments with protections for publishing are strongly recommended.
-    # For more information, see: https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#deployment-protection-rules
     environment:
       name: pypi
-      # OPTIONAL: uncomment and update to include your PyPI project URL in the deployment status:
-      # url: https://pypi.org/p/YOURPROJECT
-      #
-      # ALTERNATIVE: if your GitHub Release name is the PyPI project version string
-      # ALTERNATIVE: exactly, uncomment the following line instead:
-      # url: https://pypi.org/project/YOURPROJECT/${{ github.event.release.name }}
 
     steps:
       - name: Retrieve release distributions
