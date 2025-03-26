@@ -18,7 +18,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Max Mazzeschi",
     author_email="max.mazzeschi@gmail.com",
-    url="https://github.com/maxmazzeschi/public_transport_datasets",
+    url="https://github.com/maxmazzeschi/public-transport-datasets",
     license="Apache-2.0",
     classifiers=[
         "Programming Language :: Python :: 3",

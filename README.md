@@ -17,12 +17,19 @@ public_transport_datasets
 ```
 
 ## How to use
-I've created a simple webapp available on Github
-It's reacheable at
+There is a simple webapp available on Github [bus-and-go](https://github.com/maxmazzeschi/bus-and-go) that uses the datasets, plotting data on a map.
 
+
+It's available at [https://bus-and-go.onrender.com/](https://bus-and-go.onrender.com/)
+ 
 ## To Do
-Add stop stations
-AOB
+- Add stop stations
+
+- Support SIRI standard (wip)
+
+- Support TFL standard (wip)
+
+- AOB
 
 ## Credits
 
