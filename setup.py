@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="public_transport_datasets",
-    version="0.1.31",
+    version="0.1.35",
     packages=find_packages(),
     install_requires=[
         "requests",
