@@ -1,19 +1,12 @@
-# This workflow will upload a Python Package to PyPI when a release is created
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries
-
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
 name: Upload Python Package
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - master
 
 permissions:
-  contents: read
+  contents: write  # Updated to allow pushing tags
 
 jobs:
   release-build:
@@ -25,6 +18,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+
+      - name: Update version
+        run: |
+          # Increment version in VERSION file
+          IFS='.' read -r major minor patch < VERSION
+          patch=$((patch + 1))
+          new_version="$major.$minor.$patch"
+          echo "$new_version" > VERSION
+          echo "Updating setup.py with version $new_version"
+          python -c "import re; f=open('setup.py', 'r+'); content=f.read(); f.seek(0); f.write(re.sub(r'version=\"[0-9]+\.[0-9]+\.[0-9]+\"', f'version=\"$new_version\"', content, count=1)); f.truncate(); f.close()"
+
+      - name: Commit and push version update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add VERSION setup.py
+          git commit -m "Bump version to $new_version"
+          git push origin master
+
+      - name: Create and push tag
+        run: |
+          git tag "v$new_version"
+          git push origin "v$new_version"
 
       - name: Build release distributions
         run: |
