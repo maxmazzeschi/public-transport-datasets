@@ -2,7 +2,7 @@
 
 A Python package that provides public transport datasets for multiple cities.
 
-Please refer to [Report.md](Report.md) for current status
+Please refer to [https://github.com/maxmazzeschi/public-transport-datasets/blob/main/Report.md](Report.md) for Countries and Cities supported
 
 ## Adopt a City or a Country !
 Can't find your City or Country?  
