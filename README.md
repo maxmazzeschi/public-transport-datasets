@@ -9,6 +9,15 @@ Can't find your City or Country?
 I will be happy for your contribution!  
 Send me a message with details for the feed, or with the city and the transportation provider, and I'll try to add to the datasets!
 
+## About API Keys
+
+Some providers require api to access their realtime data.
+
+Check the column *ENV VAR for API KEY* and *Issued by* in the [Report.md](https://github.com/maxmazzeschi/public-transport-datasets/blob/main/Report.md).
+
+Library expects an environment variable with the value of your personal key to allow access their data
+
+
 ## Installation
 
 You can install the package via pip:
