@@ -1,0 +1,19 @@
+{
+    "id": "8a9a0d0738e64537b49a9fc64d73ed75d1e67dc21c9240c1913e0e732b626cd5",
+    "enabled": true,
+    "country": "US",
+    "city": "New York",
+    "location_summary": "United States, New York",
+    "type": "bus",
+    "transit_provider": "MTA New York City Transit",
+    "vehicle_positions_url": "https://gtfsrt.prod.obanyc.com/vehiclePositions?key=",
+    "authentication_type": 4,
+    "vehicle_positions_url_api_key_env_var": "US_NY_MTA_BUS_API_KEY",
+    "authentication_info_url": "https://bt.mta.info/wiki/Developers/Index",
+    "api_key_parameter_name": "",
+    "license_url": null,
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 30,
+    "static_gtfs_url": "",
+    "source_url": "https://bt.mta.info/wiki/Developers/GTFSRt"
+}

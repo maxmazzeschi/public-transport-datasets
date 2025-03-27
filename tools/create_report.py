@@ -24,9 +24,8 @@ for dataset in dss.values():
 with open("../Report.md", "w", encoding="utf-8") as f:
     f.write("# Public Transport Datasets Report\n")
     f.write("## Active Datasets\n")
-    f.write("| Country | City | Vechicles | Speed Info | Bearing Info |\n")
-    f.write("| ------- | ---- | --------- | ---------- | ------------ |\n")
-
+    f.write("| Country | City | Vechicles | Speed Info | Bearing Info |ENV VAR for API KEY|Issued by|\n")
+    f.write("| ------- | ---- | --------- | ---------- | ------------ | ----------------- | ------- |\n")
     for country, datasets in active_datasets.items():
         for dataset in datasets:
             city = dataset["city"]
@@ -54,7 +53,10 @@ with open("../Report.md", "w", encoding="utf-8") as f:
             if city is not None:
                 if len(city) > limit:
                     city = city[: limit - 3] + "..."
-            f.write(f"|{country}|{city}|{info}|{speed_info:.2f}%|{bearing_info:.2f}%|\n")
+            api_env_var = dataset.get('vehicle_positions_url_api_key_env_var', "")
+            issued_by = dataset.get('authentication_info_url', "")
+
+            f.write(f"|{country}|{city}|{info}|{speed_info:.2f}%|{bearing_info:.2f}%|{api_env_var}|{issued_by}|\n")
     f.write("\n")
     f.write("\n")
     f.write("## Work in Progress Datasets\n")
