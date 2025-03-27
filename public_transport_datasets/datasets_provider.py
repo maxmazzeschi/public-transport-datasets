@@ -18,10 +18,14 @@ class DatasetsProvider:
     @staticmethod
     def get_config_path():
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        config_path = os.path.join(
+        config_paths = []
+        config_paths.append(os.path.join(
             os.path.join(os.path.join(base_dir, "providers"), "GTFS")
-        )
-        return config_path
+        ))
+        config_paths.append(os.path.join(
+            os.path.join(os.path.join(base_dir, "providers"), "SIRI")
+        ))
+        return config_paths
 
     @staticmethod
     def get_dataset(id):
@@ -42,16 +46,18 @@ class DatasetsProvider:
     def load_sources():
         with available_datasets_lock:
             if available_datasets == {}:
-                with os.scandir(DatasetsProvider.get_config_path()) as file_list:
-                    for entry in file_list:
-                        if re.search(r"\.json", os.fsdecode(entry.name)):
-                            try:
-                                with open(entry.path) as f:
-                                    provider = json.load(f)
-                                    provider_hash = provider["id"]
-                                    available_datasets[provider_hash] = provider
-                            except Exception as ex:
-                                print(f"Error {ex} {entry.name}")
+                config_paths = DatasetsProvider.get_config_path()
+                for config_path in config_paths:
+                    with os.scandir(config_path) as file_list:
+                        for entry in file_list:
+                            if re.search(r"\.json", os.fsdecode(entry.name)):
+                                try:
+                                    with open(entry.path) as f:
+                                        provider = json.load(f)
+                                        provider_hash = provider["id"]
+                                        available_datasets[provider_hash] = provider
+                                except Exception as ex:
+                                    print(f"Error {ex} {entry.name}")
 
     @staticmethod
     def get_source_by_id(id: str):

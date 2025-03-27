@@ -12,15 +12,19 @@ class Dataset:
     def __init__(self, provider):
         self.src = provider
         self.vehicle_url = self.src["vehicle_positions_url"]
-        if provider["vehicle_positions_url_type"] == "SIRI":
-            keyEnvVar = provider["KEY_ENV_VAR"]
+        if provider.get("authentication_type", 0) == 4:
+            keyEnvVar = provider["vehicle_positions_url_api_key_env_var"]
             if keyEnvVar:
                 print(f"getting {keyEnvVar}")
                 api_key = os.getenv(keyEnvVar)
-                print(f"value is {api_key}")
+                if (api_key is None) or (api_key == ""):
+                    trouble = f"API key not found in {keyEnvVar}"
+                    print(trouble)
+                    raise Exception(trouble)
                 url = self.vehicle_url + api_key
             else:
                 url = self.vehicle_url
+        if provider["vehicle_positions_url_type"] == "SIRI":
             self.vehicles = SIRI_Vehicles(url, self.src["refresh_interval"])
         else:
             if provider["vehicle_positions_url_type"] == "TFL":

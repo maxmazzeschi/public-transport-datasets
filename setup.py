@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="public_transport_datasets",
-    version="0.1.39",
+    version="0.1.46",
     packages=find_packages(),
     install_requires=[
         "requests",
@@ -11,7 +11,7 @@ setup(
     ],
     include_package_data=True,
     package_data={
-        "public_transport_datasets": ["providers/GTFS/*.json"],
+        "public_transport_datasets": ["providers/GTFS/*.json", "providers/SIRI/*.json"],
     },
     description="A Python package for public transport datasets for multiple cities.",
     long_description=open("README.md").read(),
