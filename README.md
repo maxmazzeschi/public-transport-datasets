@@ -11,7 +11,7 @@ Send me a message with details for the feed, or with the city and the transporta
 
 ## About API Keys
 
-Some providers require api to access their realtime data.
+Some providers require api key to access their realtime data.
 
 Check the column *ENV VAR for API KEY* and *Issued by* in the [Report.md](https://github.com/maxmazzeschi/public-transport-datasets/blob/main/Report.md).
 
