@@ -77,7 +77,7 @@ class Dataset:
             # After processing the files, remove the temp_file_path folder
             shutil.rmtree(temp_file_path, ignore_errors=True)
         else:
-            self.stops_dict = {}
+            self.gdf = None
 
     def get_routes_info(self):
         return self.vehicles.get_routes_info()
@@ -88,6 +88,8 @@ class Dataset:
         )
 
     def get_stops_info(self, north, south, east, west):
+        if self.gdf is None:
+            return []
         # Create a bounding box using shapely's box function
         bounding_box = box(west, south, east, north)
 
