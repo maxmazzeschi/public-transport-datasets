@@ -5,7 +5,7 @@ A Python package that provides public transport datasets for multiple cities.
 Please refer to [Report.md](https://github.com/maxmazzeschi/public-transport-datasets/blob/main/Report.md) for Countries and Cities supported
 
 ## Adopt a City or a Country !
-Can't find your City or Country?  
+Can't find your City or Country? Or information are incomplete or not exact ?
 I will be happy for your contribution!  
 Send me a message with details for the feed, or with the city and the transportation provider, and I'll try to add to the datasets!
 
@@ -22,7 +22,7 @@ Library expects an environment variable with the value of your personal key to a
 
 You can install the package via pip:
 ```
-public_transport_datasets
+pip install public_transport_datasets
 ```
 
 ## How to use
@@ -32,7 +32,8 @@ There is a simple webapp available on Github [bus-and-go](https://github.com/max
 It's available at [https://bus-and-go.onrender.com/](https://bus-and-go.onrender.com/)
  
 ## To Do
-- Add stop stations
+
+- Add more sources and refine the existing ones
 
 - Support SIRI standard (wip)
 
