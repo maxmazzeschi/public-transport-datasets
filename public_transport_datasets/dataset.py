@@ -10,6 +10,7 @@ import duckdb
 import geopandas as gpd
 from shapely.geometry import Point, box
 import shutil
+import csv
 
 
 class Dataset:
@@ -41,8 +42,14 @@ class Dataset:
                 )
         static_gtfs_url = self.src["static_gtfs_url"]
         if static_gtfs_url:
+            temp_file_path = ""
             try:
+                temp_filename = ""
                 response = requests.get(self.src["static_gtfs_url"])
+                if (response.status_code != 200):
+                    raise Exception(
+                        f"Error {response.status_code} {response.headers} getting data from {self.src['static_gtfs_url']}"
+                    )
                 temp_filename = tempfile.NamedTemporaryFile(
                     suffix=".zip", delete=False
                 ).name
@@ -53,16 +60,39 @@ class Dataset:
                 with zipfile.ZipFile(temp_filename, "r") as zip_ref:
                     zip_ref.extractall(temp_file_path)
                 os.remove(temp_filename)
+            except Exception as e:
+                print(f"Error downloading GTFS data: {e} {temp_filename} provierId {self.src['id']}")
+                self.gdf = None
+                return
+            # Process the stops.txt file
+            try:
                 fname = os.path.join(temp_file_path, "stops.txt")
 
                 # Connect to DuckDB (in-memory)
                 con = duckdb.connect(database=":memory:")
 
+                # Check if stop_code exists in the CSV file
+                with open(fname, "r", encoding="utf-8") as csvfile:
+                    reader = csv.reader(csvfile)
+                    headers = next(reader)  # Read the first line as headers
+
+                # Dynamically set types based on the presence of stop_code
+                types = {"stop_id": "VARCHAR"}
+                if "stop_code" in headers:
+                    types["stop_code"] = "VARCHAR"
+
                 # Load the CSV file while handling missing values
                 df = con.execute(
                     f"""
-                    SELECT * FROM read_csv_auto('{fname}', header=True, nullstr='')
-                """
+                    SELECT 
+                        * 
+                    FROM read_csv_auto(
+                        '{fname}', 
+                        header=True, 
+                        nullstr='', 
+                        types={types}
+                    )
+                    """
                 ).df()
 
                 # Ensure stop_code or stop_id is treated as a string and trim spaces
