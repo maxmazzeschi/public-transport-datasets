@@ -53,27 +53,31 @@ class Dataset:
                 zip_ref.extractall(temp_file_path)
             os.remove(temp_filename)
             fname = os.path.join(temp_file_path, "stops.txt")
-                        
+
             # Connect to DuckDB (in-memory)
             con = duckdb.connect(database=":memory:")
 
             # Load the CSV file while handling missing values
-            df = con.execute(f"""
+            df = con.execute(
+                f"""
                 SELECT * FROM read_csv_auto('{fname}', header=True, nullstr='')
-            """).df()
+            """
+            ).df()
 
             # Ensure stop_code or stop_id is treated as a string and trim spaces
-            if 'stop_code' in df.columns:
-                df['stop_code'] = df['stop_code'].astype(str).str.strip()
+            if "stop_code" in df.columns:
+                df["stop_code"] = df["stop_code"].astype(str).str.strip()
             else:
-                df['stop_code'] = df['stop_id'].astype(str).str.strip()
+                df["stop_code"] = df["stop_id"].astype(str).str.strip()
 
-            df['stop_name'] = df['stop_name'].astype(str).str.strip()
+            df["stop_name"] = df["stop_name"].astype(str).str.strip()
 
             # Create a GeoDataFrame with geometry column
             # Assuming 'stop_lat' and 'stop_lon' columns exist in the data
-            df['geometry'] = df.apply(lambda row: Point(row['stop_lon'], row['stop_lat']), axis=1)
-            self.gdf = gpd.GeoDataFrame(df, geometry='geometry')
+            df["geometry"] = df.apply(
+                lambda row: Point(row["stop_lon"], row["stop_lat"]), axis=1
+            )
+            self.gdf = gpd.GeoDataFrame(df, geometry="geometry")
 
             # Set the coordinate reference system (CRS) to WGS84 (EPSG:4326)
             self.gdf.set_crs(epsg=4326, inplace=True)
@@ -106,10 +110,12 @@ class Dataset:
                 "lat": point.y,
                 "lon": point.x,
                 "stop_name": stop_name,
-                "stop_code": stop_code
+                "stop_code": stop_code,
             }
             for point, stop_name, stop_code in zip(
-                filtered_stops.geometry, filtered_stops['stop_name'], filtered_stops['stop_code']
+                filtered_stops.geometry,
+                filtered_stops["stop_name"],
+                filtered_stops["stop_code"],
             )
         ]
 
