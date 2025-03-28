@@ -68,9 +68,11 @@ with open("../Report.md", "w", encoding="utf-8") as f:
                     city = city[: limit - 3] + "..."
             api_env_var = dataset.get("vehicle_positions_url_api_key_env_var", "")
             issued_by = dataset.get("authentication_info_url", "")
-
+            stops = "Y" if has_stops else "?"
+            if api_env_var is None:
+                api_env_var = ""
             f.write(
-                f"|{country}|{city}|{info}|{speed_info:.2f}%|{bearing_info:.2f}%|{has_stops}|{api_env_var}|{issued_by}|\n"
+                f"|{country}|{city}|{info}|{speed_info:.2f}%|{bearing_info:.2f}%|{stops}|{api_env_var}|{issued_by}|\n"
             )
     f.write("\n")
     f.write("\n")
