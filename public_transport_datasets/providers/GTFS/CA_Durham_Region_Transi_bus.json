@@ -13,6 +13,6 @@
     "license_url": "https://opendata.durham.ca/search?q=service%20alert",
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "",
+    "static_gtfs_url": "https://maps.durham.ca/OpenDataGTFS/GTFS_Durham_TXT.zip",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1466"
 }
