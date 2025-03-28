@@ -118,8 +118,8 @@ class Dataset:
             except Exception as e:
                 print(f"Error processing GTFS data: {e} {fname} provierId {self.src['id']}")
                 raise e
-            else:
-                self.gdf = None
+        else:
+            self.gdf = None
 
     def get_routes_info(self):
         return self.vehicles.get_routes_info()
