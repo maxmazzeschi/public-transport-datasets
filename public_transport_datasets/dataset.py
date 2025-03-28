@@ -6,6 +6,9 @@ from .gtfs_vehicles import GTFS_Vehicles
 from .siri_vehicles import SIRI_Vehicles
 from .tfl_vehicles import TFL_Vehicles
 import uuid
+import duckdb
+import pandas as pd
+from collections import defaultdict
 
 
 class Dataset:
@@ -48,7 +51,30 @@ class Dataset:
             with zipfile.ZipFile(temp_filename, "r") as zip_ref:
                 zip_ref.extractall(temp_file_path)
             os.remove(temp_filename)
+            fname = os.path.join(temp_file_path, "stops.txt")
+            # Connect to DuckDB (in-memory)
+            con = duckdb.connect(database=":memory:")
+
+            # Load the CSV file while handling missing values
+            df = con.execute("""
+                SELECT * FROM read_csv_auto('C:\\users\\maxma\downloads\\stops.txt', header=True, nullstr='')
+            """).df()
+
+            # Ensure stop_code is treated as a string and trim spaces
+            df['stop_code'] = df['stop_code'].astype(str).str.strip()
+
+            # Initialize dictionary to store multiple entries per stop_code
+            self.stops_dict = defaultdict(list)
+
+            # Populate the dictionary with all stop_code occurrences
+            for _, row in df.iterrows():
+                stop_code = row['stop_code']
+                self.stops_dict[stop_code].append(row.to_dict())
+
+
             # os.removedirs(temp_file_path)
+        else:
+            self.stops_dict = {}
 
     def get_routes_info(self):
         return self.vehicles.get_routes_info()
@@ -57,3 +83,16 @@ class Dataset:
         return self.vehicles.get_vehicles_position(
             north, south, east, west, selected_routes
         )
+
+    def get_stops_info(self, north, south, east, west):
+        result = []
+        # Iterate over filtered data
+        for stop_code, entries in self.stops_dict.items():
+            for stop_data in entries:  # Iterate over the list of stops
+                stop_lat = stop_data.get("stop_lat")
+                stop_lon = stop_data.get("stop_lon")
+                if isinstance(stop_lat, (int, float)) and south < stop_lat < north:
+                    if isinstance(stop_lon, (int, float)) and west < stop_lon < east:
+                        data = {"lat": stop_lat, "lon": stop_lon}
+                        result.append(data)
+        return result
