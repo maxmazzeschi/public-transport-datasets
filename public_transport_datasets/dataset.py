@@ -9,6 +9,7 @@ import uuid
 import duckdb
 import geopandas as gpd
 from shapely.geometry import Point, box
+import shutil
 
 
 class Dataset:
@@ -57,12 +58,13 @@ class Dataset:
             con = duckdb.connect(database=":memory:")
 
             # Load the CSV file while handling missing values
-            df = con.execute("""
-                SELECT * FROM read_csv_auto('C:\\users\\maxma\\downloads\\stops.txt', header=True, nullstr='')
+            df = con.execute(f"""
+                SELECT * FROM read_csv_auto('{fname}', header=True, nullstr='')
             """).df()
 
-            # Ensure stop_code is treated as a string and trim spaces
+            # Ensure stop_code and stop_name are treated as strings and trim spaces
             df['stop_code'] = df['stop_code'].astype(str).str.strip()
+            df['stop_name'] = df['stop_name'].astype(str).str.strip()
 
             # Create a GeoDataFrame with geometry column
             # Assuming 'stop_lat' and 'stop_lon' columns exist in the data
@@ -72,7 +74,8 @@ class Dataset:
             # Set the coordinate reference system (CRS) to WGS84 (EPSG:4326)
             self.gdf.set_crs(epsg=4326, inplace=True)
 
-            # os.removedirs(temp_file_path)
+            # After processing the files, remove the temp_file_path folder
+            shutil.rmtree(temp_file_path, ignore_errors=True)
         else:
             self.stops_dict = {}
 
@@ -91,7 +94,17 @@ class Dataset:
         # Filter stops within the bounding box
         filtered_stops = self.gdf[self.gdf.geometry.within(bounding_box)]
 
-        # Extract latitude and longitude as a list of tuples
-        stops_list = [{"lat": point.y, "lon": point.x } for point in filtered_stops.geometry]
+        # Extract latitude, longitude, stop_name, and stop_code as a list of dictionaries
+        stops_list = [
+            {
+                "lat": point.y,
+                "lon": point.x,
+                "stop_name": stop_name,
+                "stop_code": stop_code
+            }
+            for point, stop_name, stop_code in zip(
+                filtered_stops.geometry, filtered_stops['stop_name'], filtered_stops['stop_code']
+            )
+        ]
 
         return stops_list
