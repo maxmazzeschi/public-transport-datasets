@@ -1,198 +1,198 @@
 # Public Transport Datasets Report
 ## Active Datasets
-| Country | City | Vechicles | Speed Info | Bearing Info |ENV VAR for API KEY|Issued by|
-| ------- | ---- | --------- | ---------- | ------------ | ----------------- | ------- |
-|AT|Salzburg, Linz, Vienna, Innsbruck, Be...|4406|0.00%|0.00%|||
-|AU|City of Onkaparinga, City of Marion, ...|2|0.00%|100.00%|||
-|AU|Australian Capital Territory|7|71.43%|85.71%|||
-|AU|North Stradbroke Island|0|0.00%|0.00%|||
-|AU|Bowen|0|0.00%|0.00%|||
-|AU|Innisfail|0|0.00%|0.00%|||
-|AU|Maryborough Hervey Bay|0|0.00%|0.00%|||
-|AU|South East Queensland|0|0.00%|0.00%|||
-|AU|Cairns|0|0.00%|0.00%|||
-|CA|Barrie|31|64.52%|100.00%|||
-|CA|Campbell River|8|100.00%|100.00%|||
-|CA|Cowichan Valley Regional District, Br...|0|0.00%|0.00%|||
-|CA|Mont-Tremblant|1|0.00%|0.00%|||
-|CA|Calgary|432|0.00%|0.00%|||
-|CA|Ajax, Uxbridge, Scugog, Whitby, Oshaw...|101|0.00%|0.00%|||
-|CA|Ellerslie, Clover Bar, Clareview, Sou...|383|66.32%|78.59%|||
-|CA|Cherry Brook, Shearwater, Middle Sack...|145|46.90%|91.72%|||
-|CA|Kingston|68|55.88%|54.41%|||
-|CA|London|129|44.96%|96.12%|||
-|CA|Saint-Faustin–Lac-Carré, Mont-Trembla...|2|0.00%|0.00%|||
-|CA|Brampton, Halton Hills, Vaughan, Miss...|190|55.79%|95.79%|||
-|CA|Saint-Lin–Laurentides, Terrebonne, Sa...|1|0.00%|0.00%|||
-|CA|Area E (Beaver Creek), Port Alberni, ...|3|66.67%|66.67%|||
-|CA|Fort McMurray, Wood Buffalo|14|78.57%|0.00%|||
-|CA|La Prairie, Saint-Jean-sur-Richelieu,...|7|0.00%|0.00%|||
-|CA|Saskatoon|0|0.00%|0.00%|||
-|CA|Longueuil, Sainte-Julie, Saint-Roch-d...|5|0.00%|0.00%|||
-|CA|Sherbrooke|54|42.59%|55.56%|||
-|CA|Thunder Bay District, Thunder Bay|48|47.92%|37.50%|||
-|CA|Saint-Hyacinthe|0|0.00%|0.00%|||
-|CA|North York, Mississauga, Scarborough,...|155|0.00%|0.00%|||
-|CZ|Prague (Praha)|2702|28.39%|88.90%|||
-|ES|Málaga|147|89.12%|0.00%|||
-|FR|Ille-et-Vilaine, Manche|18|0.00%|0.00%|||
-|FR|Moselle|7|0.00%|0.00%|||
-|IT|Turin|428|0.00%|89.72%|||
-|IT|Rome|1238|6.70%|5.09%|||
-|LT|Rudamina Eldership, Mickūnai Eldershi...|478|68.41%|99.58%|||
-|MD|Ialoveni District, Chișinău Municipality|405|80.25%|100.00%|||
-|MY|Selangor|1|100.00%|0.00%|||
-|NO|Møre og Romsdal, Gävleborg County, Vä...|0|0.00%|0.00%|||
-|NO|Møre og Romsdal, Vestland, Viken, Vuo...|0|0.00%|0.00%|||
-|PL|Ełk County|20|0.00%|90.00%|||
-|PL|Goleniów County, Szczecin, Police Cou...|267|61.42%|79.03%|||
-|PL|Pruszków County, Warsaw West County, ...|0|0.00%|0.00%|||
-|PL|Poznań County, Szamotuły County, Środ...|531|0.00%|0.00%|||
-|PL|Warsaw West County, Warsaw, Legionowo...|1760|0.00%|51.02%|||
-|PT|Campo de Ourique, Belém, Estrela, Bea...|421|0.00%|0.00%|||
-|PT|Belém, Sobral de Monte Agraço, Freiri...|696|71.98%|85.06%|||
-|RO|Ilfov, Dâmbovița, Călărași, Bucharest|881|0.00%|98.07%|||
-|RO|Iași|132|78.79%|100.00%|||
-|RO|Buzău|18|77.78%|100.00%|||
-|SE|Gävleborg County, Umeå kommun, South ...|28|0.00%|0.00%|||
-|SE|Kalmar County, Östergötland County, J...|0|0.00%|0.00%|||
-|UA|Lviv Raion, Yavoriv Raion|620|61.45%|100.00%|||
-|US|Portage County, Summit County, Cuyaho...|59|55.93%|91.53%|||
-|US|Alexandria, Fairfax County, Arlington...|0|0.00%|0.00%|||
-|US|Blair County|12|58.33%|100.00%|||
-|US|Lancaster|35|65.71%|94.29%|||
-|US|Clearfield County, Cameron County, El...|11|72.73%|100.00%|||
-|US|Madison County, Athens-Clarke County|19|63.16%|100.00%|||
-|US|Redondo Beach|6|50.00%|66.67%|||
-|US|Franklin County, Benton County|47|72.34%|100.00%|||
-|US|Berks County|27|51.85%|88.89%|||
-|US|Los Angeles County|0|0.00%|0.00%|||
-|US|Yellowstone County|13|61.54%|92.31%|||
-|US|Burleigh County, Morton County|6|83.33%|100.00%|||
-|US|Monroe County|26|0.00%|92.31%|||
-|US|Garfield County|2|100.00%|100.00%|||
-|US|Denver County, Eagle County, Larimer ...|9|0.00%|100.00%|||
-|US|Butler County, Allegheny County|4|75.00%|100.00%|||
-|US|Cambria County, Blair County, Somerse...|22|72.73%|100.00%|||
-|US|East Baton Rouge Parish|37|51.35%|100.00%|||
-|US|York County, Franklin County, Dauphin...|30|60.00%|100.00%|||
-|US|Ingham County, Eaton County, Clinton ...|67|46.27%|70.15%|||
-|US|Travis County, Bastrop County, Willia...|418|57.42%|44.50%|||
-|US|Licking County, Delaware County, Fran...|0|0.00%|0.00%|||
-|US|Centre County|31|61.29%|100.00%|||
-|US|Durham County, Chatham County, Orange...|32|56.25%|96.88%|||
-|US|Warren County, Hamilton County, Clerm...|128|61.72%|82.81%|||
-|US|Tippecanoe County|39|64.10%|100.00%|||
-|US|Orange County|5|100.00%|100.00%|||
-|US|Onslow County|5|100.00%|100.00%|||
-|US|Mobile County|18|72.22%|94.44%|||
-|US|Los Angeles County|28|0.00%|0.00%|||
-|US|Los Angeles County|9|77.78%|100.00%|||
-|US|King County, Snohomish County|145|0.00%|0.00%|||
-|US|King County, Snohomish County|145|0.00%|0.00%|||
-|US|Fulton County, Tom Green County|6|83.33%|100.00%|||
-|US|Cabarrus County, Mecklenburg County, ...|0|0.00%|0.00%|||
-|US|New Haven County, Hartford County, Ha...|260|48.85%|94.62%|||
-|US|Lackawanna County, Luzerne County|22|81.82%|100.00%|||
-|US|Los Angeles County|42|45.24%|97.62%|||
-|US|Polk County, Dallas County, Warren Co...|38|52.63%|92.11%|||
-|US|Douglas County, Saint Louis County|28|53.57%|89.29%|||
-|US|Alameda County|15|86.67%|20.00%|||
-|US|Tioga County, Bradford County, Sulliv...|8|62.50%|100.00%|||
-|US|Washington, Alexandria, Fairfax Count...|112|57.14%|100.00%|||
-|US|Fayette County, Allegheny County, Wes...|6|100.00%|100.00%|||
-|US|Allegheny County, Washington County|5|80.00%|100.00%|||
-|US|Madera County, Fresno County|103|61.17%|84.47%|||
-|US|Wake County|11|100.00%|100.00%|||
-|US|Wake County, Durham County|40|55.00%|97.50%|||
-|US|Lake County, Medina County, Cuyahoga ...|0|0.00%|0.00%|||
-|US|Peoria County, Tazewell County|14|78.57%|100.00%|||
-|US|Green Bay|11|81.82%|100.00%|||
-|US|Wilkes Barre|8|75.00%|100.00%|||
-|US|Pasco County, Hillsborough County|83|43.37%|100.00%|||
-|US|Fairfield County, Westchester County,...|8|62.50%|100.00%|||
-|US|Jefferson County, Indiana County|6|66.67%|100.00%|||
-|US|Thurston County, Pierce County|54|61.11%|96.30%|||
-|US|Kalamazoo County|24|70.83%|100.00%|||
-|US|Tulare County, Kings County, Fresno C...|14|0.00%|0.00%|||
-|US|Snohomish County, King County, Pierce...|616|0.00%|0.00%|||
-|US|Dauphin County, Lancaster County, Leb...|6|100.00%|100.00%|||
-|US|Carbon County, Northampton County, Le...|57|70.18%|100.00%|||
-|US|Lexington|43|53.49%|100.00%|||
-|US|Chelan County, Douglas County|27|85.19%|96.30%|||
-|US|Northumberland County, Schuylkill County|2|50.00%|100.00%|||
-|US|Luzerne County, Lackawanna County|19|73.68%|100.00%|||
-|US|Sarasota|20|75.00%|90.00%|||
-|US|California|44|61.36%|79.55%|||
-|US|Howard County, Washington, Prince Geo...|2|100.00%|100.00%|||
-|US|Frederick County, Howard County, Prin...|2|100.00%|100.00%|||
-|US|Essex County, Middlesex County, Plymo...|493|11.97%|96.96%|||
-|US|Merced County, Stanislaus County|21|57.14%|100.00%|||
-|US|Fayette County, Fulton County, DeKalb...|199|58.29%|91.46%|||
-|US|Tulsa County, Osage County|41|53.66%|85.37%|||
-|US|City of Saint Louis, Saint Clair Coun...|133|0.00%|0.00%|||
-|US|Dane County|83|62.65%|95.18%|||
-|US|Hennepin County, Anoka County, Washin...|346|51.16%|81.79%|||
-|US|New Haven County, Middlesex County, N...|11|90.91%|100.00%|||
-|US|Westmoreland County, Washington Count...|9|88.89%|88.89%|||
-|US|Ramsey County, Dakota County, Scott C...|26|61.54%|88.46%|||
-|US|Missoula County|17|64.71%|76.47%|||
-|US|San Joaquin County, Alameda County, S...|62|64.52%|96.77%|||
-|US|Los Angeles County|31|41.94%|83.87%|||
-|US|Coconino County|18|38.89%|100.00%|||
-|US|Santa Clara County|7|57.14%|42.86%|||
-|US|Muskegon County|8|0.00%|0.00%|||
-|US|Montgomery County, Williamson County,...|180|37.22%|95.00%|||
-|US|Wake County|27|70.37%|96.30%|||
-|US|New York|2340|0.00%|99.66%|US_NY_MTA_BUS_API_KEY|https://bt.mta.info/wiki/Developers/Index|
-|US|Butler County, Lawrence County, Merce...|12|66.67%|100.00%|||
-|US|Raleigh County, Fayette County|5|100.00%|100.00%|||
-|US|Mora County, Santa Fe County, Rio Arr...|7|100.00%|71.43%|||
-|US|Fairfield County, New Haven County|15|53.33%|100.00%|||
-|US|Orange County, Los Angeles County|22|40.91%|100.00%|||
-|US|New York County, Richmond County, Que...|15|0.00%|0.00%|||
-|US|Palm Beach County, St. Lucie County|107|57.01%|89.72%|||
-|US|Los Angeles County|23|0.00%|0.00%|||
-|US|Benton County|1|0.00%|0.00%|||
-|US|Franklin County, Hampden County, Hart...|93|0.00%|97.85%|||
-|US|Montgomery County, Chester County|3|66.67%|100.00%|||
-|US|Lancaster County, Adams County, Cumbe...|19|73.68%|100.00%|||
-|US|Racine County|13|0.00%|0.00%|||
-|US|Lancaster County|23|60.87%|100.00%|||
-|US|Kent County, Providence County, Newpo...|128|59.38%|100.00%|||
-|US|California|128|47.66%|96.88%|||
-|US|Lycoming County, Clinton County|14|85.71%|100.00%|||
-|US|Fulton County, Monroe County|3|100.00%|100.00%|||
-|US|Los Angeles County|2|100.00%|100.00%|||
-|US|Sacramento|137|43.80%|98.54%|||
-|US|Santa Barbara County|44|43.18%|86.36%|||
-|US|Santa Cruz County, Santa Clara County|62|61.29%|100.00%|||
-|US|Santa Barbara County|0|0.00%|0.00%|||
-|US|Santa Barbara County, San Luis Obispo...|15|0.00%|0.00%|||
-|US|Schuylkill County|6|100.00%|100.00%|||
-|US|Mercer County|4|75.00%|100.00%|||
-|US|Palm Beach County, Broward County, Mi...|5|0.00%|20.00%|||
-|US|Los Angeles County|3|100.00%|100.00%|||
-|US|Spokane County|106|55.66%|86.79%|||
-|US|Sangamon County|47|59.57%|97.87%|||
-|US|Stanislaus County, Alameda County, Sa...|62|56.45%|96.77%|||
-|US|Lancaster County|32|0.00%|0.00%|||
-|US|San Bernardino County, Riverside County|25|56.00%|92.00%|||
-|US|Kent County, Ottawa County|84|60.71%|95.24%|||
-|US|Tompkins County|18|66.67%|77.78%|||
-|US|Long Beach|45|53.33%|95.56%|||
-|US|Baltimore County|0|0.00%|0.00%|||
-|US|Jefferson County, Floyd County, Clark...|0|0.00%|0.00%|||
-|US|Maricopa County, Pima County|683|49.78%|93.56%|||
-|US|Ada County, Canyon County|22|0.00%|90.91%|||
-|US|Walla Walla County|9|0.00%|0.00%|||
-|US|Virginia|0|0.00%|0.00%|||
-|US|Volusia County|33|57.58%|100.00%|||
-|US|Mahoning County, Trumbull County|28|39.29%|89.29%|||
-|US|Westmoreland County, Allegheny County...|14|78.57%|100.00%|||
-|US|Sumas, Whatcom County, Skagit County,...|48|47.92%|89.58%|||
-|US|Sedgwick County|21|61.90%|66.67%|||
-|US|Yamhill County, Polk County, Washingt...|7|0.00%|0.00%|||
+| Country | City | Vechicles | Speed Info | Bearing Info | Has stops |ENV VAR for API KEY|Issued by|
+| ------- | ---- | --------- | ---------- | ------------ | --------- | ----------------- | ------- |
+|AT|Salzburg, Linz, Vienna, Innsbruck, Be...|3786|0.00%|0.00%|False|||
+|AU|City of Onkaparinga, City of Marion, ...|74|74.32%|97.30%|True|||
+|AU|Australian Capital Territory|7|71.43%|85.71%|False|||
+|AU|North Stradbroke Island|0|0.00%|0.00%|False|||
+|AU|Bowen|0|0.00%|0.00%|False|||
+|AU|Innisfail|0|0.00%|0.00%|False|||
+|AU|Maryborough Hervey Bay|0|0.00%|0.00%|False|||
+|AU|South East Queensland|177|0.00%|0.00%|False|||
+|AU|Cairns|12|0.00%|0.00%|False|||
+|CA|Barrie|31|64.52%|100.00%|False|||
+|CA|Campbell River|2|50.00%|50.00%|False|||
+|CA|Cowichan Valley Regional District, Br...|0|0.00%|0.00%|False|||
+|CA|Mont-Tremblant|2|0.00%|0.00%|False|||
+|CA|Calgary|516|0.00%|0.00%|False|||
+|CA|Ajax, Uxbridge, Scugog, Whitby, Oshaw...|109|0.00%|0.00%|False|||
+|CA|Ellerslie, Clover Bar, Clareview, Sou...|615|72.68%|78.86%|False|||
+|CA|Cherry Brook, Shearwater, Middle Sack...|143|47.55%|92.31%|False|||
+|CA|Kingston|78|55.13%|51.28%|False|||
+|CA|London|141|56.74%|97.16%|False|||
+|CA|Saint-Faustin–Lac-Carré, Mont-Trembla...|3|0.00%|0.00%|False|||
+|CA|Brampton, Halton Hills, Vaughan, Miss...|274|60.22%|96.35%|False|||
+|CA|Saint-Lin–Laurentides, Terrebonne, Sa...|0|0.00%|0.00%|False|||
+|CA|Area E (Beaver Creek), Port Alberni, ...|2|0.00%|0.00%|False|||
+|CA|Fort McMurray, Wood Buffalo|14|85.71%|0.00%|False|||
+|CA|La Prairie, Saint-Jean-sur-Richelieu,...|10|0.00%|0.00%|False|||
+|CA|Saskatoon|0|0.00%|0.00%|False|||
+|CA|Longueuil, Sainte-Julie, Saint-Roch-d...|5|0.00%|0.00%|False|||
+|CA|Sherbrooke|98|42.86%|69.39%|False|||
+|CA|Thunder Bay District, Thunder Bay|49|46.94%|44.90%|False|||
+|CA|Saint-Hyacinthe|0|0.00%|0.00%|False|||
+|CA|North York, Mississauga, Scarborough,...|259|0.00%|0.00%|False|||
+|CZ|Prague (Praha)|2416|31.54%|89.11%|True|||
+|ES|Málaga|140|82.14%|0.00%|False|||
+|FR|Ille-et-Vilaine, Manche|24|0.00%|0.00%|False|||
+|FR|Moselle|3|0.00%|0.00%|False|||
+|IT|Turin|440|0.00%|95.00%|True|||
+|IT|Rome|1093|7.23%|5.40%|True|||
+|LT|Rudamina Eldership, Mickūnai Eldershi...|422|68.72%|98.82%|False|||
+|MD|Ialoveni District, Chișinău Municipality|257|76.26%|100.00%|False|||
+|MY|Selangor|10|90.00%|0.00%|False|||
+|NO|Møre og Romsdal, Gävleborg County, Vä...|0|0.00%|0.00%|False|||
+|NO|Møre og Romsdal, Vestland, Viken, Vuo...|0|0.00%|0.00%|False|||
+|PL|Ełk County|20|0.00%|95.00%|False|||
+|PL|Goleniów County, Szczecin, Police Cou...|238|64.71%|83.19%|False|||
+|PL|Pruszków County, Warsaw West County, ...|0|0.00%|0.00%|False|||
+|PL|Poznań County, Szamotuły County, Środ...|518|0.00%|0.00%|False|||
+|PL|Warsaw West County, Warsaw, Legionowo...|1623|0.00%|48.74%|False|||
+|PT|Campo de Ourique, Belém, Estrela, Bea...|415|0.00%|0.00%|False|||
+|PT|Belém, Sobral de Monte Agraço, Freiri...|782|68.03%|81.71%|False|||
+|RO|Ilfov, Dâmbovița, Călărași, Bucharest|0|0.00%|0.00%|False|||
+|RO|Iași|140|82.86%|100.00%|False|||
+|RO|Buzău|10|70.00%|100.00%|False|||
+|SE|Gävleborg County, Umeå kommun, South ...|22|0.00%|0.00%|False|||
+|SE|Kalmar County, Östergötland County, J...|0|0.00%|0.00%|False|||
+|UA|Lviv Raion, Yavoriv Raion|597|60.64%|100.00%|False|||
+|US|Portage County, Summit County, Cuyaho...|59|61.02%|91.53%|False|||
+|US|Alexandria, Fairfax County, Arlington...|0|0.00%|0.00%|False|||
+|US|Blair County|11|63.64%|100.00%|False|||
+|US|Lancaster|36|80.56%|100.00%|False|||
+|US|Clearfield County, Cameron County, El...|13|69.23%|84.62%|False|||
+|US|Madison County, Athens-Clarke County|19|78.95%|100.00%|False|||
+|US|Redondo Beach|5|20.00%|100.00%|False|||
+|US|Franklin County, Benton County|42|61.90%|100.00%|False|||
+|US|Berks County|26|65.38%|84.62%|False|||
+|US|Los Angeles County|0|0.00%|0.00%|False|||
+|US|Yellowstone County|14|92.86%|100.00%|False|||
+|US|Burleigh County, Morton County|6|83.33%|100.00%|False|||
+|US|Monroe County|27|0.00%|96.30%|False|||
+|US|Garfield County|0|0.00%|0.00%|False|||
+|US|Denver County, Eagle County, Larimer ...|6|0.00%|100.00%|False|||
+|US|Butler County, Allegheny County|5|40.00%|100.00%|False|||
+|US|Cambria County, Blair County, Somerse...|21|71.43%|100.00%|False|||
+|US|East Baton Rouge Parish|38|52.63%|97.37%|False|||
+|US|York County, Franklin County, Dauphin...|26|69.23%|100.00%|False|||
+|US|Ingham County, Eaton County, Clinton ...|64|60.94%|81.25%|False|||
+|US|Travis County, Bastrop County, Willia...|409|57.95%|44.01%|False|||
+|US|Licking County, Delaware County, Fran...|0|0.00%|0.00%|False|||
+|US|Centre County|34|70.59%|100.00%|False|||
+|US|Durham County, Chatham County, Orange...|42|50.00%|95.24%|False|||
+|US|Warren County, Hamilton County, Clerm...|144|61.81%|79.17%|False|||
+|US|Tippecanoe County|31|54.84%|100.00%|False|||
+|US|Orange County|3|100.00%|100.00%|False|||
+|US|Onslow County|4|100.00%|100.00%|False|||
+|US|Mobile County|18|61.11%|100.00%|False|||
+|US|Los Angeles County|38|0.00%|0.00%|False|||
+|US|Los Angeles County|5|60.00%|80.00%|False|||
+|US|King County, Snohomish County|126|0.00%|0.00%|False|||
+|US|King County, Snohomish County|126|0.00%|0.00%|False|||
+|US|Fulton County, Tom Green County|5|80.00%|100.00%|False|||
+|US|Cabarrus County, Mecklenburg County, ...|0|0.00%|0.00%|False|||
+|US|New Haven County, Hartford County, Ha...|285|57.19%|94.04%|False|||
+|US|Lackawanna County, Luzerne County|24|62.50%|100.00%|False|||
+|US|Los Angeles County|25|36.00%|96.00%|False|||
+|US|Polk County, Dallas County, Warren Co...|53|64.15%|90.57%|False|||
+|US|Douglas County, Saint Louis County|32|68.75%|90.62%|False|||
+|US|Alameda County|15|66.67%|20.00%|False|||
+|US|Tioga County, Bradford County, Sulliv...|8|75.00%|100.00%|False|||
+|US|Washington, Alexandria, Fairfax Count...|168|66.67%|99.40%|False|||
+|US|Fayette County, Allegheny County, Wes...|6|100.00%|100.00%|False|||
+|US|Allegheny County, Washington County|7|71.43%|100.00%|False|||
+|US|Madera County, Fresno County|79|67.09%|87.34%|False|||
+|US|Wake County|10|50.00%|100.00%|False|||
+|US|Wake County, Durham County|41|65.85%|97.56%|False|||
+|US|Lake County, Medina County, Cuyahoga ...|0|0.00%|0.00%|False|||
+|US|Peoria County, Tazewell County|22|63.64%|90.91%|False|||
+|US|Green Bay|12|75.00%|100.00%|False|||
+|US|Wilkes Barre|8|62.50%|100.00%|False|||
+|US|Pasco County, Hillsborough County|94|50.00%|100.00%|False|||
+|US|Fairfield County, Westchester County,...|13|84.62%|100.00%|False|||
+|US|Jefferson County, Indiana County|9|100.00%|100.00%|False|||
+|US|Thurston County, Pierce County|47|76.60%|95.74%|False|||
+|US|Kalamazoo County|23|86.96%|91.30%|False|||
+|US|Tulare County, Kings County, Fresno C...|15|0.00%|0.00%|False|||
+|US|Snohomish County, King County, Pierce...|429|0.47%|0.47%|False|||
+|US|Dauphin County, Lancaster County, Leb...|6|83.33%|100.00%|False|||
+|US|Carbon County, Northampton County, Le...|58|74.14%|100.00%|False|||
+|US|Lexington|45|71.11%|100.00%|False|||
+|US|Chelan County, Douglas County|26|50.00%|100.00%|False|||
+|US|Northumberland County, Schuylkill County|2|50.00%|100.00%|False|||
+|US|Luzerne County, Lackawanna County|24|75.00%|100.00%|False|||
+|US|Sarasota|20|45.00%|85.00%|False|||
+|US|California|22|59.09%|81.82%|False|||
+|US|Howard County, Washington, Prince Geo...|4|100.00%|100.00%|False|||
+|US|Frederick County, Howard County, Prin...|4|100.00%|100.00%|False|||
+|US|Essex County, Middlesex County, Plymo...|613|9.46%|95.27%|False|||
+|US|Merced County, Stanislaus County|18|77.78%|100.00%|False|||
+|US|Fayette County, Fulton County, DeKalb...|225|51.56%|93.33%|False|||
+|US|Tulsa County, Osage County|40|67.50%|92.50%|False|||
+|US|City of Saint Louis, Saint Clair Coun...|118|0.00%|0.00%|False|||
+|US|Dane County|93|62.37%|95.70%|False|||
+|US|Hennepin County, Anoka County, Washin...|373|52.55%|82.57%|False|||
+|US|New Haven County, Middlesex County, N...|12|66.67%|100.00%|False|||
+|US|Westmoreland County, Washington Count...|11|63.64%|100.00%|False|||
+|US|Ramsey County, Dakota County, Scott C...|26|61.54%|88.46%|False|||
+|US|Missoula County|18|44.44%|100.00%|False|||
+|US|San Joaquin County, Alameda County, S...|39|69.23%|97.44%|False|||
+|US|Los Angeles County|27|77.78%|96.30%|False|||
+|US|Coconino County|15|66.67%|100.00%|False|||
+|US|Santa Clara County|7|42.86%|14.29%|False|||
+|US|Muskegon County|8|0.00%|0.00%|False|||
+|US|Montgomery County, Williamson County,...|176|50.57%|90.91%|False|||
+|US|Wake County|26|84.62%|100.00%|False|||
+|US|New York|3053|0.00%|99.67%|False|US_NY_MTA_BUS_API_KEY|https://bt.mta.info/wiki/Developers/Index|
+|US|Butler County, Lawrence County, Merce...|13|84.62%|100.00%|False|||
+|US|Raleigh County, Fayette County|5|100.00%|100.00%|False|||
+|US|Mora County, Santa Fe County, Rio Arr...|9|88.89%|88.89%|False|||
+|US|Fairfield County, New Haven County|23|47.83%|78.26%|False|||
+|US|Orange County, Los Angeles County|19|52.63%|89.47%|False|||
+|US|New York County, Richmond County, Que...|21|0.00%|0.00%|False|||
+|US|Palm Beach County, St. Lucie County|109|55.96%|98.17%|False|||
+|US|Los Angeles County|23|0.00%|0.00%|False|||
+|US|Benton County|0|0.00%|0.00%|False|||
+|US|Franklin County, Hampden County, Hart...|87|0.00%|98.85%|False|||
+|US|Montgomery County, Chester County|3|66.67%|100.00%|False|||
+|US|Lancaster County, Adams County, Cumbe...|20|65.00%|100.00%|False|||
+|US|Racine County|13|0.00%|0.00%|False|||
+|US|Lancaster County|30|70.00%|80.00%|False|||
+|US|Kent County, Providence County, Newpo...|130|61.54%|100.00%|False|||
+|US|California|124|49.19%|97.58%|False|||
+|US|Lycoming County, Clinton County|13|84.62%|100.00%|False|||
+|US|Fulton County, Monroe County|3|66.67%|100.00%|False|||
+|US|Los Angeles County|2|100.00%|100.00%|False|||
+|US|Sacramento|110|55.45%|98.18%|False|||
+|US|Santa Barbara County|35|37.14%|82.86%|False|||
+|US|Santa Cruz County, Santa Clara County|45|46.67%|100.00%|False|||
+|US|Santa Barbara County|0|0.00%|0.00%|False|||
+|US|Santa Barbara County, San Luis Obispo...|15|0.00%|0.00%|False|||
+|US|Schuylkill County|5|80.00%|100.00%|False|||
+|US|Mercer County|4|50.00%|100.00%|False|||
+|US|Palm Beach County, Broward County, Mi...|2|0.00%|50.00%|False|||
+|US|Los Angeles County|3|100.00%|100.00%|False|||
+|US|Spokane County|99|66.67%|86.87%|False|||
+|US|Sangamon County|40|52.50%|92.50%|False|||
+|US|Stanislaus County, Alameda County, Sa...|39|69.23%|97.44%|False|||
+|US|Lancaster County|39|0.00%|0.00%|False|||
+|US|San Bernardino County, Riverside County|13|53.85%|84.62%|False|||
+|US|Kent County, Ottawa County|83|57.83%|96.39%|False|||
+|US|Tompkins County|23|69.57%|78.26%|False|||
+|US|Long Beach|36|61.11%|94.44%|False|||
+|US|Baltimore County|0|0.00%|0.00%|False|||
+|US|Jefferson County, Floyd County, Clark...|0|0.00%|0.00%|False|||
+|US|Maricopa County, Pima County|689|48.91%|93.61%|False|||
+|US|Ada County, Canyon County|22|0.00%|90.91%|False|||
+|US|Walla Walla County|10|0.00%|0.00%|False|||
+|US|Virginia|2|50.00%|100.00%|False|||
+|US|Volusia County|38|68.42%|97.37%|False|||
+|US|Mahoning County, Trumbull County|28|67.86%|92.86%|False|||
+|US|Westmoreland County, Allegheny County...|13|61.54%|92.31%|False|||
+|US|Sumas, Whatcom County, Skagit County,...|40|37.50%|85.00%|False|||
+|US|Sedgwick County|28|46.43%|67.86%|False|||
+|US|Yamhill County, Polk County, Washingt...|6|0.00%|0.00%|False|||
 
 
 ## Work in Progress Datasets
