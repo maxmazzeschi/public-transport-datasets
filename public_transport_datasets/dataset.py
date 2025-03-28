@@ -7,8 +7,8 @@ from .siri_vehicles import SIRI_Vehicles
 from .tfl_vehicles import TFL_Vehicles
 import uuid
 import duckdb
-import pandas as pd
-from collections import defaultdict
+import geopandas as gpd
+from shapely.geometry import Point, box
 
 
 class Dataset:
@@ -52,25 +52,25 @@ class Dataset:
                 zip_ref.extractall(temp_file_path)
             os.remove(temp_filename)
             fname = os.path.join(temp_file_path, "stops.txt")
+                        
             # Connect to DuckDB (in-memory)
             con = duckdb.connect(database=":memory:")
 
             # Load the CSV file while handling missing values
             df = con.execute("""
-                SELECT * FROM read_csv_auto('C:\\users\\maxma\downloads\\stops.txt', header=True, nullstr='')
+                SELECT * FROM read_csv_auto('C:\\users\\maxma\\downloads\\stops.txt', header=True, nullstr='')
             """).df()
 
             # Ensure stop_code is treated as a string and trim spaces
             df['stop_code'] = df['stop_code'].astype(str).str.strip()
 
-            # Initialize dictionary to store multiple entries per stop_code
-            self.stops_dict = defaultdict(list)
+            # Create a GeoDataFrame with geometry column
+            # Assuming 'stop_lat' and 'stop_lon' columns exist in the data
+            df['geometry'] = df.apply(lambda row: Point(row['stop_lon'], row['stop_lat']), axis=1)
+            self.gdf = gpd.GeoDataFrame(df, geometry='geometry')
 
-            # Populate the dictionary with all stop_code occurrences
-            for _, row in df.iterrows():
-                stop_code = row['stop_code']
-                self.stops_dict[stop_code].append(row.to_dict())
-
+            # Set the coordinate reference system (CRS) to WGS84 (EPSG:4326)
+            self.gdf.set_crs(epsg=4326, inplace=True)
 
             # os.removedirs(temp_file_path)
         else:
@@ -85,14 +85,13 @@ class Dataset:
         )
 
     def get_stops_info(self, north, south, east, west):
-        result = []
-        # Iterate over filtered data
-        for stop_code, entries in self.stops_dict.items():
-            for stop_data in entries:  # Iterate over the list of stops
-                stop_lat = stop_data.get("stop_lat")
-                stop_lon = stop_data.get("stop_lon")
-                if isinstance(stop_lat, (int, float)) and south < stop_lat < north:
-                    if isinstance(stop_lon, (int, float)) and west < stop_lon < east:
-                        data = {"lat": stop_lat, "lon": stop_lon}
-                        result.append(data)
-        return result
+        # Create a bounding box using shapely's box function
+        bounding_box = box(west, south, east, north)
+
+        # Filter stops within the bounding box
+        filtered_stops = self.gdf[self.gdf.geometry.within(bounding_box)]
+
+        # Extract latitude and longitude as a list of tuples
+        stops_list = [{"lat": point.y, "lon": point.x } for point in filtered_stops.geometry]
+
+        return stops_list

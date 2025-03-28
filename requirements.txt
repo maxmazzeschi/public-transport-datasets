@@ -2,4 +2,4 @@ requests
 gtfs-realtime-bindings
 jsonpath-ng
 duckdb
-pandas
+geopandas
