@@ -41,51 +41,55 @@ class Dataset:
                 )
         static_gtfs_url = self.src["static_gtfs_url"]
         if static_gtfs_url:
-            response = requests.get(self.src["static_gtfs_url"])
-            temp_filename = tempfile.NamedTemporaryFile(
-                suffix=".zip", delete=False
-            ).name
-            with open(temp_filename, "wb") as file:
-                file.write(response.content)
-            # Extract the ZIP file
-            temp_file_path = os.path.join(tempfile.gettempdir(), f"{uuid.uuid4()}")
-            with zipfile.ZipFile(temp_filename, "r") as zip_ref:
-                zip_ref.extractall(temp_file_path)
-            os.remove(temp_filename)
-            fname = os.path.join(temp_file_path, "stops.txt")
+            try:
+                response = requests.get(self.src["static_gtfs_url"])
+                temp_filename = tempfile.NamedTemporaryFile(
+                    suffix=".zip", delete=False
+                ).name
+                with open(temp_filename, "wb") as file:
+                    file.write(response.content)
+                # Extract the ZIP file
+                temp_file_path = os.path.join(tempfile.gettempdir(), f"{uuid.uuid4()}")
+                with zipfile.ZipFile(temp_filename, "r") as zip_ref:
+                    zip_ref.extractall(temp_file_path)
+                os.remove(temp_filename)
+                fname = os.path.join(temp_file_path, "stops.txt")
 
-            # Connect to DuckDB (in-memory)
-            con = duckdb.connect(database=":memory:")
+                # Connect to DuckDB (in-memory)
+                con = duckdb.connect(database=":memory:")
 
-            # Load the CSV file while handling missing values
-            df = con.execute(
-                f"""
-                SELECT * FROM read_csv_auto('{fname}', header=True, nullstr='')
-            """
-            ).df()
+                # Load the CSV file while handling missing values
+                df = con.execute(
+                    f"""
+                    SELECT * FROM read_csv_auto('{fname}', header=True, nullstr='')
+                """
+                ).df()
 
-            # Ensure stop_code or stop_id is treated as a string and trim spaces
-            if "stop_code" in df.columns:
-                df["stop_code"] = df["stop_code"].astype(str).str.strip()
+                # Ensure stop_code or stop_id is treated as a string and trim spaces
+                if "stop_code" in df.columns:
+                    df["stop_code"] = df["stop_code"].astype(str).str.strip()
+                else:
+                    df["stop_code"] = df["stop_id"].astype(str).str.strip()
+
+                df["stop_name"] = df["stop_name"].astype(str).str.strip()
+
+                # Create a GeoDataFrame with geometry column
+                # Assuming 'stop_lat' and 'stop_lon' columns exist in the data
+                df["geometry"] = df.apply(
+                    lambda row: Point(row["stop_lon"], row["stop_lat"]), axis=1
+                )
+                self.gdf = gpd.GeoDataFrame(df, geometry="geometry")
+
+                # Set the coordinate reference system (CRS) to WGS84 (EPSG:4326)
+                self.gdf.set_crs(epsg=4326, inplace=True)
+
+                # After processing the files, remove the temp_file_path folder
+                shutil.rmtree(temp_file_path, ignore_errors=True)
+            except Exception as e:
+                print(f"Error processing GTFS data: {e} {fname} provierId {self.src['id']}")
+                raise e
             else:
-                df["stop_code"] = df["stop_id"].astype(str).str.strip()
-
-            df["stop_name"] = df["stop_name"].astype(str).str.strip()
-
-            # Create a GeoDataFrame with geometry column
-            # Assuming 'stop_lat' and 'stop_lon' columns exist in the data
-            df["geometry"] = df.apply(
-                lambda row: Point(row["stop_lon"], row["stop_lat"]), axis=1
-            )
-            self.gdf = gpd.GeoDataFrame(df, geometry="geometry")
-
-            # Set the coordinate reference system (CRS) to WGS84 (EPSG:4326)
-            self.gdf.set_crs(epsg=4326, inplace=True)
-
-            # After processing the files, remove the temp_file_path folder
-            shutil.rmtree(temp_file_path, ignore_errors=True)
-        else:
-            self.gdf = None
+                self.gdf = None
 
     def get_routes_info(self):
         return self.vehicles.get_routes_info()
