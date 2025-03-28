@@ -18,6 +18,6 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "",
+    "static_gtfs_url": "https://www.transport.act.gov.au/googletransit/google_transit_lr.zip",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1423"
 }
