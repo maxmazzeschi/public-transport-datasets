@@ -62,8 +62,12 @@ class Dataset:
                 SELECT * FROM read_csv_auto('{fname}', header=True, nullstr='')
             """).df()
 
-            # Ensure stop_code and stop_name are treated as strings and trim spaces
-            df['stop_code'] = df['stop_code'].astype(str).str.strip()
+            # Ensure stop_code or stop_id is treated as a string and trim spaces
+            if 'stop_code' in df.columns:
+                df['stop_code'] = df['stop_code'].astype(str).str.strip()
+            else:
+                df['stop_code'] = df['stop_id'].astype(str).str.strip()
+
             df['stop_name'] = df['stop_name'].astype(str).str.strip()
 
             # Create a GeoDataFrame with geometry column
