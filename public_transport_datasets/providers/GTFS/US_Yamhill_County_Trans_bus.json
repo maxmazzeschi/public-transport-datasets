@@ -13,6 +13,6 @@
     "license_url": null,
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "",
+    "static_gtfs_url": "http://ycta.connexionz.net/rtt/public/resource/gtfs.zip",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/tld-5555-vp"
 }

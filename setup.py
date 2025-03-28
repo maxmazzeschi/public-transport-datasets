@@ -2,12 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
     name="public_transport_datasets",
-    version="0.1.40",
+    version="0.2.11",
     packages=find_packages(),
     install_requires=[
         "requests",
         "gtfs-realtime-bindings",
         "jsonpath-ng",
+        "duckdb",
+        "geopandas",
+        "shapely",
     ],
     include_package_data=True,
     package_data={

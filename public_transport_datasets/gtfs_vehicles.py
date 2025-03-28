@@ -104,7 +104,7 @@ class GTFS_Vehicles(Vehicles):
             "vehicles": filtered_vehicles,
             "last_error": self.last_error,
         }
-    
+
     def get_last_error(self):
         return self.last_error
 
