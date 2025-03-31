@@ -13,6 +13,6 @@
     "license_url": "",
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "",
+    "static_gtfs_url": "https://api.carrismetropolitana.pt/gtfs",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2028"
 }
