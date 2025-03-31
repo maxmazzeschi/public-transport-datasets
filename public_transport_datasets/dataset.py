@@ -144,11 +144,13 @@ class Dataset:
                 "lat": point.y,
                 "lon": point.x,
                 "stop_name": stop_name,
+                "stop_id": stop_id,
                 "stop_code": stop_code,
             }
-            for point, stop_name, stop_code in zip(
+            for point, stop_name, stop_code, stop_id in zip(
                 filtered_stops.geometry,
                 filtered_stops["stop_name"],
+                filtered_stops["stop_id"],
                 filtered_stops["stop_code"],
             )
         ]
