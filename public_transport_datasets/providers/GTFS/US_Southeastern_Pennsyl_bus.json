@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Chester County, Union County, Middlesex County, Delaware County, Bucks County, Lancaster County, Dauphin County, Richmond County, Somerset County, Cecil County, New Castle County, Montgomery County, Philadelphia County, Perry County, Mercer County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Chester County, Union County, Middlesex County, Delaware County, Bucks County, Lancaster County, Dauphin County, Richmond County, Somerset County, Cecil County, New Castle County, Montgomery County, Philadelphia County, Perry County, Mercer County",
+    "location_summary": "United States, Pennsylvania, Chester County, Union County, Middlesex County, Delaware County, Bucks County, Lancaster County, Dauphin County, Richmond County, Somerset County, Cecil County, New Castle County, Montgomery County, Philadelphia County, Perry County, Mercer County",
     "type": "bus",
     "transit_provider": "Southeastern Pennsylvania Transportation Authority (SEPTA)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/septa-rail/gtfs-rt-vehicle-positions",

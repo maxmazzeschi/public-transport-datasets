@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Carignan, Longueuil, Saint-Bruno-de-Montarville, Saint-Jean-sur-Richelieu, Chambly, Marieville, Richelieu, Saint-Mathias-sur-Richelieu, Brossard",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Carignan, Longueuil, Saint-Bruno-de-Montarville, Saint-Jean-sur-Richelieu, Chambly, Marieville, Richelieu, Saint-Mathias-sur-Richelieu, Brossard",
+    "location_summary": "Canada, Quebec, Carignan, Longueuil, Saint-Bruno-de-Montarville, Saint-Jean-sur-Richelieu, Chambly, Marieville, Richelieu, Saint-Mathias-sur-Richelieu, Brossard",
     "type": "bus",
     "transit_provider": "Exo Chambly-Richelieu-Carignan",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITCRC",

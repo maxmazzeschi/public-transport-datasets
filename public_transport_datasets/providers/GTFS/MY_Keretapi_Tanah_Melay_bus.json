@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "MY",
     "city": "Selangor",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Malaysia, Selangor, Selangor",
+    "location_summary": "Malaysia, Selangor, Selangor",
     "type": "bus",
     "transit_provider": "Keretapi Tanah Melayu Berhad",
     "vehicle_positions_url": "https://api.data.gov.my/gtfs-realtime/vehicle-position/ktmb",

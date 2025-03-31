@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Stanislaus County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Stanislaus County",
+    "location_summary": "United States, California, Stanislaus County",
     "type": "bus",
     "transit_provider": "Turlock Transit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/turlock/gtfs-rt-vehicle-positions",

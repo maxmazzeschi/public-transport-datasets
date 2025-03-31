@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "ES",
     "city": "M\u00e1laga",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Spain, Andalusia, M\u00e1laga",
+    "location_summary": "Spain, Andalusia, M\u00e1laga",
     "type": "bus",
     "transit_provider": "Empresa Malague\u00f1a de Transportes (EMT)",
     "vehicle_positions_url": "https://gtfs.emtmalaga.es/GTFSRTapi/api/vehicleposition",

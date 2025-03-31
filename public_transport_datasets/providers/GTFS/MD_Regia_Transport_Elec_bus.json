@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "MD",
     "city": "Ialoveni District, Chi\u0219in\u0103u Municipality",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Moldova, Republic of, Ialoveni District, Ialoveni District, Chi\u0219in\u0103u Municipality",
+    "location_summary": "Moldova, Republic of, Ialoveni District, Ialoveni District, Chi\u0219in\u0103u Municipality",
     "type": "bus",
     "transit_provider": "Regia Transport Electric Chi\u0219in\u0103u, \u00ce.M. Parcul Urban de Autobuze",
     "vehicle_positions_url": "https://chisinau-rt-feed.gtfs.ro/vehiclePositions",

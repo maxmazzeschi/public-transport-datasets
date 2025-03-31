@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Sherbrooke",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Sherbrooke",
+    "location_summary": "Canada, Quebec, Sherbrooke",
     "type": "bus",
     "transit_provider": "Soci\u00e9t\u00e9 de Transport de Sherbrooke, Service op\u00e9r\u00e9 par Taxis de Sherbrooke",
     "vehicle_positions_url": "https://gtfs.sts.qc.ca:8443/gtfsrt/vehiclePositions.pb",

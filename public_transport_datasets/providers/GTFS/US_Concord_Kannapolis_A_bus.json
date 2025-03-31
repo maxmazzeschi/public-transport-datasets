@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Cabarrus County, Mecklenburg County, Rowan County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, North Carolina, Cabarrus County, Mecklenburg County, Rowan County",
+    "location_summary": "United States, North Carolina, Cabarrus County, Mecklenburg County, Rowan County",
     "type": "bus",
     "transit_provider": "Concord Kannapolis Area Transit",
     "vehicle_positions_url": "https://passio3.com/concordk/passioTransit/gtfs/realtime/vehiclePositions",

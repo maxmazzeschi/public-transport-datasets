@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Ramsey County, Dakota County, Scott County, Hennepin County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Minnesota, Ramsey County, Dakota County, Scott County, Hennepin County",
+    "location_summary": "United States, Minnesota, Ramsey County, Dakota County, Scott County, Hennepin County",
     "type": "bus",
     "transit_provider": "Minnesota Valley Transit Authority",
     "vehicle_positions_url": "https://srv.mvta.com/infoPoint/GTFS-realtime.ashx?Type=VehiclePosition",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Volusia County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Volusia County",
+    "location_summary": "United States, Florida, Volusia County",
     "type": "bus",
     "transit_provider": "Votran",
     "vehicle_positions_url": "http://realtimevotran.availtec.com/infopoint/GTFS-Realtime.ashx?&Type=VehiclePosition",

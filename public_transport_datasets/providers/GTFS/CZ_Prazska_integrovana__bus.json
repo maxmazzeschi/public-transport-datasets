@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CZ",
     "city": "Prague (Praha)",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Czechia, None, None",
+    "location_summary": "Czechia, None, None",
     "type": "bus",
     "transit_provider": "Prazska integrovana doprava (PID))",
     "vehicle_positions_url": "https://api.golemio.cz/v2/vehiclepositions/gtfsrt/vehicle_positions.pb",

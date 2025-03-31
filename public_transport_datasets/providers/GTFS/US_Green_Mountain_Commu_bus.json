@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Windham County, Berkshire County, Bennington County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Vermont, Windham County, Berkshire County, Bennington County",
+    "location_summary": "United States, Vermont, Windham County, Berkshire County, Bennington County",
     "type": "bus",
     "transit_provider": "Green Mountain Community Network",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/bennington-gmcn/gtfs-rt-vehicle-positions",

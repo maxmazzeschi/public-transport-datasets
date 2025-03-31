@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Tompkins County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New York, Tompkins County",
+    "location_summary": "United States, New York, Tompkins County",
     "type": "bus",
     "transit_provider": "Tompkins Consolidated Area Transit (TCAT)",
     "vehicle_positions_url": "https://realtimetcatbus.availtec.com/InfoPoint/GTFS-Realtime.ashx?&Type=VehiclePosition&serverid=0",

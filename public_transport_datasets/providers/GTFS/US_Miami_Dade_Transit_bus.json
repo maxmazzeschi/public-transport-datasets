@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Monroe County, Miami-Dade County, Broward County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Monroe County, Miami-Dade County, Broward County",
+    "location_summary": "United States, Florida, Monroe County, Miami-Dade County, Broward County",
     "type": "bus",
     "transit_provider": "Miami Dade Transit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/miami/gtfs-rt-vehicle-positions/",

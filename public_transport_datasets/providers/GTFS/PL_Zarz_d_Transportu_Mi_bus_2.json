@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "PL",
     "city": "Warsaw West County, Warsaw, Legionowo County, Wo\u0142omin County, Nowy Dw\u00f3r Mazowiecki County, Otwock County, Mi\u0144sk County, Pruszk\u00f3w County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Poland, Masovian Voivodeship, Warsaw West County, Warsaw, Legionowo County, Wo\u0142omin County, Nowy Dw\u00f3r Mazowiecki County, Otwock County, Mi\u0144sk County, Pruszk\u00f3w County",
+    "location_summary": "Poland, Masovian Voivodeship, Warsaw West County, Warsaw, Legionowo County, Wo\u0142omin County, Nowy Dw\u00f3r Mazowiecki County, Otwock County, Mi\u0144sk County, Pruszk\u00f3w County",
     "type": "bus",
     "transit_provider": "Zarz\u0105d Transportu Miejskiego w Warszawie",
     "vehicle_positions_url": "https://mkuran.pl/gtfs/warsaw/vehicles.pb",

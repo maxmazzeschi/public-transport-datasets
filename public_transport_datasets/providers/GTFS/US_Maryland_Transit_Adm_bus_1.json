@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Frederick County, Howard County, Prince George's County, Anne Arundel County, Baltimore, Baltimore County, Harford County, Cecil County, Washington, Montgomery County, Jefferson County, Berkeley County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Maryland, Frederick County, Howard County, Prince George's County, Anne Arundel County, Baltimore, Baltimore County, Harford County, Cecil County, Washington, Montgomery County, Jefferson County, Berkeley County",
+    "location_summary": "United States, Maryland, Frederick County, Howard County, Prince George's County, Anne Arundel County, Baltimore, Baltimore County, Harford County, Cecil County, Washington, Montgomery County, Jefferson County, Berkeley County",
     "type": "bus",
     "transit_provider": "Maryland Transit Administration",
     "vehicle_positions_url": "https://mdotmta-gtfs-rt.s3.amazonaws.com/MARC+RT/marc.pb",

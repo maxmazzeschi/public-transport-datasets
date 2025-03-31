@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Fairfield County, Westchester County, Putnam County, Litchfield County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Connecticut, Fairfield County, Westchester County, Putnam County, Litchfield County",
+    "location_summary": "United States, Connecticut, Fairfield County, Westchester County, Putnam County, Litchfield County",
     "type": "bus",
     "transit_provider": "Housatonic Area Regional Transit",
     "vehicle_positions_url": "https://passio3.com/hart/passioTransit/gtfs/realtime/vehiclePositions",

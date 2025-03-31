@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Dane County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Wisconsin, Dane County",
+    "location_summary": "United States, Wisconsin, Dane County",
     "type": "bus",
     "transit_provider": "Metro Transit - City of Madison",
     "vehicle_positions_url": "https://metromap.cityofmadison.com/gtfsrt/vehicles",

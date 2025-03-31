@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "North Carolina",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, North Carolina, North Carolina",
+    "location_summary": "United States, North Carolina, North Carolina",
     "type": "bus",
     "transit_provider": "GoDurham",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/godurham/gtfs-rt-vehicle-positions",

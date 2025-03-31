@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Grafton County, Chittenden County, Essex County, Washington County, Lamoille County, Troy, Derby, Orleans County, Caledonia County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New Hampshire, Grafton County, Chittenden County, Essex County, Washington County, Lamoille County, Troy, Derby, Orleans County, Caledonia County",
+    "location_summary": "United States, New Hampshire, Grafton County, Chittenden County, Essex County, Washington County, Lamoille County, Troy, Derby, Orleans County, Caledonia County",
     "type": "bus",
     "transit_provider": "Rural Community Transportation (RCT)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/rct/gtfs-rt-vehicle-positions",

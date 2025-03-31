@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Kittitas County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Kittitas County",
+    "location_summary": "United States, Washington, Kittitas County",
     "type": "bus",
     "transit_provider": "Ellensburg Central Transit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/central-transit-wa/gtfs-rt-vehicle-positions",

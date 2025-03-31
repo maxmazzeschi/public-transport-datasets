@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Orange County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Orange County",
+    "location_summary": "United States, California, Orange County",
     "type": "bus",
     "transit_provider": "City of Irvine",
     "vehicle_positions_url": "https://passio3.com/irvine/passioTransit/gtfs/realtime/vehiclePositions",

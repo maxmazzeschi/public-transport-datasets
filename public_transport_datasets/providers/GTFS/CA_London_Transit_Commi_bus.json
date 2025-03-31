@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "London",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, London",
+    "location_summary": "Canada, Ontario, London",
     "type": "bus",
     "transit_provider": "London Transit Commission",
     "vehicle_positions_url": "http://gtfs.ltconline.ca/Vehicle/VehiclePositions.pb",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Chelan County, Douglas County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Chelan County, Douglas County",
+    "location_summary": "United States, Washington, Chelan County, Douglas County",
     "type": "bus",
     "transit_provider": "Link Transit",
     "vehicle_positions_url": "https://link.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

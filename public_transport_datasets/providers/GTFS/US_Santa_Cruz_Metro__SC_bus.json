@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Santa Cruz County, Santa Clara County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Santa Cruz County, Santa Clara County",
+    "location_summary": "United States, California, Santa Cruz County, Santa Clara County",
     "type": "bus",
     "transit_provider": "Santa Cruz Metro (SCMTD)",
     "vehicle_positions_url": "https://rt.scmetro.org/gtfsrt/vehicles",

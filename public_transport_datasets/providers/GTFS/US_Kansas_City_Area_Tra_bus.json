@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Clay County, Jackson County, Johnson County, Platte County, Wyandotte County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Missouri, Clay County, Jackson County, Johnson County, Platte County, Wyandotte County",
+    "location_summary": "United States, Missouri, Clay County, Jackson County, Johnson County, Platte County, Wyandotte County",
     "type": "bus",
     "transit_provider": "Kansas City Area Transportation Authority (KCATA)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/kcata/gtfs-rt-vehicle-positions",

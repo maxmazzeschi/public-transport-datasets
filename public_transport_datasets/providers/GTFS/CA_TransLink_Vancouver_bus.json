@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "British Columbia",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, British Columbia, British Columbia",
+    "location_summary": "Canada, British Columbia, British Columbia",
     "type": "bus",
     "transit_provider": "TransLink Vancouver",
     "vehicle_positions_url": "https://gtfs.translink.ca/v2/gtfsposition",

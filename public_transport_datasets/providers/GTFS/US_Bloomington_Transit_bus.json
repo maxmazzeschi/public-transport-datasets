@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Monroe County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Indiana, Monroe County",
+    "location_summary": "United States, Indiana, Monroe County",
     "type": "bus",
     "transit_provider": "Bloomington Transit",
     "vehicle_positions_url": "https://s3.amazonaws.com/etatransit.gtfs/bloomingtontransit.etaspot.net/position_updates.pb",

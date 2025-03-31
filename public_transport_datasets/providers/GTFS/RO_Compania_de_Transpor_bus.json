@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "RO",
     "city": "Ia\u0219i",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Romania, Ia\u0219i, Ia\u0219i",
+    "location_summary": "Romania, Ia\u0219i, Ia\u0219i",
     "type": "bus",
     "transit_provider": "Compania de Transport Public Ia\u0219i",
     "vehicle_positions_url": "https://iasi-rt-feed.gtfs.ro/vehiclePositions",

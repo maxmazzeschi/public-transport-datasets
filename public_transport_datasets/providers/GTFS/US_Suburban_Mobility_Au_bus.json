@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Michigan",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Michigan, Michigan",
+    "location_summary": "United States, Michigan, Michigan",
     "type": "bus",
     "transit_provider": "Suburban Mobility Authority for Regional Transit (SMART)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/detroit-smartbus/gtfs-rt-vehicle-positions",

@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Vermont",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Vermont, Vermont",
+    "location_summary": "United States, Vermont, Vermont",
     "type": "bus",
     "transit_provider": "Tri-Valley Transit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/trivalleytransit/gtfs-rt-vehicle-positions",

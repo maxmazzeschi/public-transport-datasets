@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "AU",
     "city": "Bowen",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, Queensland, Whitsunday Regional",
+    "location_summary": "Australia, Queensland, Whitsunday Regional",
     "type": "bus",
     "transit_provider": "Translink",
     "vehicle_positions_url": "https://gtfsrt.api.translink.com.au/api/realtime/BOW/VehiclePositions",

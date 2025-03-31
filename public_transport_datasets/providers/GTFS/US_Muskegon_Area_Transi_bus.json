@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Muskegon County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Michigan, Muskegon County",
+    "location_summary": "United States, Michigan, Muskegon County",
     "type": "bus",
     "transit_provider": "Muskegon Area Transit System",
     "vehicle_positions_url": "https://muskegon.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",

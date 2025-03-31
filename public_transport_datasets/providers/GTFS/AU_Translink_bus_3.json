@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "AU",
     "city": "Maryborough Hervey Bay",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, Queensland, Fraser Coast Regional",
+    "location_summary": "Australia, Queensland, Fraser Coast Regional",
     "type": "bus",
     "transit_provider": "Translink",
     "vehicle_positions_url": "https://gtfsrt.api.translink.com.au/api/realtime/MHB/VehiclePositions",

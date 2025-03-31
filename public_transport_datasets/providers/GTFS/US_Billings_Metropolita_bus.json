@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Yellowstone County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Montana, Yellowstone County",
+    "location_summary": "United States, Montana, Yellowstone County",
     "type": "bus",
     "transit_provider": "Billings Metropolitan Transit",
     "vehicle_positions_url": "https://passio3.com/billings/passioTransit/gtfs/realtime/vehiclePositions",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Orange County, Los Angeles County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Orange County, Los Angeles County",
+    "location_summary": "United States, California, Orange County, Los Angeles County",
     "type": "bus",
     "transit_provider": "Norwalk Transit System",
     "vehicle_positions_url": "https://nts.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

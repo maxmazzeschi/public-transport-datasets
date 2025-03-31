@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "UA",
     "city": "Lviv Raion, Yavoriv Raion",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Ukraine, Lviv Oblast, Lviv Raion, Yavoriv Raion",
+    "location_summary": "Ukraine, Lviv Oblast, Lviv Raion, Yavoriv Raion",
     "type": "bus",
     "transit_provider": "Lvivavtodor",
     "vehicle_positions_url": "https://track.ua-gis.com/gtfs/lviv/vehicle_position",

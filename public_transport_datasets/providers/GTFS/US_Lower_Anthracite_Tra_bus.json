@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Northumberland County, Schuylkill County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Northumberland County, Schuylkill County",
+    "location_summary": "United States, Pennsylvania, Northumberland County, Schuylkill County",
     "type": "bus",
     "transit_provider": "Lower Anthracite Transit System",
     "vehicle_positions_url": "https://lats.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

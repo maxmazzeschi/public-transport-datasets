@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Bennington County, Windham County, Cheshire County, Windsor County, Grafton County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Vermont, Bennington County, Windham County, Cheshire County, Windsor County, Grafton County",
+    "location_summary": "United States, Vermont, Bennington County, Windham County, Cheshire County, Windsor County, Grafton County",
     "type": "bus",
     "transit_provider": "MOOver!",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/moover/gtfs-rt-vehicle-positions",

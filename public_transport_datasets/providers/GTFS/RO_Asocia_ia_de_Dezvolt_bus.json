@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "RO",
     "city": "Ilfov, D\u00e2mbovi\u021ba, C\u0103l\u0103ra\u0219i, Bucharest",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Romania, Ilfov, Ilfov, D\u00e2mbovi\u021ba, C\u0103l\u0103ra\u0219i, Bucharest",
+    "location_summary": "Romania, Ilfov, Ilfov, D\u00e2mbovi\u021ba, C\u0103l\u0103ra\u0219i, Bucharest",
     "type": "bus",
     "transit_provider": "Asocia\u021bia de Dezvoltare Intercomunitar\u0103 pentru Transport Public Bucure\u0219ti \u2013 Ilfov (TPBI)",
     "vehicle_positions_url": "https://gtfs.tpbi.ro/api/gtfs-rt/vehiclePositions",

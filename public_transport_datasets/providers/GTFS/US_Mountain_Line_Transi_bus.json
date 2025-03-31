@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Coconino County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Arizona, Coconino County",
+    "location_summary": "United States, Arizona, Coconino County",
     "type": "bus",
     "transit_provider": "Mountain Line Transit",
     "vehicle_positions_url": "https://mountainline.syncromatics.com/gtfs-rt/vehiclepositions",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Lancaster County, Adams County, Cumberland County, York County, Baltimore County, Dauphin County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Lancaster County, Adams County, Cumberland County, York County, Baltimore County, Dauphin County",
+    "location_summary": "United States, Pennsylvania, Lancaster County, Adams County, Cumberland County, York County, Baltimore County, Dauphin County",
     "type": "bus",
     "transit_provider": "rabbittransit",
     "vehicle_positions_url": "https://realtime.rabbittransit.org/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Sedgwick County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Kansas, Sedgwick County",
+    "location_summary": "United States, Kansas, Sedgwick County",
     "type": "bus",
     "transit_provider": "Wichita Transit",
     "vehicle_positions_url": "https://bus.wichitatransit.org/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

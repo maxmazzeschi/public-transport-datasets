@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "RO",
     "city": "Buz\u0103u",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Romania, Buz\u0103u, Buz\u0103u",
+    "location_summary": "Romania, Buz\u0103u, Buz\u0103u",
     "type": "bus",
     "transit_provider": "Transbus Buz\u0103u",
     "vehicle_positions_url": "https://gtfsagent.transportpublic.ro/transbus/vehiclePositions",

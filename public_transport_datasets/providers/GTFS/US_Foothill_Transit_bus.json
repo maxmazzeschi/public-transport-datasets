@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "California",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, California",
+    "location_summary": "United States, California, California",
     "type": "bus",
     "transit_provider": "Foothill Transit",
     "vehicle_positions_url": "https://foothill_3rdparty.rideralerts.com/myStop/GTFS-Realtime.ashx?&Type=VehiclePosition&serverid=0",

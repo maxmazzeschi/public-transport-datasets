@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "King County, Snohomish County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, King County, Snohomish County",
+    "location_summary": "United States, Washington, King County, Snohomish County",
     "type": "bus",
     "transit_provider": "Community Transit",
     "vehicle_positions_url": "https://s3.amazonaws.com/commtrans-realtime-prod/vehiclepositions.pb",

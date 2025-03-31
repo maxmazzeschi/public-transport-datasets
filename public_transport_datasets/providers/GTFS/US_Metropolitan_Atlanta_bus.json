@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Fayette County, Fulton County, DeKalb County, Forsyth County, Clayton County, Cobb County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Georgia, Fayette County, Fulton County, DeKalb County, Forsyth County, Clayton County, Cobb County",
+    "location_summary": "United States, Georgia, Fayette County, Fulton County, DeKalb County, Forsyth County, Clayton County, Cobb County",
     "type": "bus",
     "transit_provider": "Metropolitan Atlanta Rapid Transit Authority (MARTA)",
     "vehicle_positions_url": "https://gtfs-rt.itsmarta.com/TMGTFSRealTimeWebService/vehicle/vehiclepositions.pb",

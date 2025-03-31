@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "King County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, King County",
+    "location_summary": "United States, Washington, King County",
     "type": "bus",
     "transit_provider": "Seattle Children's Hospital Shuttle",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/seattle-childrens/gtfs-rt-vehicle-positions",

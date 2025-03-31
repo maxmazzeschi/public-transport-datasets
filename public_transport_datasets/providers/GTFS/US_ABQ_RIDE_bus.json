@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Bernalillo County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New Mexico, Bernalillo County",
+    "location_summary": "United States, New Mexico, Bernalillo County",
     "type": "bus",
     "transit_provider": "ABQ RIDE",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/abq-ride/gtfs-rt-vehicle-positions",

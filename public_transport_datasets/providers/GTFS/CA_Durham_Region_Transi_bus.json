@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Ajax, Uxbridge, Scugog, Whitby, Oshawa, Clarington, Pickering, Scarborough",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, Ajax, Uxbridge, Scugog, Whitby, Oshawa, Clarington, Pickering, Scarborough",
+    "location_summary": "Canada, Ontario, Ajax, Uxbridge, Scugog, Whitby, Oshawa, Clarington, Pickering, Scarborough",
     "type": "bus",
     "transit_provider": "Durham Region Transit",
     "vehicle_positions_url": "https://drtonline.durhamregiontransit.com/gtfsrealtime/VehiclePositions",

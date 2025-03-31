@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Palm Beach County, St. Lucie County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Palm Beach County, St. Lucie County",
+    "location_summary": "United States, Florida, Palm Beach County, St. Lucie County",
     "type": "bus",
     "transit_provider": "Palm Tran",
     "vehicle_positions_url": "https://www.palmtran.org/TripPlanner/GTFS-Realtime.ashx?Type=VehiclePosition",

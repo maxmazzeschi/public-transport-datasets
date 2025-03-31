@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Kent County, Providence County, Newport County, Bristol County, South County, Bristol County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Rhode Island, Kent County, Providence County, Newport County, Bristol County, South County, Bristol County",
+    "location_summary": "United States, Rhode Island, Kent County, Providence County, Newport County, Bristol County, South County, Bristol County",
     "type": "bus",
     "transit_provider": "Rhode Island Public Transit Authority",
     "vehicle_positions_url": "http://realtime.ripta.com:81/api/vehiclepositions?format=gtfs.proto",

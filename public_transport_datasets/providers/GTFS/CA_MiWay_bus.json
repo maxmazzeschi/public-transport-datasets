@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Brampton, Halton Hills, Vaughan, Mississauga, Oakville, Etobicoke",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, Brampton, Halton Hills, Vaughan, Mississauga, Oakville, Etobicoke",
+    "location_summary": "Canada, Ontario, Brampton, Halton Hills, Vaughan, Mississauga, Oakville, Etobicoke",
     "type": "bus",
     "transit_provider": "MiWay",
     "vehicle_positions_url": "https://www.miapp.ca/GTFS_RT/Vehicle/VehiclePositions.pb",

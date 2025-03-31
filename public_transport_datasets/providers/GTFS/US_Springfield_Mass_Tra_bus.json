@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Sangamon County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Illinois, Sangamon County",
+    "location_summary": "United States, Illinois, Sangamon County",
     "type": "bus",
     "transit_provider": "Springfield Mass Transit District (SMTD)",
     "vehicle_positions_url": "http://ride.smtd.org/gtfsrt/vehicles",

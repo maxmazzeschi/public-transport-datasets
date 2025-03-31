@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Calgary",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Alberta, Calgary",
+    "location_summary": "Canada, Alberta, Calgary",
     "type": "bus",
     "transit_provider": "Calgary Transit",
     "vehicle_positions_url": "https://data.calgary.ca/download/am7c-qe3u/application%2Foctet-stream",

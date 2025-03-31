@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Linn County, Benton County, Lincoln County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Linn County, Benton County, Lincoln County",
+    "location_summary": "United States, Oregon, Linn County, Benton County, Lincoln County",
     "type": "bus",
     "transit_provider": "Benton Area Transportation",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/ocwcog-benton/gtfs-rt-vehicle-positions",

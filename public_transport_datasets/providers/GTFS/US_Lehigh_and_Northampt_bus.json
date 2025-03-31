@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Carbon County, Northampton County, Lehigh County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Carbon County, Northampton County, Lehigh County",
+    "location_summary": "United States, Pennsylvania, Carbon County, Northampton County, Lehigh County",
     "type": "bus",
     "transit_provider": "Lehigh and Northampton Transportation Authority",
     "vehicle_positions_url": "https://realtimelanta.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

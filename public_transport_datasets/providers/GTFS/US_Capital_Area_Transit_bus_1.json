@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "York County, Franklin County, Dauphin County, Cumberland County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, York County, Franklin County, Dauphin County, Cumberland County",
+    "location_summary": "United States, Pennsylvania, York County, Franklin County, Dauphin County, Cumberland County",
     "type": "bus",
     "transit_provider": "Capital Area Transit",
     "vehicle_positions_url": "https://cat.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=vehicleposition",

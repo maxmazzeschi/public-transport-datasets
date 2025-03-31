@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Detroit",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Michigan, Detroit",
+    "location_summary": "United States, Michigan, Detroit",
     "type": "bus",
     "transit_provider": "Qline Detroit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/detroit-m1-rail/gtfs-rt-vehicle-positions",

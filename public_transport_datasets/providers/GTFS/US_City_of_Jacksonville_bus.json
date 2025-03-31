@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Onslow County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, North Carolina, Onslow County",
+    "location_summary": "United States, North Carolina, Onslow County",
     "type": "bus",
     "transit_provider": "City of Jacksonville",
     "vehicle_positions_url": "https://passio3.com/jacksonville/passioTransit/gtfs/realtime/vehiclePositions",

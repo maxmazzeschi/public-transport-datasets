@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "AU",
     "city": "Australian Capital Territory",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, Australian Capital Territory, Australian Capital Territory",
+    "location_summary": "Australia, Australian Capital Territory, Australian Capital Territory",
     "type": "bus",
     "transit_provider": "Canberra Metro Operations",
     "vehicle_positions_url": "http://files.transport.act.gov.au/feeds/lightrail.pb",

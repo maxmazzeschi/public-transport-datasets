@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Area E (Beaver Creek), Port Alberni, Alberni-Clayoquot Regional District",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, British Columbia, Area E (Beaver Creek), Port Alberni, Alberni-Clayoquot Regional District",
+    "location_summary": "Canada, British Columbia, Area E (Beaver Creek), Port Alberni, Alberni-Clayoquot Regional District",
     "type": "bus",
     "transit_provider": "Port Alberni",
     "vehicle_positions_url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=11",

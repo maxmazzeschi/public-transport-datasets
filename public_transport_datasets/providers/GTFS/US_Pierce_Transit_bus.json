@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Pierce County, King County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Pierce County, King County",
+    "location_summary": "United States, Washington, Pierce County, King County",
     "type": "bus",
     "transit_provider": "Pierce Transit",
     "vehicle_positions_url": "https://api.pugetsound.onebusaway.org/api/gtfs_realtime/vehicle-positions-for-agency/3.pb",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Tioga County, Bradford County, Sullivan County, Tioga County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New York, Tioga County, Bradford County, Sullivan County, Tioga County",
+    "location_summary": "United States, New York, Tioga County, Bradford County, Sullivan County, Tioga County",
     "type": "bus",
     "transit_provider": "Endless Mountains Transportation Authority",
     "vehicle_positions_url": "https://best.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

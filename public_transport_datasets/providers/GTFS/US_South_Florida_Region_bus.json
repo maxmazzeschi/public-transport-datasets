@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Palm Beach County, Broward County, Miami-Dade County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Palm Beach County, Broward County, Miami-Dade County",
+    "location_summary": "United States, Florida, Palm Beach County, Broward County, Miami-Dade County",
     "type": "bus",
     "transit_provider": "South Florida Regional Transportation Authority",
     "vehicle_positions_url": "http://gtfsr.tri-rail.com/download.aspx?file=position_updates.pb",

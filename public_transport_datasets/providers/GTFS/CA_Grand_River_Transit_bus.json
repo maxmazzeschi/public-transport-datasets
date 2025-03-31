@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Kitchener, Wilmot, Woolwich, Cambridge, Waterloo",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, Kitchener, Wilmot, Woolwich, Cambridge, Waterloo",
+    "location_summary": "Canada, Ontario, Kitchener, Wilmot, Woolwich, Cambridge, Waterloo",
     "type": "bus",
     "transit_provider": "Grand River Transit",
     "vehicle_positions_url": "http://webapps.regionofwaterloo.ca/api/grt-routes/api/vehiclepositions",

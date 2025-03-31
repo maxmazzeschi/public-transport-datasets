@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Douglas County, Inyo County, Kern County, Carson City, Madera County, Washoe County, Los Angeles County, Mono County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Nevada, Douglas County, Inyo County, Kern County, Carson City, Madera County, Washoe County, Los Angeles County, Mono County",
+    "location_summary": "United States, Nevada, Douglas County, Inyo County, Kern County, Carson City, Madera County, Washoe County, Los Angeles County, Mono County",
     "type": "bus",
     "transit_provider": "Eastern Sierra Transit Authority",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/esta/gtfs-rt-vehicle-positions",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Saint-Hyacinthe",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Saint-Hyacinthe",
+    "location_summary": "Canada, Quebec, Saint-Hyacinthe",
     "type": "bus",
     "transit_provider": "Ville de Saint-Hyacinthe",
     "vehicle_positions_url": "https://gtfs-rt.infra-hubup.fr/lpdlestd/realtime",

@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Juneau",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Alaska, Juneau",
+    "location_summary": "United States, Alaska, Juneau",
     "type": "bus",
     "transit_provider": "Capital Transit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/juneau/gtfs-rt-vehicle-positions",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "PL",
     "city": "E\u0142k County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Poland, Warmian-Masurian Voivodeship, E\u0142k County",
+    "location_summary": "Poland, Warmian-Masurian Voivodeship, E\u0142k County",
     "type": "bus",
     "transit_provider": "Miejski Zak\u0142ad Komunikacji Sp. z o.o. (E\u0142k)",
     "vehicle_positions_url": "https://mkuran.pl/gtfs/elk.pb",

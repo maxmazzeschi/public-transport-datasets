@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "FI",
     "city": "Lemp\u00e4\u00e4l\u00e4, Kangasala, Vesilahti, Valkeakoski, H\u00e4meenkyr\u00f6, Pirkkala, Yl\u00f6j\u00e4rvi, Nokia, Tampere, Kuhmoinen, Orivesi",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Finland, Pirkanmaa, Lemp\u00e4\u00e4l\u00e4, Kangasala, Vesilahti, Valkeakoski, H\u00e4meenkyr\u00f6, Pirkkala, Yl\u00f6j\u00e4rvi, Nokia, Tampere, Kuhmoinen, Orivesi",
+    "location_summary": "Finland, Pirkanmaa, Lemp\u00e4\u00e4l\u00e4, Kangasala, Vesilahti, Valkeakoski, H\u00e4meenkyr\u00f6, Pirkkala, Yl\u00f6j\u00e4rvi, Nokia, Tampere, Kuhmoinen, Orivesi",
     "type": "bus",
     "transit_provider": "Tampereen joukkoliikenne (JOLI)",
     "vehicle_positions_url": "https://data.waltti.fi/tampere/api/gtfsrealtime/v1.0/feed/vehicleposition",

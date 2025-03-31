@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Washington, Alexandria, Fairfax County, Montgomery County, Fairfax, Falls Church, Arlington County, Loudoun County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, District of Columbia, Washington, Alexandria, Fairfax County, Montgomery County, Fairfax, Falls Church, Arlington County, Loudoun County",
+    "location_summary": "United States, District of Columbia, Washington, Alexandria, Fairfax County, Montgomery County, Fairfax, Falls Church, Arlington County, Loudoun County",
     "type": "bus",
     "transit_provider": "Fairfax Connector",
     "vehicle_positions_url": "https://www.fairfaxcounty.gov/gtfsrt/vehicles",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Saskatoon",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Saskatchewan, Saskatoon",
+    "location_summary": "Canada, Saskatchewan, Saskatoon",
     "type": "bus",
     "transit_provider": "Saskatoon Transit",
     "vehicle_positions_url": "http://apps2.saskatoon.ca/app/data/Vehicle/VehiclePositions.pb",

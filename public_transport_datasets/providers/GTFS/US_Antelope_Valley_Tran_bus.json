@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Lancaster",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Lancaster",
+    "location_summary": "United States, California, Lancaster",
     "type": "bus",
     "transit_provider": "Antelope Valley Transit Authority",
     "vehicle_positions_url": "https://track-it.avta.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

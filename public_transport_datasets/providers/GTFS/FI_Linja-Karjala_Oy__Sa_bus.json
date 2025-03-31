@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "FI",
     "city": "Kitee, Liperi, Tohmaj\u00e4rvi, Joensuu, Kontiolahti, Lieksa",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Finland, North Karelia, Kitee, Liperi, Tohmaj\u00e4rvi, Joensuu, Kontiolahti, Lieksa",
+    "location_summary": "Finland, North Karelia, Kitee, Liperi, Tohmaj\u00e4rvi, Joensuu, Kontiolahti, Lieksa",
     "type": "bus",
     "transit_provider": "Linja-Karjala Oy, Savo-Karjalan Linja Oy",
     "vehicle_positions_url": "https://data.waltti.fi/joensuu/api/gtfsrealtime/v1.0/feed/vehicleposition",

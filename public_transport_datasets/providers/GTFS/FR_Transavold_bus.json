@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "FR",
     "city": "Moselle",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 France, Grand Est, Moselle",
+    "location_summary": "France, Grand Est, Moselle",
     "type": "bus",
     "transit_provider": "Transavold",
     "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?file=vp&dataset=transavold-stavold",

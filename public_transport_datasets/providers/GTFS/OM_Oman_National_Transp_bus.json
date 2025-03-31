@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "OM",
     "city": "Muscat, Dhofar",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Oman, Muscat, Muscat, Dhofar",
+    "location_summary": "Oman, Muscat, Muscat, Dhofar",
     "type": "bus",
     "transit_provider": "Oman National Transport Company",
     "vehicle_positions_url": "https://app.mwasalat.om/tmsp/data/gtfs/vehicle-positions.pb",

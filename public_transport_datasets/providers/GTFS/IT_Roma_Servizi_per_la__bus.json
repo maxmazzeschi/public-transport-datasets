@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "IT",
     "city": "Rome",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Italy, Lazio, Sacrofano, Anguillara Sabazia, Grottaferrata, Fiumicino, Ciampino, Monte Compatri, Guidonia Montecelio, Fonte Nuova, Pomezia, Rome",
+    "location_summary": "Italy, Lazio, Sacrofano, Anguillara Sabazia, Grottaferrata, Fiumicino, Ciampino, Monte Compatri, Guidonia Montecelio, Fonte Nuova, Pomezia, Rome",
     "type": "bus",
     "transit_provider": "Roma Servizi per la Mobilit\u00e0",
     "vehicle_positions_url": "https://romamobilita.it/sites/default/files/rome_rtgtfs_vehicle_positions_feed.pb",

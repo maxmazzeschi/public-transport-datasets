@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Garfield County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Utah, Garfield County",
+    "location_summary": "United States, Utah, Garfield County",
     "type": "bus",
     "transit_provider": "Bryce Canyon National Park Shuttle",
     "vehicle_positions_url": "https://brycecanyonshuttle.com/subscriptions/gtfsrt/vehicles.ashx",

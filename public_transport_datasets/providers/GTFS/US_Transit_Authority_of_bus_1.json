@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Jefferson County, Floyd County, Clark County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Kentucky, Jefferson County, Floyd County, Clark County",
+    "location_summary": "United States, Kentucky, Jefferson County, Floyd County, Clark County",
     "type": "bus",
     "transit_provider": "Transit Authority of River City (TARC)",
     "vehicle_positions_url": "http://gtfsrealtime.ridetarc.org/realtime/Vehicle/VehiclePositions.pb",

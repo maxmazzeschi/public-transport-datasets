@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Terrebonne, Repentigny, Lavaltrie, Montreal, Saint-Sulpice, L'Assomption, Charlemagne, Montr\u00e9al-Est, L'\u00c9piphanie",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Terrebonne, Repentigny, Lavaltrie, Montreal, Saint-Sulpice, L'Assomption, Charlemagne, Montr\u00e9al-Est, L'\u00c9piphanie",
+    "location_summary": "Canada, Quebec, Terrebonne, Repentigny, Lavaltrie, Montreal, Saint-Sulpice, L'Assomption, Charlemagne, Montr\u00e9al-Est, L'\u00c9piphanie",
     "type": "bus",
     "transit_provider": "Exo L'Assomption",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=MRCLASSO",

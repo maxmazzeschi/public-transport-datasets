@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "NZ",
     "city": "Thames-Coromandel District, Waikato District, Auckland, Hamilton City",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 New Zealand, Waikato, Thames-Coromandel District, Waikato District, Auckland, Hamilton City",
+    "location_summary": "New Zealand, Waikato, Thames-Coromandel District, Waikato District, Auckland, Hamilton City",
     "type": "bus",
     "transit_provider": "SeaLink Pine Harbour, Waikato Regional Council, Pavlovich Transport Solutions, AT Metro",
     "vehicle_positions_url": "https://api.at.govt.nz/v2/public/realtime/vehiclelocations",

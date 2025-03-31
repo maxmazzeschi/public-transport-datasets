@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Bronx County, Richmond County, Queens County, Kings County, New York County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New York, Bronx County, Richmond County, Queens County, Kings County, New York County",
+    "location_summary": "United States, New York, Bronx County, Richmond County, Queens County, Kings County, New York County",
     "type": "bus",
     "transit_provider": "Metropolitan Transit Authority (MTA)",
     "vehicle_positions_url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-l",

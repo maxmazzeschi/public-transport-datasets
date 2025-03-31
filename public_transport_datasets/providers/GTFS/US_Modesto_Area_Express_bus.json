@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "San Joaquin County, Alameda County, Stanislaus County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, San Joaquin County, Alameda County, Stanislaus County",
+    "location_summary": "United States, California, San Joaquin County, Alameda County, Stanislaus County",
     "type": "bus",
     "transit_provider": "Modesto Area Express",
     "vehicle_positions_url": "https://stanrta.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

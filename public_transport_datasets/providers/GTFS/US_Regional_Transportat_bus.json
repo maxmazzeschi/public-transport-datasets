@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Nevada",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Nevada, Nevada",
+    "location_summary": "United States, Nevada, Nevada",
     "type": "bus",
     "transit_provider": "Regional Transportation Commission of Southern Nevada (RTC)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/las-vegas-rtc/gtfs-rt-vehicle-positions",

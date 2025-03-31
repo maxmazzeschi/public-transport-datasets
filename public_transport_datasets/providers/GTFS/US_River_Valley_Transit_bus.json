@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Lycoming County, Clinton County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Lycoming County, Clinton County",
+    "location_summary": "United States, Pennsylvania, Lycoming County, Clinton County",
     "type": "bus",
     "transit_provider": "River Valley Transit",
     "vehicle_positions_url": "https://my.ridervt.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

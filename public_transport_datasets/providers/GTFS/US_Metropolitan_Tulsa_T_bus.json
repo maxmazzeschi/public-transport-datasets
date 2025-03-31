@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Tulsa County, Osage County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oklahoma, Tulsa County, Osage County",
+    "location_summary": "United States, Oklahoma, Tulsa County, Osage County",
     "type": "bus",
     "transit_provider": "Metropolitan Tulsa Transit Authority",
     "vehicle_positions_url": "https://tulsa.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Raleigh County, Fayette County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, West Virginia, Raleigh County, Fayette County",
+    "location_summary": "United States, West Virginia, Raleigh County, Fayette County",
     "type": "bus",
     "transit_provider": "New River Transit Authority",
     "vehicle_positions_url": "https://passio3.com/beckley/passioTransit/gtfs/realtime/vehiclePositions",

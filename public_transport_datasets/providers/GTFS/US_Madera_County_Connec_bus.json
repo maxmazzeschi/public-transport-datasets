@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Madera County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Madera County",
+    "location_summary": "United States, California, Madera County",
     "type": "bus",
     "transit_provider": "Madera County Connection",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/madera/gtfs-rt-vehicle-positions",

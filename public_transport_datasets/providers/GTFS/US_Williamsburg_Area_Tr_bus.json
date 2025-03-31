@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "James City County, Newport News, York County, Williamsburg",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Virginia, James City County, Newport News, York County, Williamsburg",
+    "location_summary": "United States, Virginia, James City County, Newport News, York County, Williamsburg",
     "type": "bus",
     "transit_provider": "Williamsburg Area Transit Authority (WATA)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/wata/gtfs-rt-vehicle-positions",

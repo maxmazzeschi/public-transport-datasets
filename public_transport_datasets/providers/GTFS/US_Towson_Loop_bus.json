@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Baltimore County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Maryland, Baltimore County",
+    "location_summary": "United States, Maryland, Baltimore County",
     "type": "bus",
     "transit_provider": "Towson Loop",
     "vehicle_positions_url": "https://passio3.com/towson/passioTransit/gtfs/realtime/vehiclePositions",

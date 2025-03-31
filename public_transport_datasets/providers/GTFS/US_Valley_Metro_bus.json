@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Maricopa County, Pima County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Arizona, Maricopa County, Pima County",
+    "location_summary": "United States, Arizona, Maricopa County, Pima County",
     "type": "bus",
     "transit_provider": "Valley Metro",
     "vehicle_positions_url": "https://app.mecatran.com/utw/ws/gtfsfeed/vehicles/valleymetro?apiKey=4f22263f69671d7f49726c3011333e527368211f",

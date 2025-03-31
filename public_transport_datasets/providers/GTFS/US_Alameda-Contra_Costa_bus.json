@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Santa Clara County, Contra Costa County, Alameda County, San Francisco",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Santa Clara County, Contra Costa County, Alameda County, San Francisco",
+    "location_summary": "United States, California, Santa Clara County, Contra Costa County, Alameda County, San Francisco",
     "type": "bus",
     "transit_provider": "Alameda-Contra Costa Transit District (AC Transit)",
     "vehicle_positions_url": "http://api.actransit.org/transit/gtfsrt/vehicles",

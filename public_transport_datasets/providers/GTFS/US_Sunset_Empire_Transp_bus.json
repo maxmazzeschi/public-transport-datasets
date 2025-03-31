@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Clatsop County, Lincoln County, Polk County, Marion County, Washington County, Multnomah County, Tillamook County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Clatsop County, Lincoln County, Polk County, Marion County, Washington County, Multnomah County, Tillamook County",
+    "location_summary": "United States, Oregon, Clatsop County, Lincoln County, Polk County, Marion County, Washington County, Multnomah County, Tillamook County",
     "type": "bus",
     "transit_provider": "Sunset Empire Transportation District",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/setd/gtfs-rt-vehicle-positions",

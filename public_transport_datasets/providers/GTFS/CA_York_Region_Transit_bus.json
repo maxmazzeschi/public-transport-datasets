@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "North York, Mississauga, Scarborough, Brampton, Whitchurch-Stouffville, Richmond Hill, Georgina, Etobicoke, East Gwillimbury, King, Newmarket, Vaughan, Aurora, Markham",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, North York, Mississauga, Scarborough, Brampton, Whitchurch-Stouffville, Richmond Hill, Georgina, Etobicoke, East Gwillimbury, King, Newmarket, Vaughan, Aurora, Markham",
+    "location_summary": "Canada, Ontario, North York, Mississauga, Scarborough, Brampton, Whitchurch-Stouffville, Richmond Hill, Georgina, Etobicoke, East Gwillimbury, King, Newmarket, Vaughan, Aurora, Markham",
     "type": "bus",
     "transit_provider": "York Region Transit",
     "vehicle_positions_url": "http://rtu.york.ca/gtfsrealtime/VehiclePositions",

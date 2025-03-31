@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Wake County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, North Carolina, Wake County",
+    "location_summary": "United States, North Carolina, Wake County",
     "type": "bus",
     "transit_provider": "NCSU Wolfline",
     "vehicle_positions_url": "https://passio3.com/ncstateuni/passioTransit/gtfs/realtime/vehiclePositions",

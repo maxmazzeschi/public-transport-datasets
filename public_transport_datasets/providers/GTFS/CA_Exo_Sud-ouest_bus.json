@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "L\u00e9ry, Mercier, Sainte-Martine, Montreal, Ch\u00e2teauguay, Beauharnois, Salaberry-de-Valleyfield, Mont\u00e9r\u00e9gie",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, L\u00e9ry, Mercier, Sainte-Martine, Montreal, Ch\u00e2teauguay, Beauharnois, Salaberry-de-Valleyfield, Mont\u00e9r\u00e9gie",
+    "location_summary": "Canada, Quebec, L\u00e9ry, Mercier, Sainte-Martine, Montreal, Ch\u00e2teauguay, Beauharnois, Salaberry-de-Valleyfield, Mont\u00e9r\u00e9gie",
     "type": "bus",
     "transit_provider": "Exo Sud-ouest",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITSO",

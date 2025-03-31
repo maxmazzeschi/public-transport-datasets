@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Sainte-Th\u00e9r\u00e8se, Repentigny, Terrebonne, Mascouche, Saint-Basile-le-Grand, McMasterville, Mont-Saint-Hilaire, Saint-Constant, Pointe-Claire, Beaconsfield, Baie-D'Urf\u00e9, Sainte-Anne-de-Bellevue, L'\u00cele-Perrot, Terrasse-Vaudreuil, Vaudreuil-Dorion, Hudson, Laval, Rosem\u00e8re, Blainville, Mirabel, Dorval, Montreal, Delson, Saint-J\u00e9r\u00f4me, Longueuil, Saint-Bruno-de-Montarville, Candiac",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Sainte-Th\u00e9r\u00e8se, Repentigny, Terrebonne, Mascouche, Saint-Basile-le-Grand, McMasterville, Mont-Saint-Hilaire, Saint-Constant, Pointe-Claire, Beaconsfield, Baie-D'Urf\u00e9, Sainte-Anne-de-Bellevue, L'\u00cele-Perrot, Terrasse-Vaudreuil, Vaudreuil-Dorion, Hudson, Laval, Rosem\u00e8re, Blainville, Mirabel, Dorval, Montreal, Delson, Saint-J\u00e9r\u00f4me, Longueuil, Saint-Bruno-de-Montarville, Candiac",
+    "location_summary": "Canada, Quebec, Sainte-Th\u00e9r\u00e8se, Repentigny, Terrebonne, Mascouche, Saint-Basile-le-Grand, McMasterville, Mont-Saint-Hilaire, Saint-Constant, Pointe-Claire, Beaconsfield, Baie-D'Urf\u00e9, Sainte-Anne-de-Bellevue, L'\u00cele-Perrot, Terrasse-Vaudreuil, Vaudreuil-Dorion, Hudson, Laval, Rosem\u00e8re, Blainville, Mirabel, Dorval, Montreal, Delson, Saint-J\u00e9r\u00f4me, Longueuil, Saint-Bruno-de-Montarville, Candiac",
     "type": "bus",
     "transit_provider": "Exo",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb",

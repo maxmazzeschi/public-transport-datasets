@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Saint-J\u00e9r\u00f4me, Quebec, Oka, Saint-Placide, Mirabel, Sainte-Anne-des-Plaines, Terrebonne, Sainte-Th\u00e9r\u00e8se, Lorraine, Boisbriand, Blainville, Rosem\u00e8re, Saint-Joseph-du-Lac, Bois-des-Filion, Sainte-Marthe-sur-le-Lac, Pointe-Calumet, Laval, Deux-Montagnes, St-Eustache, Montreal",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Saint-J\u00e9r\u00f4me, Quebec, Oka, Saint-Placide, Mirabel, Sainte-Anne-des-Plaines, Terrebonne, Sainte-Th\u00e9r\u00e8se, Lorraine, Boisbriand, Blainville, Rosem\u00e8re, Saint-Joseph-du-Lac, Bois-des-Filion, Sainte-Marthe-sur-le-Lac, Pointe-Calumet, Laval, Deux-Montagnes, St-Eustache, Montreal",
+    "location_summary": "Canada, Quebec, Saint-J\u00e9r\u00f4me, Quebec, Oka, Saint-Placide, Mirabel, Sainte-Anne-des-Plaines, Terrebonne, Sainte-Th\u00e9r\u00e8se, Lorraine, Boisbriand, Blainville, Rosem\u00e8re, Saint-Joseph-du-Lac, Bois-des-Filion, Sainte-Marthe-sur-le-Lac, Pointe-Calumet, Laval, Deux-Montagnes, St-Eustache, Montreal",
     "type": "bus",
     "transit_provider": "Exo Laurentides",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITLA",

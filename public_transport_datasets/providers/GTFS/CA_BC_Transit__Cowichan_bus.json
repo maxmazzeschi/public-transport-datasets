@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Cowichan Valley Regional District, British Columbia, Ladysmith, Duncan, Area D (Cowichan Bay), Area F (Cowichan Lake South / Skutz Falls), Area I (Youbou / Meade Creek), Lake Cowichan, Victoria, Saanich, View Royal, North Cowichan, Area E (Cowichan Station / Sahtlam / Glenora), Area C (Cobble Hill), Langford, Area A (Mill Bay / Malahat), Area B (Shawnigan Lake)",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, British Columbia, Cowichan Valley Regional District, British Columbia, Ladysmith, Duncan, Area D (Cowichan Bay), Area F (Cowichan Lake South / Skutz Falls), Area I (Youbou / Meade Creek), Lake Cowichan, Victoria, Saanich, View Royal, North Cowichan, Area E (Cowichan Station / Sahtlam / Glenora), Area C (Cobble Hill), Langford, Area A (Mill Bay / Malahat), Area B (Shawnigan Lake)",
+    "location_summary": "Canada, British Columbia, Cowichan Valley Regional District, British Columbia, Ladysmith, Duncan, Area D (Cowichan Bay), Area F (Cowichan Lake South / Skutz Falls), Area I (Youbou / Meade Creek), Lake Cowichan, Victoria, Saanich, View Royal, North Cowichan, Area E (Cowichan Station / Sahtlam / Glenora), Area C (Cobble Hill), Langford, Area A (Mill Bay / Malahat), Area B (Shawnigan Lake)",
     "type": "bus",
     "transit_provider": "BC Transit (Cowichan Valley Regional Transit System)",
     "vehicle_positions_url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=10",

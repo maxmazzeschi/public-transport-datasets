@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Bay County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Bay County",
+    "location_summary": "United States, Florida, Bay County",
     "type": "bus",
     "transit_provider": "Bay Town Trolley",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/bay-town-trolley/gtfs-rt-vehicle-positions",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Travis County, Bastrop County, Williamson County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Texas, Travis County, Bastrop County, Williamson County",
+    "location_summary": "United States, Texas, Travis County, Bastrop County, Williamson County",
     "type": "bus",
     "transit_provider": "Capital Metro",
     "vehicle_positions_url": "https://data.texas.gov/download/eiei-9rpf/application%2Foctet-stream",

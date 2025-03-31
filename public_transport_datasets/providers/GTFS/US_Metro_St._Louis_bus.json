@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "City of Saint Louis, Saint Clair County, Madison County, Saint Louis County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Missouri, City of Saint Louis, Saint Clair County, Madison County, Saint Louis County",
+    "location_summary": "United States, Missouri, City of Saint Louis, Saint Clair County, Madison County, Saint Louis County",
     "type": "bus",
     "transit_provider": "Metro St. Louis",
     "vehicle_positions_url": "https://www.metrostlouis.org/RealTimeData/StlRealTimeVehicles.pb",

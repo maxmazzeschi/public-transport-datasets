@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Sumas, Whatcom County, Skagit County, Blaine",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Sumas, Whatcom County, Skagit County, Blaine",
+    "location_summary": "United States, Washington, Sumas, Whatcom County, Skagit County, Blaine",
     "type": "bus",
     "transit_provider": "Whatcom Transportation Authority",
     "vehicle_positions_url": "https://bustracker.ridewta.com/gtfsrt/vehicles",

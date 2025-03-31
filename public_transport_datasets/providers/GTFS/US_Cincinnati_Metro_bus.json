@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Warren County, Hamilton County, Clermont County, Butler County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Ohio, Warren County, Hamilton County, Clermont County, Butler County",
+    "location_summary": "United States, Ohio, Warren County, Hamilton County, Clermont County, Butler County",
     "type": "bus",
     "transit_provider": "Cincinnati Metro",
     "vehicle_positions_url": "https://tmgtfsprd.sorttrpcloud.com/TMGTFSRealTimeWebService/vehicle/vehiclepositions.pb",

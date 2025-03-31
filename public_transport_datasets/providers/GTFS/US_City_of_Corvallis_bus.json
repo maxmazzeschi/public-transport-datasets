@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Oregon",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Oregon",
+    "location_summary": "United States, Oregon, Oregon",
     "type": "bus",
     "transit_provider": "City of Corvallis",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/ocwcog-corvallis/gtfs-rt-vehicle-positions",

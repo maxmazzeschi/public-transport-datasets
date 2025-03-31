@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Tillamook County, Clatsop County, Polk County, Marion County, Lincoln County, Washington County, Multnomah County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Tillamook County, Clatsop County, Polk County, Marion County, Lincoln County, Washington County, Multnomah County",
+    "location_summary": "United States, Oregon, Tillamook County, Clatsop County, Polk County, Marion County, Lincoln County, Washington County, Multnomah County",
     "type": "bus",
     "transit_provider": "Tillamook County Transportation District",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/tillamook/gtfs-rt-vehicle-positions",

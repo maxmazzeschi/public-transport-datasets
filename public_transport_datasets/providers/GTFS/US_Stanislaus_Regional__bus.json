@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Stanislaus County, Alameda County, San Joaquin County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Stanislaus County, Alameda County, San Joaquin County",
+    "location_summary": "United States, California, Stanislaus County, Alameda County, San Joaquin County",
     "type": "bus",
     "transit_provider": "Stanislaus Regional Transit Authority (StanRTA)",
     "vehicle_positions_url": "https://max.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

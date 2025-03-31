@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Campbell River",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, British Columbia, Campbell River",
+    "location_summary": "Canada, British Columbia, Campbell River",
     "type": "bus",
     "transit_provider": "BC Transit (Campbell River Transit)",
     "vehicle_positions_url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=12",

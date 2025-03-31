@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Montreal, Brossard, Saint-Constant, Longueuil, Candiac, Delson, Sainte-Catherine",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Montreal, Brossard, Saint-Constant, Longueuil, Candiac, Delson, Sainte-Catherine",
+    "location_summary": "Canada, Quebec, Montreal, Brossard, Saint-Constant, Longueuil, Candiac, Delson, Sainte-Catherine",
     "type": "bus",
     "transit_provider": "Exo Roussillon",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITROUS",

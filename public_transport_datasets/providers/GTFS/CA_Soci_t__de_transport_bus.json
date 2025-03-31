@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Longueuil, Sainte-Julie, Saint-Roch-de-Richelieu, Varennes, Sorel-Tracy",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Longueuil, Sainte-Julie, Saint-Roch-de-Richelieu, Varennes, Sorel-Tracy",
+    "location_summary": "Canada, Quebec, Longueuil, Sainte-Julie, Saint-Roch-de-Richelieu, Varennes, Sorel-Tracy",
     "type": "bus",
     "transit_provider": "Soci\u00e9t\u00e9 de transport collectif de Pierre-De Saurel",
     "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=pierre-de-saurel",

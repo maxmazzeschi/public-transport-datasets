@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Los Angeles County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Los Angeles County",
+    "location_summary": "United States, California, Los Angeles County",
     "type": "bus",
     "transit_provider": "Pasadena Transit",
     "vehicle_positions_url": "http://rt.pasadenatransit.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",

@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Grafton County, Windsor County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New Hampshire, Grafton County, Windsor County",
+    "location_summary": "United States, New Hampshire, Grafton County, Windsor County",
     "type": "bus",
     "transit_provider": "Advance Transit (AT)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/advance-transit/gtfs-rt-vehicle-positions",

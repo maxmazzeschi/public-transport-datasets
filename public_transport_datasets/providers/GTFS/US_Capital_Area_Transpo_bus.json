@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Ingham County, Eaton County, Clinton County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Michigan, Ingham County, Eaton County, Clinton County",
+    "location_summary": "United States, Michigan, Ingham County, Eaton County, Clinton County",
     "type": "bus",
     "transit_provider": "Capital Area Transportation Authority",
     "vehicle_positions_url": "http://developers.cata.org/gtfsrt/vehicle/vehiclepositions.pb",

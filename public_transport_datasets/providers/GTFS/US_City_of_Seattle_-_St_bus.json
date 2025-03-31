@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Jefferson County, Thurston County, Kitsap County, Snohomish County, Pierce County, King County, Island County, San Juan County, Skagit County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Jefferson County, Thurston County, Kitsap County, Snohomish County, Pierce County, King County, Island County, San Juan County, Skagit County",
+    "location_summary": "United States, Washington, Jefferson County, Thurston County, Kitsap County, Snohomish County, Pierce County, King County, Island County, San Juan County, Skagit County",
     "type": "bus",
     "transit_provider": "City of Seattle - Streetcar",
     "vehicle_positions_url": "https://api.pugetsound.onebusaway.org/api/gtfs_realtime/vehicle-positions-for-agency/23.pb",

@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Boulder County, Gilpin County, Larimer County, Arapahoe County, Weld County, Denver County, Adams County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Colorado, Boulder County, Gilpin County, Larimer County, Arapahoe County, Weld County, Denver County, Adams County",
+    "location_summary": "United States, Colorado, Boulder County, Gilpin County, Larimer County, Arapahoe County, Weld County, Denver County, Adams County",
     "type": "bus",
     "transit_provider": "Via Mobility",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/via/gtfs-rt-vehicle-positions",

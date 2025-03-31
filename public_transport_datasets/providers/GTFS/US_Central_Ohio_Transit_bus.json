@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Licking County, Delaware County, Franklin County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Ohio, Licking County, Delaware County, Franklin County",
+    "location_summary": "United States, Ohio, Licking County, Delaware County, Franklin County",
     "type": "bus",
     "transit_provider": "Central Ohio Transit Authority",
     "vehicle_positions_url": "http://realtime.cota.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",

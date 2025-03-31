@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Saint-Mathieu-de-Beloeil, Saint-Bruno-de-Montarville, Longueuil, Sainte-Julie, Beloeil, Saint-Hyacinthe, Brossard",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Saint-Mathieu-de-Beloeil, Saint-Bruno-de-Montarville, Longueuil, Sainte-Julie, Beloeil, Saint-Hyacinthe, Brossard",
+    "location_summary": "Canada, Quebec, Saint-Mathieu-de-Beloeil, Saint-Bruno-de-Montarville, Longueuil, Sainte-Julie, Beloeil, Saint-Hyacinthe, Brossard",
     "type": "bus",
     "transit_provider": "Exo Ville de Sainte-Julie",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=OMITSJU",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Polk County, Dallas County, Warren County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Iowa, Polk County, Dallas County, Warren County",
+    "location_summary": "United States, Iowa, Polk County, Dallas County, Warren County",
     "type": "bus",
     "transit_provider": "Des Moines Area Regional Transit Authority (DART)",
     "vehicle_positions_url": "https://www.ridedart.com/gtfs/real-time/vehicle-positions",

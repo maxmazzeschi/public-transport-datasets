@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Benton County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Benton County",
+    "location_summary": "United States, Oregon, Benton County",
     "type": "bus",
     "transit_provider": "Philomath Connection",
     "vehicle_positions_url": "http://www.corvallistransit.com/rtt/public/utility/gtfsrealtime.aspx/vehicleposition?ProjectID=PC",

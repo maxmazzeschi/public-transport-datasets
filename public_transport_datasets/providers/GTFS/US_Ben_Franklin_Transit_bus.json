@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Franklin County, Benton County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Washington, Franklin County, Benton County",
+    "location_summary": "United States, Washington, Franklin County, Benton County",
     "type": "bus",
     "transit_provider": "Ben Franklin Transit",
     "vehicle_positions_url": "https://myride.bft.org/Realtime/GTFS_VehiclePositions.pb",

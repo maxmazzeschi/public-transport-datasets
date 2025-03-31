@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Peoria County, Tazewell County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Illinois, Peoria County, Tazewell County",
+    "location_summary": "United States, Illinois, Peoria County, Tazewell County",
     "type": "bus",
     "transit_provider": "Greater Peoria Mass Transit",
     "vehicle_positions_url": "https://clk.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=vehicleposition",

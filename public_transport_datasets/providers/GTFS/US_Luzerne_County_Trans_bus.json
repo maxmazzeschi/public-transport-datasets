@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Luzerne County, Lackawanna County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Luzerne County, Lackawanna County",
+    "location_summary": "United States, Pennsylvania, Luzerne County, Lackawanna County",
     "type": "bus",
     "transit_provider": "Luzerne County Transportation Authority",
     "vehicle_positions_url": "https://realtimelctabus.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

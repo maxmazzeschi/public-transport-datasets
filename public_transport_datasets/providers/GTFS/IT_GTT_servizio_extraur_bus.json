@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "IT",
     "city": "Turin",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Italy, Turin, Turin",
+    "location_summary": "Italy, Turin, Turin",
     "type": "bus",
     "transit_provider": "GTT servizio extraurbano, GTT Servizio Urbano, GTT Servizi Turistici",
     "vehicle_positions_url": "http://percorsieorari.gtt.to.it/das_gtfsrt/vehicle_position.aspx",

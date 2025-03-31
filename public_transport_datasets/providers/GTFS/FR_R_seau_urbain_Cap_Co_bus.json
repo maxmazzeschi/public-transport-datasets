@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "FR",
     "city": "Ille-et-Vilaine, Manche",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 France, Brittany, Ille-et-Vilaine, Manche",
+    "location_summary": "France, Brittany, Ille-et-Vilaine, Manche",
     "type": "bus",
     "transit_provider": "R\u00e9seau urbain Cap Cotentin",
     "vehicle_positions_url": "https://pysae.com/api/v2/groups/transdev-cotentin/gtfs-rt",

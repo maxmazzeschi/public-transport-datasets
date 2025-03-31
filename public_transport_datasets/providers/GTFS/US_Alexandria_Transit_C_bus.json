@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Alexandria, Fairfax County, Arlington County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Virginia, Alexandria, Fairfax County, Arlington County",
+    "location_summary": "United States, Virginia, Alexandria, Fairfax County, Arlington County",
     "type": "bus",
     "transit_provider": "Alexandria Transit Company",
     "vehicle_positions_url": "https://realtime.prod.dash.obaweb.org/agency/71/tripUpdates",

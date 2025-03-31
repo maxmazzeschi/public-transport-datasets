@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Ada County, Canyon County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Idaho, Ada County, Canyon County",
+    "location_summary": "United States, Idaho, Ada County, Canyon County",
     "type": "bus",
     "transit_provider": "Valley Regional Transit",
     "vehicle_positions_url": "https://www.valleyregionaltransit.org/GTFS/position_updates.pb",

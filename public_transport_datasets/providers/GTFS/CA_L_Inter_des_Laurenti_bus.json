@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Saint-Faustin\u2013Lac-Carr\u00e9, Mont-Tremblant, Val-David, Ivry-sur-le-Lac, Saint-Sauveur, Piedmont, Val-Morin, Pr\u00e9vost, Saint-J\u00e9r\u00f4me, Sainte-Ad\u00e8le, Sainte-Agathe-des-Monts, Sainte-Anne-des-Lacs",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Saint-Faustin\u2013Lac-Carr\u00e9, Mont-Tremblant, Val-David, Ivry-sur-le-Lac, Saint-Sauveur, Piedmont, Val-Morin, Pr\u00e9vost, Saint-J\u00e9r\u00f4me, Sainte-Ad\u00e8le, Sainte-Agathe-des-Monts, Sainte-Anne-des-Lacs",
+    "location_summary": "Canada, Quebec, Saint-Faustin\u2013Lac-Carr\u00e9, Mont-Tremblant, Val-David, Ivry-sur-le-Lac, Saint-Sauveur, Piedmont, Val-Morin, Pr\u00e9vost, Saint-J\u00e9r\u00f4me, Sainte-Ad\u00e8le, Sainte-Agathe-des-Monts, Sainte-Anne-des-Lacs",
     "type": "bus",
     "transit_provider": "L'Inter des Laurentides",
     "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?file=vp&dataset=linter",

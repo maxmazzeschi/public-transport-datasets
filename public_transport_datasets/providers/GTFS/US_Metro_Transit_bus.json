@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Hennepin County, Anoka County, Washington County, Dakota County, Sherburne County, Stearns County, Ramsey County, Carver County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Minnesota, Hennepin County, Anoka County, Washington County, Dakota County, Sherburne County, Stearns County, Ramsey County, Carver County",
+    "location_summary": "United States, Minnesota, Hennepin County, Anoka County, Washington County, Dakota County, Sherburne County, Stearns County, Ramsey County, Carver County",
     "type": "bus",
     "transit_provider": "Metro Transit",
     "vehicle_positions_url": "https://svc.metrotransit.org/mtgtfs/vehiclepositions.pb",

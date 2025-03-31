@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Blair County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Blair County",
+    "location_summary": "United States, Pennsylvania, Blair County",
     "type": "bus",
     "transit_provider": "Altoona Metro Transit",
     "vehicle_positions_url": "https://amtran.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

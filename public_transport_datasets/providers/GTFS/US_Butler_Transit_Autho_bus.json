@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Butler County, Allegheny County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Butler County, Allegheny County",
+    "location_summary": "United States, Pennsylvania, Butler County, Allegheny County",
     "type": "bus",
     "transit_provider": "Butler Transit Authority",
     "vehicle_positions_url": "https://butlerivl.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

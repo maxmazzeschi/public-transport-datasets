@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Fairfield County, New Haven County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Connecticut, Fairfield County, New Haven County",
+    "location_summary": "United States, Connecticut, Fairfield County, New Haven County",
     "type": "bus",
     "transit_provider": "Norwalk Transit District",
     "vehicle_positions_url": "https://mystop.norwalktransit.com/InfoPoint/gtfs-realtime.ashx?type=vehicleposition",

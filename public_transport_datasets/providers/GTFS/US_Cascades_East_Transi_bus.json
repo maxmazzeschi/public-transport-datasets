@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Jefferson County, Crook County, Deschutes County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Jefferson County, Crook County, Deschutes County",
+    "location_summary": "United States, Oregon, Jefferson County, Crook County, Deschutes County",
     "type": "bus",
     "transit_provider": "Cascades East Transit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/coic/gtfs-rt-vehicle-positions",

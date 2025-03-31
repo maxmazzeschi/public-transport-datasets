@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "PL",
     "city": "Goleni\u00f3w County, Szczecin, Police County, Stargard County, Gryfino County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Poland, West Pomeranian Voivodeship, Goleni\u00f3w County, Szczecin, Police County, Stargard County, Gryfino County",
+    "location_summary": "Poland, West Pomeranian Voivodeship, Goleni\u00f3w County, Szczecin, Police County, Stargard County, Gryfino County",
     "type": "bus",
     "transit_provider": "Zarz\u0105d Dr\u00f3g i Transportu Miejskiego (ZDiTM)",
     "vehicle_positions_url": "https://www.zditm.szczecin.pl/storage/gtfs/gtfs-rt-vehicles.pb",

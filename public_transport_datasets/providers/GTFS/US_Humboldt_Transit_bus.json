@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Mendocino County, Humboldt County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Mendocino County, Humboldt County",
+    "location_summary": "United States, California, Mendocino County, Humboldt County",
     "type": "bus",
     "transit_provider": "Humboldt Transit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/redwood/gtfs-rt-vehicle-positions",

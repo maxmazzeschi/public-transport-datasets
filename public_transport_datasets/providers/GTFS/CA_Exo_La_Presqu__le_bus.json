@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Sainte-Anne-de-Bellevue, Terrasse-Vaudreuil, L'\u00cele-Perrot, Rigaud, Pointe-Claire, Notre-Dame-de-l'\u00cele-Perrot, Hudson, Vaudreuil-Dorion, Dollard-Des-Ormeaux, Saint-Lazare, Montreal, Pincourt",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Sainte-Anne-de-Bellevue, Terrasse-Vaudreuil, L'\u00cele-Perrot, Rigaud, Pointe-Claire, Notre-Dame-de-l'\u00cele-Perrot, Hudson, Vaudreuil-Dorion, Dollard-Des-Ormeaux, Saint-Lazare, Montreal, Pincourt",
+    "location_summary": "Canada, Quebec, Sainte-Anne-de-Bellevue, Terrasse-Vaudreuil, L'\u00cele-Perrot, Rigaud, Pointe-Claire, Notre-Dame-de-l'\u00cele-Perrot, Hudson, Vaudreuil-Dorion, Dollard-Des-Ormeaux, Saint-Lazare, Montreal, Pincourt",
     "type": "bus",
     "transit_provider": "Exo La Presqu'\u00eele",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITPI",

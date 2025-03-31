@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Washoe County, El Dorado County, Douglas County, Carson City",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Nevada, Washoe County, El Dorado County, Douglas County, Carson City",
+    "location_summary": "United States, Nevada, Washoe County, El Dorado County, Douglas County, Carson City",
     "type": "bus",
     "transit_provider": "Tahoe Transportation District (TTD)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/bluego/gtfs-rt-vehicle-positions",

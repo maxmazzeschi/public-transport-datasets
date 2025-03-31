@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Dorchester County, Williamsburg County, Charleston County, Orangeburg County, Berkeley County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, South Carolina, Dorchester County, Williamsburg County, Charleston County, Orangeburg County, Berkeley County",
+    "location_summary": "United States, South Carolina, Dorchester County, Williamsburg County, Charleston County, Orangeburg County, Berkeley County",
     "type": "bus",
     "transit_provider": "Charleston Area Regional Transportation Authority",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/bcdcog/gtfs-rt-vehicle-positions",

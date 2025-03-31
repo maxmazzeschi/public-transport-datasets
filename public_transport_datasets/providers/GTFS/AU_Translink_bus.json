@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "AU",
     "city": "North Stradbroke Island",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, Queensland, Redland City",
+    "location_summary": "Australia, Queensland, Redland City",
     "type": "bus",
     "transit_provider": "Translink",
     "vehicle_positions_url": "https://gtfsrt.api.translink.com.au/api/realtime/NSI/VehiclePositions",

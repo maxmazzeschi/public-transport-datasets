@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Virginia",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Virginia, Virginia",
+    "location_summary": "United States, Virginia, Virginia",
     "type": "bus",
     "transit_provider": "Virginia Railway Express",
     "vehicle_positions_url": "https://gtfs.vre.org/containercdngtfsupload/VehiclePositionFeed",

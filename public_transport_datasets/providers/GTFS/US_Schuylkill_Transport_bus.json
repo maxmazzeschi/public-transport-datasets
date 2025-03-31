@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Schuylkill County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Schuylkill County",
+    "location_summary": "United States, Pennsylvania, Schuylkill County",
     "type": "bus",
     "transit_provider": "Schuylkill Transportation System",
     "vehicle_positions_url": "https://sts.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

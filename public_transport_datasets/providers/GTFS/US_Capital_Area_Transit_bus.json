@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "East Baton Rouge Parish",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Louisiana, East Baton Rouge Parish",
+    "location_summary": "United States, Louisiana, East Baton Rouge Parish",
     "type": "bus",
     "transit_provider": "Capital Area Transit System",
     "vehicle_positions_url": "https://cats.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=vehicleposition",

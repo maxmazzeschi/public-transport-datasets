@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "La Prairie, Saint-Jean-sur-Richelieu, Brossard, Montreal",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, La Prairie, Saint-Jean-sur-Richelieu, Brossard, Montreal",
+    "location_summary": "Canada, Quebec, La Prairie, Saint-Jean-sur-Richelieu, Brossard, Montreal",
     "type": "bus",
     "transit_provider": "Saint Jean Sur Richelieu",
     "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?file=vp&dataset=saint-jean-sur-richelieu",

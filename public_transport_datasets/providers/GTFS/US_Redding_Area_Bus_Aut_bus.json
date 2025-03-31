@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Shasta County, Butte County, Tehama County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Shasta County, Butte County, Tehama County",
+    "location_summary": "United States, California, Shasta County, Butte County, Tehama County",
     "type": "bus",
     "transit_provider": "Redding Area Bus Authority",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/redding/gtfs-rt-vehicle-positions",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Wilkes Barre",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Wilkes Barre",
+    "location_summary": "United States, Pennsylvania, Wilkes Barre",
     "type": "bus",
     "transit_provider": "Hazleton Public Transit",
     "vehicle_positions_url": "https://realtimehpts.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

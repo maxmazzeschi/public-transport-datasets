@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Long Beach",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Long Beach",
+    "location_summary": "United States, California, Long Beach",
     "type": "bus",
     "transit_provider": "Torrance Transit",
     "vehicle_positions_url": "http://www.mybusinfo.com/gtfsrt/vehicles",

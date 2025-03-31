@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Madison County, Athens-Clarke County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Georgia, Madison County, Athens-Clarke County",
+    "location_summary": "United States, Georgia, Madison County, Athens-Clarke County",
     "type": "bus",
     "transit_provider": "Athens Clarke County Transit",
     "vehicle_positions_url": "https://bustracker.accgov.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "FI",
     "city": "Lahti, Asikkala, K\u00e4rk\u00f6l\u00e4, Orimattila, Padasjoki, Hollola, Heinola",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Finland, P\u00e4ij\u00e4t-H\u00e4me, Lahti, Asikkala, K\u00e4rk\u00f6l\u00e4, Orimattila, Padasjoki, Hollola, Heinola",
+    "location_summary": "Finland, P\u00e4ij\u00e4t-H\u00e4me, Lahti, Asikkala, K\u00e4rk\u00f6l\u00e4, Orimattila, Padasjoki, Hollola, Heinola",
     "type": "bus",
     "transit_provider": "Haarasilta Toivo Samuli, J\u00e4rvisen Liikenne Oy, Koiviston Auto Oy, Lehtim\u00e4en Liikenne Oy, Bus Travel Oy Reissu Ruoti, Tilausliikenne Kuisma Ky",
     "vehicle_positions_url": "https://data.waltti.fi/lahti/api/gtfsrealtime/v1.0/feed/vehicleposition",

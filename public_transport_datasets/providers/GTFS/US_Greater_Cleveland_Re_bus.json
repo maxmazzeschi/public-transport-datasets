@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Lake County, Medina County, Cuyahoga County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Ohio, Lake County, Medina County, Cuyahoga County",
+    "location_summary": "United States, Ohio, Lake County, Medina County, Cuyahoga County",
     "type": "bus",
     "transit_provider": "Greater Cleveland Regional Transit Authority",
     "vehicle_positions_url": "http://gtfs.gcrta.org/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",

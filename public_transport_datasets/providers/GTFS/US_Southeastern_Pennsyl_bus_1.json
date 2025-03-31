@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Delaware County, Philadelphia County, New Castle County, Mercer County, Chester County, Bucks County, Montgomery County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Delaware County, Philadelphia County, New Castle County, Mercer County, Chester County, Bucks County, Montgomery County",
+    "location_summary": "United States, Pennsylvania, Delaware County, Philadelphia County, New Castle County, Mercer County, Chester County, Bucks County, Montgomery County",
     "type": "bus",
     "transit_provider": "Southeastern Pennsylvania Transportation Authority (SEPTA)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/septa/gtfs-rt-vehicle-positions",

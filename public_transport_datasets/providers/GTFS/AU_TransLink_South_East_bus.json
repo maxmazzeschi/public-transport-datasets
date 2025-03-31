@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "AU",
     "city": "South East Queensland",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Australia, Queensland, Ipswich City, Noosa Shire, Sunshine Coast Regional, Gold Coast City, Tweed Shire Council, Redland City, Logan City, Brisbane City, Moreton Bay Regional, Gympie Regional, Lockyer Valley Regional, Somerset Regional, Scenic Rim Regional",
+    "location_summary": "Australia, Queensland, Ipswich City, Noosa Shire, Sunshine Coast Regional, Gold Coast City, Tweed Shire Council, Redland City, Logan City, Brisbane City, Moreton Bay Regional, Gympie Regional, Lockyer Valley Regional, Somerset Regional, Scenic Rim Regional",
     "type": "bus",
     "transit_provider": "TransLink South East Queensland (TransLink SEQ)",
     "vehicle_positions_url": "https://gtfsrt.api.translink.com.au/api/realtime/SEQ/VehiclePositions",

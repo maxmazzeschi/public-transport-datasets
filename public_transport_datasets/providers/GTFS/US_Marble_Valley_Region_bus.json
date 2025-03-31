@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Windsor County, Rutland County, Bennington County, Addison County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Vermont, Windsor County, Rutland County, Bennington County, Addison County",
+    "location_summary": "United States, Vermont, Windsor County, Rutland County, Bennington County, Addison County",
     "type": "bus",
     "transit_provider": "Marble Valley Regional Transit District (MVRTD)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/marble-valley/gtfs-rt-vehicle-positions",

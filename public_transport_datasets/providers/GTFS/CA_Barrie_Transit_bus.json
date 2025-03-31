@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Barrie",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Ontario, Barrie",
+    "location_summary": "Canada, Ontario, Barrie",
     "type": "bus",
     "transit_provider": "Barrie Transit",
     "vehicle_positions_url": "http://www.myridebarrie.ca/gtfs/GTFS_VehiclePositions.pb",

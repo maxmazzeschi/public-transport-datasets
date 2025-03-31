@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "Longueuil, Sainte-Julie, Sorel-Tracy, Verch\u00e8res, Saint-Amable, Contrec\u0153ur, Montreal, Boucherville, Varennes",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Longueuil, Sainte-Julie, Sorel-Tracy, Verch\u00e8res, Saint-Amable, Contrec\u0153ur, Montreal, Boucherville, Varennes",
+    "location_summary": "Canada, Quebec, Longueuil, Sainte-Julie, Sorel-Tracy, Verch\u00e8res, Saint-Amable, Contrec\u0153ur, Montreal, Boucherville, Varennes",
     "type": "bus",
     "transit_provider": "Exo Sorel-Varennes",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITSV",

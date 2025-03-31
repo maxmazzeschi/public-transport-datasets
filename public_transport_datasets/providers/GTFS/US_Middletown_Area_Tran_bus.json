@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "New Haven County, Middlesex County, New London County, Hartford County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Connecticut, New Haven County, Middlesex County, New London County, Hartford County",
+    "location_summary": "United States, Connecticut, New Haven County, Middlesex County, New London County, Hartford County",
     "type": "bus",
     "transit_provider": "Middletown Area Transit",
     "vehicle_positions_url": "https://passio3.com/9town/passioTransit/gtfs/realtime",

@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Berks County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Pennsylvania, Berks County",
+    "location_summary": "United States, Pennsylvania, Berks County",
     "type": "bus",
     "transit_provider": "Berks Area Regional Transportation Authority",
     "vehicle_positions_url": "https://busfinder.bartabus.com/Infopoint/gtfs-realtime.ashx?type=vehicleposition",

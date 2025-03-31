@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Hawaii",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Hawaii, Hawaii",
+    "location_summary": "United States, Hawaii, Hawaii",
     "type": "bus",
     "transit_provider": "TheBus",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/thebus/gtfs-rt-vehicle-positions",

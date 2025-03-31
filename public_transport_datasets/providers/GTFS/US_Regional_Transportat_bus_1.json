@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Baltimore County, Queen Anne's County, Prince George's County, Howard County, Anne Arundel County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Maryland, Baltimore County, Queen Anne's County, Prince George's County, Howard County, Anne Arundel County",
+    "location_summary": "United States, Maryland, Baltimore County, Queen Anne's County, Prince George's County, Howard County, Anne Arundel County",
     "type": "bus",
     "transit_provider": "Regional Transportation Agency of Central Maryland (RTA)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/rtamaryland/gtfs-rt-vehicle-positions",

@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Loudoun County, Montgomery County, Alexandria, Washington, Prince George's County, Arlington County, Fairfax County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Virginia, Loudoun County, Montgomery County, Alexandria, Washington, Prince George's County, Arlington County, Fairfax County",
+    "location_summary": "United States, Virginia, Loudoun County, Montgomery County, Alexandria, Washington, Prince George's County, Arlington County, Fairfax County",
     "type": "bus",
     "transit_provider": "Washington Metropolitan Area Transit Authority (WMATA)",
     "vehicle_positions_url": "https://api.wmata.com/gtfs/rail-gtfsrt-vehiclepositions.pb",

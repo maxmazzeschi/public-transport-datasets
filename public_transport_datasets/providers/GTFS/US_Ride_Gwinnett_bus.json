@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Fulton County, DeKalb County, Gwinnett County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Georgia, Fulton County, DeKalb County, Gwinnett County",
+    "location_summary": "United States, Georgia, Fulton County, DeKalb County, Gwinnett County",
     "type": "bus",
     "transit_provider": "Ride Gwinnett",
     "vehicle_positions_url": "https://realtimegwinnett.availtec.com/InfoPoint/gtfs-realtime.ashx?type=vehicleposition",

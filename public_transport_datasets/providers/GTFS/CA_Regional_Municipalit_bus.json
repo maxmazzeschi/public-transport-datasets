@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Fort McMurray, Wood Buffalo",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Alberta, Fort McMurray, Wood Buffalo",
+    "location_summary": "Canada, Alberta, Fort McMurray, Wood Buffalo",
     "type": "bus",
     "transit_provider": "Regional Municipality of Wood Buffalo Transit",
     "vehicle_positions_url": "https://rmwb-gtfsrt.civilia.ca/pb/vehiclePositions.pb",

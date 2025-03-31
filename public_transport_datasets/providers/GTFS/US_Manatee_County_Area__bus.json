@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Sarasota",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Sarasota",
+    "location_summary": "United States, Florida, Sarasota",
     "type": "bus",
     "transit_provider": "Manatee County Area Transit",
     "vehicle_positions_url": "https://realtimemcat.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",

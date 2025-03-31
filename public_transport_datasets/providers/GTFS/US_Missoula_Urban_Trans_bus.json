@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Missoula County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Montana, Missoula County",
+    "location_summary": "United States, Montana, Missoula County",
     "type": "bus",
     "transit_provider": "Missoula Urban Transportation District (MUTD)",
     "vehicle_positions_url": "https://bt.mountainline.com/gtfsrt/vehicles",

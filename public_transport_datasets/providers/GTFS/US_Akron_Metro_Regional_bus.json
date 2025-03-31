@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Portage County, Summit County, Cuyahoga County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Ohio, Portage County, Summit County, Cuyahoga County",
+    "location_summary": "United States, Ohio, Portage County, Summit County, Cuyahoga County",
     "type": "bus",
     "transit_provider": "Akron Metro Regional Transit Authority",
     "vehicle_positions_url": "https://realtimemetro.availtec.com/infopoint/GTFS-Realtime.ashx?&Type=VehiclePosition&serverid=0",

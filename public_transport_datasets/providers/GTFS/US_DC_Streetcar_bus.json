@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Washington",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, District of Columbia, Washington",
+    "location_summary": "United States, District of Columbia, Washington",
     "type": "bus",
     "transit_provider": "DC Streetcar",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/dc-streetcar/gtfs-rt-vehicle-positions",

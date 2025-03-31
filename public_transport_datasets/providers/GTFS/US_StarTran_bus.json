@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Lancaster County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Nebraska, Lancaster County",
+    "location_summary": "United States, Nebraska, Lancaster County",
     "type": "bus",
     "transit_provider": "StarTran",
     "vehicle_positions_url": "https://startran.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",

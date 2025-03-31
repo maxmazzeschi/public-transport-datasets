@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Portland",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Oregon, Portland",
+    "location_summary": "United States, Oregon, Portland",
     "type": "bus",
     "transit_provider": "Washington Park Shuttle",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/washington-park/gtfs-rt-vehicle-positions",

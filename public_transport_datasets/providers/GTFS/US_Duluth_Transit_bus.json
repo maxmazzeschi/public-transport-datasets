@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Douglas County, Saint Louis County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Wisconsin, Douglas County, Saint Louis County",
+    "location_summary": "United States, Wisconsin, Douglas County, Saint Louis County",
     "type": "bus",
     "transit_provider": "Duluth Transit",
     "vehicle_positions_url": "https://duluthtransit.com/gtfsrt/Vehicle/VehiclePositions.pb",

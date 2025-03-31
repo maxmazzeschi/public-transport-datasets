@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Riverside County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, California, Riverside County",
+    "location_summary": "United States, California, Riverside County",
     "type": "bus",
     "transit_provider": "City of Banning Pass Transit System",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/banning/gtfs-rt-vehicle-positions",

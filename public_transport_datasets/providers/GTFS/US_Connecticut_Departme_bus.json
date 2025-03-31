@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "New Haven County, Hartford County, Hampden County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Connecticut, New Haven County, Hartford County, Hampden County",
+    "location_summary": "United States, Connecticut, New Haven County, Hartford County, Hampden County",
     "type": "bus",
     "transit_provider": "Connecticut Department of Transportation (ConnDOT)",
     "vehicle_positions_url": "https://cttprdtmgtfs.ctttrpcloud.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",

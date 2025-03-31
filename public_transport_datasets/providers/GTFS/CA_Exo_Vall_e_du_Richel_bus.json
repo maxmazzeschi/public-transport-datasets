@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "CA",
     "city": "McMasterville, Sainte-Madeleine, Sainte-Marie-Madeleine, Otterburn Park, Saint-Hyacinthe, Longueuil, Beloeil, Sainte-Julie, Saint-Mathieu-de-Beloeil, Montreal, Brossard, Mont-Saint-Hilaire, Saint-Bruno-de-Montarville, Saint-Basile-le-Grand",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, McMasterville, Sainte-Madeleine, Sainte-Marie-Madeleine, Otterburn Park, Saint-Hyacinthe, Longueuil, Beloeil, Sainte-Julie, Saint-Mathieu-de-Beloeil, Montreal, Brossard, Mont-Saint-Hilaire, Saint-Bruno-de-Montarville, Saint-Basile-le-Grand",
+    "location_summary": "Canada, Quebec, McMasterville, Sainte-Madeleine, Sainte-Marie-Madeleine, Otterburn Park, Saint-Hyacinthe, Longueuil, Beloeil, Sainte-Julie, Saint-Mathieu-de-Beloeil, Montreal, Brossard, Mont-Saint-Hilaire, Saint-Bruno-de-Montarville, Saint-Basile-le-Grand",
     "type": "bus",
     "transit_provider": "Exo Vall\u00e9e du Richelieu",
     "vehicle_positions_url": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=CITVR",

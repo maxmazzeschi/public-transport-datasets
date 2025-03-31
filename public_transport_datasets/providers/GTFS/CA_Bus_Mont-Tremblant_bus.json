@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "CA",
     "city": "Mont-Tremblant",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 Canada, Quebec, Mont-Tremblant",
+    "location_summary": "Canada, Quebec, Mont-Tremblant",
     "type": "bus",
     "transit_provider": "Bus Mont-Tremblant",
     "vehicle_positions_url": "https://zenbus.net/gtfs/rt/poll.proto?file=vp&dataset=tcmt6w8qbuxm",

@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Henderson County, Buncombe County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, North Carolina, Henderson County, Buncombe County",
+    "location_summary": "United States, North Carolina, Henderson County, Buncombe County",
     "type": "bus",
     "transit_provider": "Asheville Rides Transit",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/art-asheville/gtfs-rt-vehicle-positions",

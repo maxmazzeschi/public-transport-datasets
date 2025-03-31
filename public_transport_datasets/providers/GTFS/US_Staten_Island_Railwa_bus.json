@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Queens County, Kings County, New York County, Bronx County, Richmond County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, New York, Queens County, Kings County, New York County, Bronx County, Richmond County",
+    "location_summary": "United States, New York, Queens County, Kings County, New York County, Bronx County, Richmond County",
     "type": "bus",
     "transit_provider": "Staten Island Railway",
     "vehicle_positions_url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-si",

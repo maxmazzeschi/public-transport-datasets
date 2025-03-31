@@ -3,7 +3,7 @@
     "enabled": true,
     "country": "US",
     "city": "Pasco County, Hillsborough County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Florida, Pasco County, Hillsborough County",
+    "location_summary": "United States, Florida, Pasco County, Hillsborough County",
     "type": "bus",
     "transit_provider": "Hillsborough Area Regional Transit",
     "vehicle_positions_url": "http://api.tampa.onebusaway.org:8088/vehicle-positions",

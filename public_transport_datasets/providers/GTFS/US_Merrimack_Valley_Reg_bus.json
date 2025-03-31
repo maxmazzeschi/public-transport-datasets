@@ -3,7 +3,7 @@
     "enabled": false,
     "country": "US",
     "city": "Suffolk County, Rockingham County, Middlesex County, Essex County",
-    "location_summary": "\ud83c\uddfa\ud83c\uddf8 United States, Massachusetts, Suffolk County, Rockingham County, Middlesex County, Essex County",
+    "location_summary": "United States, Massachusetts, Suffolk County, Rockingham County, Middlesex County, Essex County",
     "type": "bus",
     "transit_provider": "Merrimack Valley Regional Transit Authority (MVRTA)",
     "vehicle_positions_url": "https://api.goswift.ly/real-time/massdot-mvrta/gtfs-rt-vehicle-positions",
