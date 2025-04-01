@@ -13,6 +13,6 @@
     "license_url": "https://developer.translink.ca/Home/TermsOfUse",
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "",
+    "static_gtfs_url": "https://transitfeeds.com/p/translink-vancouver/29/latest/download",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1705"
 }

@@ -40,8 +40,8 @@ class Dataset:
                     self.src.get("vehicle_positions_headers", None),
                     self.src["refresh_interval"],
                 )
-        static_gtfs_url = self.src["static_gtfs_url"]
-        if static_gtfs_url:
+        static_gtfs_url = self.src.get("static_gtfs_url")
+        if static_gtfs_url is not None and static_gtfs_url != "":
             temp_file_path = ""
             try:
                 temp_filename = ""

@@ -35,7 +35,14 @@ with open("../Report.md", "w", encoding="utf-8") as f:
             city = dataset["city"]
             ds_id = dataset["id"]
             ds = DatasetsProvider.get_dataset(ds_id)
-            has_stops = dataset.get("static_gtfs_url", None) not in [None, ""]
+            schedule_url = dataset.get("static_gtfs_url", None)
+            stops = "?"
+            if schedule_url is None:
+                stops = "No"
+            elif schedule_url == "":
+                stops = "?"
+            else:
+                stops = "Yes"
             vehicle_list = ds.get_vehicles_position(90, -90, +180, -180, "")
             if vehicle_list["last_error"] is not None:
                 info = vehicle_list["last_error"]
@@ -68,7 +75,6 @@ with open("../Report.md", "w", encoding="utf-8") as f:
                     city = city[: limit - 3] + "..."
             api_env_var = dataset.get("vehicle_positions_url_api_key_env_var", "")
             issued_by = dataset.get("authentication_info_url", "")
-            stops = "Y" if has_stops else "?"
             if api_env_var is None:
                 api_env_var = ""
             f.write(

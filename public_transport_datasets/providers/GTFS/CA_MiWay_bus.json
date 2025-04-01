@@ -13,6 +13,6 @@
     "license_url": "http://www.mississauga.ca/portal/miway/developerdownload",
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "",
+    "static_gtfs_url": "https://www.miapp.ca/GTFS/google_transit.zip",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1612"
 }

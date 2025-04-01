@@ -13,6 +13,6 @@
     "license_url": "https://www.bctransit.com/open-data/terms-of-use",
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "",
+    "static_gtfs_url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=11",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1405"
 }

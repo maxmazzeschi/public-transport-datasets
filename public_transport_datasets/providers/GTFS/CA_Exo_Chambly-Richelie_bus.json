@@ -13,6 +13,6 @@
     "license_url": "https://exo.quebec/fr/a-propos/donnees-ouvertes/FormulaireDemandeAcces",
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "",
+    "static_gtfs_url": "https://exo.quebec/xdata/citcrc/google_transit.zip",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1365"
 }

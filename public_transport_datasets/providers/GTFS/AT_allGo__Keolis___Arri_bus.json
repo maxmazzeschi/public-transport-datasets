@@ -13,6 +13,5 @@
     "license_url": "https://old.datahub.io/dataset/gtfs-nl",
     "vehicle_positions_url_type": "GTFS-Realtime",
     "refresh_interval": 30,
-    "static_gtfs_url": "http://gtfs.ovapi.nl/gtfs-nl.zip",
     "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-1646"
 }
