@@ -46,9 +46,10 @@ class Dataset:
             try:
                 temp_filename = ""
                 response = requests.get(self.src["static_gtfs_url"])
-                if (response.status_code != 200):
+                if response.status_code != 200:
                     raise Exception(
-                        f"Error {response.status_code} {response.headers} getting data from {self.src['static_gtfs_url']}"
+                        f"Error {response.status_code} {response.headers}"
+                        f" getting data from {self.src['static_gtfs_url']}"
                     )
                 temp_filename = tempfile.NamedTemporaryFile(
                     suffix=".zip", delete=False
@@ -56,12 +57,16 @@ class Dataset:
                 with open(temp_filename, "wb") as file:
                     file.write(response.content)
                 # Extract the ZIP file
-                temp_file_path = os.path.join(tempfile.gettempdir(), f"{uuid.uuid4()}")
+                temp_file_path = os.path.join(tempfile.gettempdir(),
+                                              f"{uuid.uuid4()}")
                 with zipfile.ZipFile(temp_filename, "r") as zip_ref:
                     zip_ref.extractall(temp_file_path)
                 os.remove(temp_filename)
             except Exception as e:
-                print(f"Error downloading GTFS data: {e} {temp_filename} provierId {self.src['id']}")
+                print(
+                    f"Error downloading GTFS data: {e} {temp_filename}"
+                    f" provierId {self.src['id']}"
+                )
                 self.gdf = None
                 return
             # Process the stops.txt file
@@ -84,18 +89,19 @@ class Dataset:
                 # Load the CSV file while handling missing values
                 df = con.execute(
                     f"""
-                    SELECT 
-                        * 
+                    SELECT
+                        *
                     FROM read_csv_auto(
-                        '{fname}', 
-                        header=True, 
-                        nullstr='', 
+                        '{fname}',
+                        header=True,
+                        nullstr='',
                         types={types}
                     )
                     """
                 ).df()
 
-                # Ensure stop_code or stop_id is treated as a string and trim spaces
+                # Ensure stop_code or stop_id is treated as a
+                # string and trim spaces
                 if "stop_code" in df.columns:
                     df["stop_code"] = df["stop_code"].astype(str).str.strip()
                 else:
@@ -110,13 +116,17 @@ class Dataset:
                 )
                 self.gdf = gpd.GeoDataFrame(df, geometry="geometry")
 
-                # Set the coordinate reference system (CRS) to WGS84 (EPSG:4326)
+                # Set the coordinate reference system (CRS)
+                # to WGS84 (EPSG:4326)
                 self.gdf.set_crs(epsg=4326, inplace=True)
 
                 # After processing the files, remove the temp_file_path folder
                 shutil.rmtree(temp_file_path, ignore_errors=True)
             except Exception as e:
-                print(f"Error processing GTFS data: {e} {fname} provierId {self.src['id']}")
+                print(
+                    f"Error processing GTFS data: {e} {fname} provierId "
+                    f"{self.src['id']}"
+                )
                 raise e
         else:
             self.gdf = None
@@ -138,7 +148,8 @@ class Dataset:
         # Filter stops within the bounding box
         filtered_stops = self.gdf[self.gdf.geometry.within(bounding_box)]
 
-        # Extract latitude, longitude, stop_name, and stop_code as a list of dictionaries
+        # Extract latitude, longitude, stop_name, and stop_code as a list
+        # of dictionaries
         stops_list = [
             {
                 "lat": point.y,

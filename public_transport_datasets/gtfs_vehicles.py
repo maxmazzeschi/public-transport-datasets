@@ -29,7 +29,12 @@ class GTFS_Vehicles(Vehicles):
                 response = requests.get(self.url)
             if response.status_code != 200:
                 self.last_error = response
-                print(f"Error {response.status_code} getting data from {self.url}")
+                print(
+                    (
+                        f"Error {response.status_code} getting data from "
+                        f"{self.url}"
+                    )
+                )
                 return
             self.last_error = None
             feed.ParseFromString(response.content)
@@ -73,17 +78,20 @@ class GTFS_Vehicles(Vehicles):
 
     def get_vehicles_position(self, north, south, east, west, selected_routes):
         """
-        Fetches vehicle positions within the specified bounding box and for selected routes.
+        Fetches vehicle positions within the specified bounding box and for
+          selected routes.
 
         Args:
             north (float): Northern latitude boundary.
             south (float): Southern latitude boundary.
             east (float): Eastern longitude boundary.
             west (float): Western longitude boundary.
-            selected_routes (str): Comma-separated route IDs to filter vehicles.
+            selected_routes (str): Comma-separated route IDs to
+            filter vehicles.
 
         Returns:
-            dict: A dictionary containing created_date, last_update, and filtered vehicles.
+            dict: A dictionary containing created_date, last_update, and
+            filtered vehicles.
         """
         north = float(north)
         south = float(south)

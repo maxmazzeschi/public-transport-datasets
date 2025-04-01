@@ -42,14 +42,17 @@ class DatasetsProvider:
     def load_sources():
         with available_datasets_lock:
             if available_datasets == {}:
-                with os.scandir(DatasetsProvider.get_config_path()) as file_list:
+                config_path = DatasetsProvider.get_config_path()
+                with os.scandir(config_path) as file_list:
                     for entry in file_list:
                         if re.search(r"\.json", os.fsdecode(entry.name)):
                             try:
                                 with open(entry.path) as f:
                                     provider = json.load(f)
                                     provider_hash = provider["id"]
-                                    available_datasets[provider_hash] = provider
+                                    available_datasets[
+                                        provider_hash
+                                    ] = provider
                             except Exception as ex:
                                 print(f"Error {ex} {entry.name}")
 

@@ -25,10 +25,13 @@ with open("../Report.md", "w", encoding="utf-8") as f:
     f.write("# Public Transport Datasets Report\n")
     f.write("## Active Datasets\n")
     f.write(
-        "| Country | City | Vechicles | Speed Info | Bearing Info | Has stops |ENV VAR for API KEY|Issued by|\n"
-    )
+                "| Country | City | Vechicles | Speed Info | Bearing Info | Has stops |ENV VAR for API KEY|Issued by|\n"
+        )
     f.write(
-        "| ------- | ---- | --------- | ---------- | ------------ | --------- | ----------------- | ------- |\n"
+        (
+            "| ------- | ---- | --------- | ---------- | ------------ | --------- | "
+            "----------------- | ------- |\n"
+        )
     )
     for country, datasets in active_datasets.items():
         for dataset in datasets:
@@ -78,7 +81,10 @@ with open("../Report.md", "w", encoding="utf-8") as f:
             if api_env_var is None:
                 api_env_var = ""
             f.write(
-                f"|{country}|{city}|{info}|{speed_info:.2f}%|{bearing_info:.2f}%|{stops}|{api_env_var}|{issued_by}|\n"
+                (
+                    f"|{country}|{city}|{info}|{speed_info:.2f}%|{bearing_info:.2f}%|"
+                    f"{stops}|{api_env_var}|{issued_by}|\n"
+                )
             )
     f.write("\n")
     f.write("\n")

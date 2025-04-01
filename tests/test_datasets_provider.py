@@ -3,8 +3,6 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-import json
-import pytest
 from public_transport_datasets.datasets_provider import DatasetsProvider
 
 
