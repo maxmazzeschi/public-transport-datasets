@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-
+  workflow_dispatch:  # Enables manual triggering of the workflow
 
 jobs:
   build:
@@ -36,4 +36,4 @@ jobs:
       - name: Kill VPN Connection
         if: always()
         run: |
-            sudo pkill openvpn 
+            sudo pkill openvpn
