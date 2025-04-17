@@ -1,0 +1,18 @@
+{
+    "id": "ea3cf66568bd4fc09381d24095d32574f5420308687c48119785698b92ab78e7",
+    "enabled": true,
+    "country": "PL",
+    "city": "Krakow",
+    "location_summary": "Poland, Krakow",
+    "type": "bus",
+    "transit_provider": "Zarząd Transportu Publicznego w Krakowie (ZTP Kraków)",
+    "vehicle_positions_url": "https://gtfs.ztp.krakow.pl/VehiclePositions_T.pb",
+    "authentication_type": 0,
+    "authentication_info_url": "",
+    "api_key_parameter_name": "",
+    "license_url": "",
+    "vehicle_positions_url_type": "GTFS-Realtime",
+    "refresh_interval": 60,
+    "static_gtfs_url": "https://gtfs.ztp.krakow.pl/GTFS_KRK_A.zip",
+    "source_url": "https://mobilitydatabase.org/feeds/gtfs_rt/mdb-2340"
+}
