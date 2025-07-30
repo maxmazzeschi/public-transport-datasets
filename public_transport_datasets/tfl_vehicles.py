@@ -68,8 +68,7 @@ class TFL_Vehicles(Vehicles):
             self.update_vehicle_positions()
             time.sleep(self.refresh_interval)
 
-    def get_vehicles_positions(self, north, south, east, west,
-                               selected_routes):
+    def get_vehicles_positions(self, north, south, east, west, selected_routes):
         north = float(north)
         south = float(south)
         east = float(east)

@@ -32,12 +32,8 @@ class SIRI_Vehicles(Vehicles):
         for match in matches:
             vehicle_id = match["MonitoredVehicleJourney"]["VehicleRef"]
             route_id = match["MonitoredVehicleJourney"]["PublishedLineName"]
-            latitude = match["MonitoredVehicleJourney"][
-                "VehicleLocation"
-            ]["Latitude"]
-            longitude = match["MonitoredVehicleJourney"]["VehicleLocation"][
-                "Longitude"
-            ]
+            latitude = match["MonitoredVehicleJourney"]["VehicleLocation"]["Latitude"]
+            longitude = match["MonitoredVehicleJourney"]["VehicleLocation"]["Longitude"]
             bearing = match["MonitoredVehicleJourney"]["Bearing"]
             speed = "0"
             new_vehicles.append(
@@ -59,8 +55,7 @@ class SIRI_Vehicles(Vehicles):
             self.update_vehicle_positions()
             time.sleep(self.refresh_interval)
 
-    def get_vehicles_positions(self, north, south, east, west,
-                               selected_routes):
+    def get_vehicles_positions(self, north, south, east, west, selected_routes):
         north = float(north)
         south = float(south)
         east = float(east)

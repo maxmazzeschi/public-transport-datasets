@@ -17,14 +17,13 @@ class Dataset:
     def __init__(self, provider):
         self.src = provider
         self.vehicle_url = self.src["vehicle_positions_url"]
-        
+
         static_gtfs_url = self.src.get("static_gtfs_url")
         if static_gtfs_url is not None and static_gtfs_url != "":
             temp_filename = tempfile.NamedTemporaryFile(
-                    suffix=".zip", delete=False
-                ).name
-            temp_file_path = os.path.join(tempfile.gettempdir(),
-                                              f"{uuid.uuid4()}")
+                suffix=".zip", delete=False
+            ).name
+            temp_file_path = os.path.join(tempfile.gettempdir(), f"{uuid.uuid4()}")
             try:
                 os.makedirs(temp_file_path, exist_ok=True)
                 response = requests.get(self.src["static_gtfs_url"])
@@ -37,7 +36,7 @@ class Dataset:
                 with open(temp_filename, "wb") as file:
                     file.write(response.content)
                 # Extract the ZIP file
-              
+
                 with zipfile.ZipFile(temp_filename, "r") as zip_ref:
                     zip_ref.extractall(temp_file_path)
                 os.remove(temp_filename)
@@ -98,8 +97,7 @@ class Dataset:
                 # Set the coordinate reference system (CRS)
                 # to WGS84 (EPSG:4326)
                 self.gdf.set_crs(epsg=4326, inplace=True)
-        
-               
+
             except Exception as e:
                 print(
                     f"Error processing GTFS data: {e} {fname} provierId "
@@ -140,14 +138,16 @@ class Dataset:
                         )
                         """
                     ).df()
-                
+
                 # Ensure stop_code or stop_id is treated as a string and trim spaces
                 if "stop_code" in stop_times.columns:
-                    stop_times["stop_code"] = stop_times["stop_code"].astype(str).str.strip()
-                
+                    stop_times["stop_code"] = (
+                        stop_times["stop_code"].astype(str).str.strip()
+                    )
+
                 # Store stop_times as instance variable
                 self.stop_times = stop_times
-            
+
             except Exception as e:
                 print(
                     f"Error processing stop_times.txt: {e} provierId "
@@ -179,8 +179,9 @@ class Dataset:
                     self.vehicle_url,
                     self.src.get("vehicle_positions_headers", None),
                     self.src["refresh_interval"],
-                    self
+                    self,
                 )
+
     def get_routes_info(self):
         return self.vehicles.get_routes_info()
 
@@ -192,25 +193,25 @@ class Dataset:
     def get_stops_in_area(self, north, south, east, west):
         """
         Get stops within a bounding box area.
-        
+
         Args:
             north (float): Northern latitude boundary.
             south (float): Southern latitude boundary.
             east (float): Eastern longitude boundary.
             west (float): Western longitude boundary.
-            
+
         Returns:
             list: List of dictionaries containing stop information.
         """
         if self.gdf is None:
             return []
-            
+
         # Create a bounding box
         bounding_box = box(west, south, east, north)
-        
+
         # Filter stops within the bounding box
         filtered_stops = self.gdf[self.gdf.geometry.within(bounding_box)]
-        
+
         # Create list of dictionaries
         stops_list = [
             {
@@ -227,42 +228,42 @@ class Dataset:
                 filtered_stops["stop_code"],
             )
         ]
-        
+
         return stops_list
-    
+
     def get_last_stop(self, trip_id):
         """
         Get the last stop for a given trip_id.
-        
+
         Args:
             trip_id (str): The trip ID to find the last stop for.
-            
+
         Returns:
             tuple: (stop_id, stop_name) of the last stop, or (None, None) if not found.
         """
         if self.stop_times is None or self.gdf is None:
             return None, None
-            
+
         try:
             # Filter stop_times for the given trip_id
-            trip_stops = self.stop_times[self.stop_times['trip_id'] == trip_id]
-            
+            trip_stops = self.stop_times[self.stop_times["trip_id"] == trip_id]
+
             if trip_stops.empty:
                 return None, None
-                
+
             # Get the row with the maximum stop_sequence
-            last_row = trip_stops.loc[trip_stops['stop_sequence'].idxmax()]
-            stop_id = last_row['stop_id']
-            
+            last_row = trip_stops.loc[trip_stops["stop_sequence"].idxmax()]
+            stop_id = last_row["stop_id"]
+
             # Get stop_name from the geodataframe (stops data)
-            stop_info = self.gdf[self.gdf['stop_id'] == stop_id]
-            
+            stop_info = self.gdf[self.gdf["stop_id"] == stop_id]
+
             if stop_info.empty:
                 return stop_id, None
-                
-            stop_name = stop_info['stop_name'].values[0]
+
+            stop_name = stop_info["stop_name"].values[0]
             return stop_id, stop_name
-            
+
         except Exception as e:
             print(f"Error getting last stop for trip {trip_id}: {e}")
             return None, None
