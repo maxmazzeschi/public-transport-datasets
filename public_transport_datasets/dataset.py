@@ -15,6 +15,7 @@ import csv
 
 class Dataset:
     def __init__(self, provider):
+        print(f"init dataset {provider['id']} {provider['country']} {provider['city']}")
         self.src = provider
         self.vehicle_url = self.src["vehicle_positions_url"]
 
@@ -148,6 +149,31 @@ class Dataset:
                 # Store stop_times as instance variable
                 self.stop_times = stop_times
 
+                # Create a lookup dictionary for trip_id -> (latest_stop_id, stop_name)
+                self.trip_last_stops = {}
+                if self.gdf is not None:
+                    try:
+                        # Group by trip_id and find the maximum stop_sequence for each trip
+                        last_stops = stop_times.loc[stop_times.groupby('trip_id')['stop_sequence'].idxmax()]
+                        
+                        # Create a dictionary mapping trip_id to stop_id
+                        trip_to_stop = dict(zip(last_stops['trip_id'], last_stops['stop_id']))
+                        
+                        # Create a dictionary mapping stop_id to stop_name from gdf
+                        stop_to_name = dict(zip(self.gdf['stop_id'], self.gdf['stop_name']))
+                        
+                        # Combine to create final lookup
+                        for trip_id, stop_id in trip_to_stop.items():
+                            stop_name = stop_to_name.get(stop_id, None)
+                            self.trip_last_stops[trip_id] = (stop_id, stop_name)
+                        
+                        print(f"Created trip_last_stops lookup with {len(self.trip_last_stops)} entries")
+                    except Exception as e:
+                        print(f"Error creating trip_last_stops lookup: {e}")
+                        self.trip_last_stops = {}
+                else:
+                    self.trip_last_stops = {}
+
             except Exception as e:
                 print(
                     f"Error processing stop_times.txt: {e} provierId "
@@ -241,6 +267,10 @@ class Dataset:
         Returns:
             tuple: (stop_id, stop_name) of the last stop, or (None, None) if not found.
         """
+        if hasattr(self, 'trip_last_stops') and trip_id in self.trip_last_stops:
+            return self.trip_last_stops[trip_id]
+        
+        # Fallback to original method if lookup not available
         if self.stop_times is None or self.gdf is None:
             return None, None
 
