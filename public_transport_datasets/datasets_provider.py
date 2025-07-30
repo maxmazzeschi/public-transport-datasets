@@ -50,7 +50,9 @@ class DatasetsProvider:
                                 with open(entry.path) as f:
                                     provider = json.load(f)
                                     provider_hash = provider["id"]
-                                    available_datasets[provider_hash] = provider
+                                    available_datasets[
+                                        provider_hash
+                                    ] = provider
                             except Exception as ex:
                                 print(f"Error {ex} {entry.name}")
 

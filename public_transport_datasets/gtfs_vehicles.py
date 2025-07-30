@@ -31,7 +31,10 @@ class GTFS_Vehicles(Vehicles):
             if response.status_code != 200:
                 self.last_error = response
                 print(
-                    (f"Error {response.status_code} getting data from " f"{self.url}")
+                    (
+                        f"Error {response.status_code} getting data from "
+                        f"{self.url}"
+                    )
                 )
                 return
             self.last_error = None
@@ -103,14 +106,19 @@ class GTFS_Vehicles(Vehicles):
                 if (
                     south <= v["lat"] <= north
                     and west <= v["lon"] <= east
-                    and (not selected_routes or v["route_id"] in selected_routes)
+                    and (
+                        not selected_routes or v["route_id"] in selected_routes
+                    )
                 ):
                     # Create a copy of the vehicle data
                     vehicle_data = v.copy()
 
-                    # Get last stop information if dataset is available and trip_id exists
+                    # Get last stop information if dataset is available
+                    # and trip_id exists
                     if self.dataset and "trip_id" in v:
-                        stop_id, stop_name = self.dataset.get_last_stop(v["trip_id"])
+                        stop_id, stop_name = self.dataset.get_last_stop(
+                            v["trip_id"]
+                        )
                         vehicle_data["last_stop_id"] = stop_id
                         vehicle_data["last_stop_name"] = stop_name
                     else:

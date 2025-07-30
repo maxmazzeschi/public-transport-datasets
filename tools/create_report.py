@@ -1,11 +1,40 @@
 import sys
 import os
+import time  # Add this import
 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 
 from public_transport_datasets.datasets_provider import DatasetsProvider
+
+# Measure execution time of line 14
+
+ds = DatasetsProvider.get_dataset(
+    "bffc9fddc1a42ea392e30a232eb7206130569b2414c91bbc90208f38027127df"
+)
+
+start_time = time.time()
+v = ds.get_vehicles_position(90, -90, +180, -180, "")
+print(v)
+end_time = time.time()
+execution_time = end_time - start_time
+print(f"execution time: {execution_time:.4f} seconds")
+
+start_time = time.time()
+ds.get_vehicles_position(90, -90, +180, -180, "")
+end_time = time.time()
+execution_time = end_time - start_time
+print(f"execution time: {execution_time:.4f} seconds")
+
+
+start_time = time.time()
+ds.get_vehicles_position(90, -90, +180, -180, "")
+end_time = time.time()
+execution_time = end_time - start_time
+print(f"execution time: {execution_time:.4f} seconds")
+
+exit()
 
 dss = DatasetsProvider.get_all_datasets()
 active_datasets = {}
@@ -25,13 +54,13 @@ with open("../Report.md", "w", encoding="utf-8") as f:
     f.write("# Public Transport Datasets Report\n")
     f.write("## Active Datasets\n")
     f.write(
-                "| Country | City | Vechicles | Speed Info | Bearing Info | Has stops |ENV VAR for API KEY|Issued by|\n"
-        )
+        "| Country | City | Vechicles | Speed Info "
+        "| Bearing Info | Has stops |"
+        " ENV VAR for API KEY|Issued by|\n"
+    )
     f.write(
-        (
-            "| ------- | ---- | --------- | ---------- | ------------ | --------- | "
-            "----------------- | ------- |\n"
-        )
+        "| ------- | ---- | --------- | ---------- | ------------ | "
+        "--------- | ----------------- | ------- |\n"
     )
     for country, datasets in active_datasets.items():
         for dataset in datasets:
@@ -76,14 +105,16 @@ with open("../Report.md", "w", encoding="utf-8") as f:
             if city is not None:
                 if len(city) > limit:
                     city = city[: limit - 3] + "..."
-            api_env_var = dataset.get("vehicle_positions_url_api_key_env_var", "")
+            api_env_var = dataset.get(
+                "vehicle_positions_url_api_key_env_var", ""
+            )
             issued_by = dataset.get("authentication_info_url", "")
             if api_env_var is None:
                 api_env_var = ""
             f.write(
                 (
-                    f"|{country}|{city}|{info}|{speed_info:.2f}%|{bearing_info:.2f}%|"
-                    f"{stops}|{api_env_var}|{issued_by}|\n"
+                    f"|{country}|{city}|{info}|{speed_info:.2f}%|"
+                    f"{bearing_info:.2f}%|{stops}|{api_env_var}|{issued_by}|\n"
                 )
             )
     f.write("\n")
