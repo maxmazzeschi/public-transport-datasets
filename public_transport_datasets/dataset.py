@@ -112,97 +112,62 @@ class Dataset:
                 raise e
         else:
             self.gdf = None
-            self.stop_times = None
-        print("process stop_times.txt")
 
-        # Process the stop_times.txt file if we have extracted GTFS data
+        print("process trips.txt")
+
+        # Process the trips.txt file if we have extracted GTFS data
         if static_gtfs_url is not None and static_gtfs_url != "":
             try:
-                fname = os.path.join(temp_file_path, "stop_times.txt")
-
-                # Connect to DuckDB (in-memory)
-                con = duckdb.connect(database=":memory:")
-
-                # Check if stop_code exists in the CSV file
-                with open(fname, "r", encoding="utf-8") as csvfile:
-                    reader = csv.reader(csvfile)
-                    headers = next(reader)  # Read the first line as headers
-                    types = {"stop_id": "VARCHAR", "trip_id": "VARCHAR"}
-                    if "stop_code" in headers:
-                        types["stop_code"] = "VARCHAR"
-
-                    # Load the CSV file while handling missing values
-                    stop_times = con.execute(
-                        f"""
-                        SELECT
-                            *
-                        FROM read_csv_auto(
-                            '{fname}',
-                            header=True,
-                            nullstr='',
-                            types={types}
-                        )
-                        """
-                    ).df()
-
-                # Ensure stop_code or stop_id is treated as a string and
-                # trim spaces
-                if "stop_code" in stop_times.columns:
-                    stop_times["stop_code"] = (
-                        stop_times["stop_code"].astype(str).str.strip()
-                    )
-
-                # Store stop_times as instance variable
-                self.stop_times = stop_times
-
-                # Create a lookup dictionary for trip_id ->
-                #   (latest_stop_id, stop_name)
-                self.trip_last_stops = {}
-                if self.gdf is not None:
-                    try:
-                        # Group by trip_id and find the maximum stop_sequence
-                        #  for each trip
-                        last_stops = stop_times.loc[
-                            stop_times.groupby("trip_id")[
-                                "stop_sequence"
-                            ].idxmax()
-                        ]
-
-                        # Create a dictionary mapping trip_id to stop_id
-                        trip_to_stop = dict(
-                            zip(last_stops["trip_id"], last_stops["stop_id"])
-                        )
-
-                        # Create a dictionary mapping stop_id to stop_name
-                        # from gdf
-                        stop_to_name = dict(
-                            zip(self.gdf["stop_id"], self.gdf["stop_name"])
-                        )
-
-                        # Combine to create final lookup
-                        for trip_id, stop_id in trip_to_stop.items():
-                            stop_name = stop_to_name.get(stop_id, None)
-                            self.trip_last_stops[trip_id] = (
-                                stop_id,
-                                stop_name,
-                            )
-
-                        print(
-                            f"Created trip_last_stops lookup with "
-                            f"{len(self.trip_last_stops)} entries"
-                        )
-                    except Exception as e:
-                        print(f"Error creating trip_last_stops lookup: {e}")
-                        self.trip_last_stops = {}
-                else:
+                import pandas as pd
+                fname = os.path.join(temp_file_path, "trips.txt")
+                
+                # Check if the file exists before trying to process it
+                if not os.path.exists(fname):
+                    print(f"trips.txt not found in GTFS data for provider {self.src['id']}")
                     self.trip_last_stops = {}
+                    return
+
+                # Create a lookup dictionary for trip_id -> (trip_headsign, None)
+                self.trip_last_stops = {}
+                
+                # Process file in chunks using pandas
+                chunk_size = 10000
+                total_processed = 0
+                
+                print(f"Processing trips.txt in chunks of {chunk_size}")
+                
+                # Read and process file in chunks
+                for chunk_num, chunk in enumerate(pd.read_csv(
+                    fname, 
+                    chunksize=chunk_size,
+                    usecols=['trip_id', 'trip_headsign'],
+                    dtype={'trip_id': str, 'trip_headsign': str}
+                )):
+                    # Process this chunk: create lookup from trip_id to trip_headsign
+                    for _, row in chunk.iterrows():
+                        trip_id = row['trip_id']
+                        trip_headsign = row['trip_headsign'] if pd.notna(row['trip_headsign']) else None
+                        
+                        # Store trip_headsign as the destination
+                        self.trip_last_stops[trip_id] = (None, trip_headsign)
+                    
+                    total_processed += len(chunk)
+                    
+                    # Print progress every 10 chunks
+                    if chunk_num % 10 == 0:
+                        print(f"Processed chunk {chunk_num + 1}, total rows: {total_processed}")
+                
+                print(f"Created trip_last_stops lookup with {len(self.trip_last_stops)} entries from {total_processed} total trips")
 
             except Exception as e:
                 print(
-                    f"Error processing stop_times.txt: {e} provierId "
+                    f"Error processing trips.txt: {e} provierId "
                     f"{self.src['id']}"
                 )
-                self.stop_times = None
+                self.trip_last_stops = {}
+        else:
+            self.trip_last_stops = {}
+
         # After processing the files, remove the temp_file_path folder
         # print(f"temporary files at {temp_file_path}")
         shutil.rmtree(temp_file_path, ignore_errors=True)
@@ -230,6 +195,10 @@ class Dataset:
                     self.src["refresh_interval"],
                     self,
                 )
+
+        # Force garbage collection to free up memory
+        import gc
+        gc.collect()
 
     def get_routes_info(self):
         return self.vehicles.get_routes_info()
@@ -282,14 +251,14 @@ class Dataset:
 
     def get_last_stop(self, trip_id):
         """
-        Get the last stop for a given trip_id.
+        Get the destination information for a given trip_id from trips.txt.
 
         Args:
-            trip_id (str): The trip ID to find the last stop for.
+            trip_id (str): The trip ID to find the destination for.
 
         Returns:
-            tuple: (stop_id, stop_name) of the last stop, or (None, None)
-            if not found.
+           trip_headsign where trip_headsign is the destination,
+            or None if not found.
         """
         if (
             hasattr(self, "trip_last_stops")
@@ -297,30 +266,4 @@ class Dataset:
         ):
             return self.trip_last_stops[trip_id]
 
-        # Fallback to original method if lookup not available
-        if self.stop_times is None or self.gdf is None:
-            return None, None
-
-        try:
-            # Filter stop_times for the given trip_id
-            trip_stops = self.stop_times[self.stop_times["trip_id"] == trip_id]
-
-            if trip_stops.empty:
-                return None, None
-
-            # Get the row with the maximum stop_sequence
-            last_row = trip_stops.loc[trip_stops["stop_sequence"].idxmax()]
-            stop_id = last_row["stop_id"]
-
-            # Get stop_name from the geodataframe (stops data)
-            stop_info = self.gdf[self.gdf["stop_id"] == stop_id]
-
-            if stop_info.empty:
-                return stop_id, None
-
-            stop_name = stop_info["stop_name"].values[0]
-            return stop_id, stop_name
-
-        except Exception as e:
-            print(f"Error getting last stop for trip {trip_id}: {e}")
-            return None, None
+        return None

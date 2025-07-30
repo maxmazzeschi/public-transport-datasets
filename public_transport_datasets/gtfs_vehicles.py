@@ -116,13 +116,11 @@ class GTFS_Vehicles(Vehicles):
                     # Get last stop information if dataset is available
                     # and trip_id exists
                     if self.dataset and "trip_id" in v:
-                        stop_id, stop_name = self.dataset.get_last_stop(
+                        stop_name = self.dataset.get_last_stop(
                             v["trip_id"]
                         )
-                        vehicle_data["last_stop_id"] = stop_id
                         vehicle_data["last_stop_name"] = stop_name
                     else:
-                        vehicle_data["last_stop_id"] = None
                         vehicle_data["last_stop_name"] = None
                     # print(vehicle_data)
                     filtered_vehicles.append(vehicle_data)
