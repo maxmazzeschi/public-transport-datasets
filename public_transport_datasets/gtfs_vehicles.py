@@ -6,7 +6,7 @@ from .vehicles import Vehicles
 
 
 class GTFS_Vehicles(Vehicles):
-    def __init__(self, url, headers, refresh_interval):
+    def __init__(self, url, headers, refresh_interval, dataset=None):
         self.created_date = time.time()
         self.vehicle_list = []
         self.last_update = 0
@@ -15,6 +15,7 @@ class GTFS_Vehicles(Vehicles):
         self.url = url
         self.headers = headers
         self.last_error = None
+        self.dataset = dataset
         self.update_vehicle_positions()
         self.update_thread = threading.Thread(target=self.update_loop)
         self.update_thread.daemon = True
@@ -61,6 +62,7 @@ class GTFS_Vehicles(Vehicles):
                     {
                         "vehicle_id": vehicle_id,
                         "route_id": route_id,
+                        "trip_id": entity.vehicle.trip.trip_id,
                         "lat": latitude,
                         "lon": longitude,
                         "bearing": bearing,
@@ -99,13 +101,25 @@ class GTFS_Vehicles(Vehicles):
         west = float(west)
         selected_routes = selected_routes.split(",") if selected_routes else []
         with self.vehicles_lock:
-            filtered_vehicles = [
-                v
-                for v in self.vehicle_list
-                if south <= v["lat"] <= north
-                and west <= v["lon"] <= east
-                and (not selected_routes or v["route_id"] in selected_routes)
-            ]
+            filtered_vehicles = []
+            for v in self.vehicle_list:
+                if (south <= v["lat"] <= north
+                    and west <= v["lon"] <= east
+                    and (not selected_routes or v["route_id"] in selected_routes)):
+                    
+                    # Create a copy of the vehicle data
+                    vehicle_data = v.copy()
+                    
+                    # Get last stop information if dataset is available and trip_id exists
+                    if self.dataset and "trip_id" in v:
+                        stop_id, stop_name = self.dataset.get_last_stop(v["trip_id"])
+                        vehicle_data["last_stop_id"] = stop_id
+                        vehicle_data["last_stop_name"] = stop_name
+                    else:
+                        vehicle_data["last_stop_id"] = None
+                        vehicle_data["last_stop_name"] = None
+                    # print(vehicle_data)
+                    filtered_vehicles.append(vehicle_data)
         return {
             "created_date": self.created_date,
             "last_update": self.last_update,
