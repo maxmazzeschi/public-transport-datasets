@@ -8,7 +8,7 @@
     "transit_provider": "allGo (Keolis), Arriva, Blue Amigo, Bravo (Arriva), Bravo (Hermes), Breng, Connexxion, De Lijn, EBS, Westerschelde Ferry, GVB, HTM, Blauwnet, Breng, DB, Eurobahn, NMBS, Arriva, NS, NS International, R-net, Valleilijn, VIAS, Keolis, NIAG, Overal (Connexxion), OV Regio IJsselmond, Qbuzz, RET, Syntus Utrecht, Texelhopper, Transdev, Twents (Keolis), U-OV",
     "vehicle_positions_url": "http://gtfs.ovapi.nl/nl/vehiclePositions.pb",
     "authentication_type": 0,
-    "authentication_info_url": "",
+    "static_gtfs_url": "http://gtfs.ovapi.nl/gtfs-nl.zip",
     "api_key_parameter_name": "",
     "license_url": "https://old.datahub.io/dataset/gtfs-nl",
     "vehicle_positions_url_type": "GTFS-Realtime",
