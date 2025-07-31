@@ -2,7 +2,11 @@ import time
 import requests
 from google.transit import gtfs_realtime_pb2
 import threading
+import logging
 from .vehicles import Vehicles
+
+# Configure logger for this module
+logger = logging.getLogger(__name__)
 
 
 class GTFS_Vehicles(Vehicles):
@@ -30,11 +34,9 @@ class GTFS_Vehicles(Vehicles):
                 response = requests.get(self.url)
             if response.status_code != 200:
                 self.last_error = response
-                print(
-                    (
-                        f"Error {response.status_code} getting data from "
-                        f"{self.url}"
-                    )
+                logger.error(
+                    f"Error {response.status_code} getting data from "
+                    f"{self.url}"
                 )
                 return
             self.last_error = None
@@ -45,7 +47,7 @@ class GTFS_Vehicles(Vehicles):
             self.last_update = feed.header.timestamp
         except Exception as e:
             self.last_error = e
-            print(f"Error fetching vehicle positions: {e}")
+            logger.error(f"Error fetching vehicle positions: {e}")
             return
         new_vehicles = []
         for entity in feed.entity:
@@ -71,7 +73,6 @@ class GTFS_Vehicles(Vehicles):
                 )
         with self.vehicles_lock:
             self.vehicle_list = new_vehicles
-        print(f"Updated vehicle positions: {len(self.vehicle_list)}")
 
     def update_loop(self):
         while True:
@@ -116,13 +117,15 @@ class GTFS_Vehicles(Vehicles):
                     # Get last stop information if dataset is available
                     # and trip_id exists
                     if self.dataset and "trip_id" in v:
-                        stop_name = self.dataset.get_last_stop(
-                            v["trip_id"]
-                        )
+                        stop_id, stop_name = self.dataset.get_last_stop(v["trip_id"])
+                        vehicle_data["last_stop_id"] = stop_id
                         vehicle_data["last_stop_name"] = stop_name
                     else:
+                        vehicle_data["last_stop_id"] = None
                         vehicle_data["last_stop_name"] = None
-                    # print(vehicle_data)
+                    
+                    # Log vehicle data for debugging if needed
+                    logger.debug(f"Vehicle data: {vehicle_data}")
                     filtered_vehicles.append(vehicle_data)
         return {
             "created_date": self.created_date,

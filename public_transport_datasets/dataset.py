@@ -11,11 +11,14 @@ import geopandas as gpd
 from shapely.geometry import Point, box
 import shutil
 import csv
+import logging
 
+# Configure logger for this module
+logger = logging.getLogger(__name__)
 
 class Dataset:
     def __init__(self, provider):
-        print(
+        logger.debug(
             f"init dataset {provider['id']} "
             f"{provider['country']} {provider['city']}"
         )
@@ -48,7 +51,7 @@ class Dataset:
                     zip_ref.extractall(temp_file_path)
                 os.remove(temp_filename)
             except Exception as e:
-                print(
+                logger.error(
                     f"Error downloading GTFS data: {e} {temp_filename}"
                     f" provierId {self.src['id']}"
                 )
@@ -106,7 +109,7 @@ class Dataset:
                 self.gdf.set_crs(epsg=4326, inplace=True)
 
             except Exception as e:
-                print(
+                logger.error(
                     f"Error processing GTFS data: {e} {fname} provierId "
                     f"{self.src['id']}"
                 )
@@ -114,7 +117,7 @@ class Dataset:
         else:
             self.gdf = None
 
-        print("process trips.txt")
+        logger.debug("process trips.txt")
 
         # Process the trips.txt file if we have extracted GTFS data
         if static_gtfs_url is not None and static_gtfs_url != "":
@@ -124,7 +127,7 @@ class Dataset:
                 
                 # Check if the file exists before trying to process it
                 if not os.path.exists(fname):
-                    print(f"trips.txt not found in GTFS data for provider {self.src['id']}")
+                    logger.warning(f"trips.txt not found in GTFS data for provider {self.src['id']}")
                     self.trip_last_stops = {}
                     return
 
@@ -135,7 +138,7 @@ class Dataset:
                 chunk_size = 10000
                 total_processed = 0
                 
-                print(f"Processing trips.txt in chunks of {chunk_size}")
+                logger.debug(f"Processing trips.txt in chunks of {chunk_size}")
                 
                 # Read and process file in chunks
                 for chunk_num, chunk in enumerate(pd.read_csv(
@@ -154,14 +157,14 @@ class Dataset:
                     
                     total_processed += len(chunk)
                     
-                    # Print progress every 10 chunks
+                    # Log progress every 10 chunks
                     if chunk_num % 10 == 0:
-                        print(f"Processed chunk {chunk_num + 1}, total rows: {total_processed}")
+                        logger.debug(f"Processed chunk {chunk_num + 1}, total rows: {total_processed}")
                 
-                print(f"Created trip_last_stops lookup with {len(self.trip_last_stops)} entries from {total_processed} total trips")
+                logger.debug(f"Created trip_last_stops lookup with {len(self.trip_last_stops)} entries from {total_processed} total trips")
 
             except Exception as e:
-                print(
+                logger.error(
                     f"Error processing trips.txt: {e} provierId "
                     f"{self.src['id']}"
                 )
@@ -170,17 +173,17 @@ class Dataset:
             self.trip_last_stops = {}
 
         # After processing the files, remove the temp_file_path folder
-        # print(f"temporary files at {temp_file_path}")
+        # logger.debug(f"temporary files at {temp_file_path}")
         if temp_file_path is not None:
             shutil.rmtree(temp_file_path, ignore_errors=True)
         if provider.get("authentication_type", 0) == 4:
             keyEnvVar = provider["vehicle_positions_url_api_key_env_var"]
             if keyEnvVar:
-                print(f"getting {keyEnvVar}")
+                logger.debug(f"getting {keyEnvVar}")
                 api_key = os.getenv(keyEnvVar)
                 if (api_key is None) or (api_key == ""):
                     trouble = f"API key not found in {keyEnvVar}"
-                    print(trouble)
+                    logger.error(trouble)
                     raise Exception(trouble)
                 url = self.vehicle_url + api_key
             else:

@@ -3,6 +3,10 @@ import os
 import threading
 from .dataset import Dataset
 import re
+import logging
+
+# Configure logger for this module
+logger = logging.getLogger(__name__)
 
 datasets = {}
 dataset_being_created = {}
@@ -27,7 +31,7 @@ class DatasetsProvider:
 
     @staticmethod
     def get_dataset(id):
-        print(f"dataset {id} requested")
+        logger.debug(f"dataset {id} requested")
         DatasetsProvider.load_sources()
         with datasets_lock:
             ds = datasets.get(id)
@@ -36,7 +40,7 @@ class DatasetsProvider:
             
             # Check if dataset is being created by another thread
             if id in dataset_being_created and dataset_being_created[id]:
-                print(f"Dataset {id} is being created by another thread, waiting...")
+                logger.debug(f"Dataset {id} is being created by another thread, waiting...")
                 # Create or get the event for this dataset
                 if id not in dataset_creation_events:
                     dataset_creation_events[id] = threading.Event()
@@ -61,11 +65,11 @@ class DatasetsProvider:
                 dataset_creation_events[id] = threading.Event()
             
             dataset_being_created[id] = True
-            print(f"Creating dataset for {id}")
+            logger.debug(f"Creating dataset for {id}")
             ds = Dataset(provider)
             datasets[id] = ds
             dataset_being_created[id] = False
-            print(f"Dataset {id} created")
+            logger.debug(f"Dataset {id} created")
             
             # Signal waiting threads that dataset creation is complete
             dataset_creation_events[id].set()
@@ -88,7 +92,7 @@ class DatasetsProvider:
                                         provider_hash
                                     ] = provider
                             except Exception as ex:
-                                print(f"Error {ex} {entry.name}")
+                                logger.error(f"Error {ex} {entry.name}")
 
     @staticmethod
     def get_source_by_id(id: str):
@@ -98,7 +102,7 @@ class DatasetsProvider:
     @staticmethod
     def get_available_countries() -> list:
         DatasetsProvider.load_sources()
-        print(f"available_datasets count {len(available_datasets)}")
+        logger.debug(f"available_datasets count {len(available_datasets)}")
         with available_datasets_lock:
             unique_countries = {
                 data["country"]
