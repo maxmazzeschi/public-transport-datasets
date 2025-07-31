@@ -5,6 +5,8 @@ from .dataset import Dataset
 import re
 
 datasets = {}
+dataset_being_created = {}
+dataset_creation_events = {}  # Add this new dictionary
 datasets_lock = threading.Lock()
 
 available_datasets = {}
@@ -31,11 +33,43 @@ class DatasetsProvider:
             ds = datasets.get(id)
             if ds:
                 return ds
+            
+            # Check if dataset is being created by another thread
+            if id in dataset_being_created and dataset_being_created[id]:
+                print(f"Dataset {id} is being created by another thread, waiting...")
+                # Create or get the event for this dataset
+                if id not in dataset_creation_events:
+                    dataset_creation_events[id] = threading.Event()
+                event = dataset_creation_events[id]
+                
+                # Release the lock while waiting
+                datasets_lock.release()
+                event.wait()  # Wait for the signal
+                datasets_lock.acquire()
+                
+                # After waiting, check if dataset was created
+                ds = datasets.get(id)
+                if ds:
+                    return ds
+            
             provider = DatasetsProvider.get_source_by_id(id)
             if provider is None:
                 return None
+            
+            # Create event for this dataset if it doesn't exist
+            if id not in dataset_creation_events:
+                dataset_creation_events[id] = threading.Event()
+            
+            dataset_being_created[id] = True
+            print(f"Creating dataset for {id}")
             ds = Dataset(provider)
             datasets[id] = ds
+            dataset_being_created[id] = False
+            print(f"Dataset {id} created")
+            
+            # Signal waiting threads that dataset creation is complete
+            dataset_creation_events[id].set()
+            
             return ds
 
     @staticmethod
