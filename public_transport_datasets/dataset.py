@@ -23,6 +23,7 @@ class Dataset:
         self.vehicle_url = self.src["vehicle_positions_url"]
 
         static_gtfs_url = self.src.get("static_gtfs_url")
+        temp_file_path = None
         if static_gtfs_url is not None and static_gtfs_url != "":
             temp_filename = tempfile.NamedTemporaryFile(
                 suffix=".zip", delete=False
@@ -170,7 +171,8 @@ class Dataset:
 
         # After processing the files, remove the temp_file_path folder
         # print(f"temporary files at {temp_file_path}")
-        shutil.rmtree(temp_file_path, ignore_errors=True)
+        if temp_file_path is not None:
+            shutil.rmtree(temp_file_path, ignore_errors=True)
         if provider.get("authentication_type", 0) == 4:
             keyEnvVar = provider["vehicle_positions_url_api_key_env_var"]
             if keyEnvVar:
