@@ -37,43 +37,45 @@ class DatasetsProvider:
             ds = datasets.get(id)
             if ds:
                 return ds
-            
+
             # Check if dataset is being created by another thread
             if id in dataset_being_created and dataset_being_created[id]:
-                logger.debug(f"Dataset {id} is being created by another thread, waiting...")
+                logger.debug(
+                    f"Dataset {id} is being created by another thread, waiting..."
+                )
                 # Create or get the event for this dataset
                 if id not in dataset_creation_events:
                     dataset_creation_events[id] = threading.Event()
                 event = dataset_creation_events[id]
-                
+
                 # Release the lock while waiting
                 datasets_lock.release()
                 event.wait()  # Wait for the signal
                 datasets_lock.acquire()
-                
+
                 # After waiting, check if dataset was created
                 ds = datasets.get(id)
                 if ds:
                     return ds
-            
+
             provider = DatasetsProvider.get_source_by_id(id)
             if provider is None:
                 return None
-            
+
             # Create event for this dataset if it doesn't exist
             if id not in dataset_creation_events:
                 dataset_creation_events[id] = threading.Event()
-            
+
             dataset_being_created[id] = True
             logger.debug(f"Creating dataset for {id}")
             ds = Dataset(provider)
             datasets[id] = ds
             dataset_being_created[id] = False
             logger.debug(f"Dataset {id} created")
-            
+
             # Signal waiting threads that dataset creation is complete
             dataset_creation_events[id].set()
-            
+
             return ds
 
     @staticmethod
@@ -88,9 +90,31 @@ class DatasetsProvider:
                                 with open(entry.path) as f:
                                     provider = json.load(f)
                                     provider_hash = provider["id"]
-                                    available_datasets[
-                                        provider_hash
-                                    ] = provider
+                                    auth_type = provider.get(
+                                        "authentication_type", None
+                                    )
+                                    if auth_type is not None:
+                                        provider_hash = (
+                                            f"{provider_hash}_{auth_type}"
+                                        )
+                                        if auth_type != "0":
+                                            api_key_env_var = provider.get(
+                                                "vehicle_positions_url_api_key_env_var",
+                                                None,
+                                            )
+                                            if (
+                                                api_key_env_var is None
+                                                or api_key_env_var == ""
+                                            ):
+                                                continue  # Skip this provider if API key env var is not set
+                                            api_key = os.getenv(
+                                                api_key_env_var
+                                            )
+                                            if api_key is None:
+                                                continue  # Skip this provider if API key is not set
+                                        available_datasets[
+                                            provider_hash
+                                        ] = provider
                             except Exception as ex:
                                 logger.error(f"Error {ex} {entry.name}")
 
