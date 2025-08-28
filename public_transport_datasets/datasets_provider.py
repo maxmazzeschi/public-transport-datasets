@@ -97,7 +97,7 @@ class DatasetsProvider:
                                         provider_hash = (
                                             f"{provider_hash}_{auth_type}"
                                         )
-                                        if auth_type != "0":
+                                        if auth_type != 0:
                                             api_key_env_var = provider.get(
                                                 "vehicle_positions_url_api_key_env_var",
                                                 None,
