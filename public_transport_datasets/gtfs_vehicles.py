@@ -47,7 +47,8 @@ class GTFS_Vehicles(Vehicles):
             self.last_update = feed.header.timestamp
         except Exception as e:
             self.last_error = e
-            logger.error(f"Error fetching vehicle positions: {e}")
+            logger.error(f"Error fetching vehicle positions: {e} from "
+                         f"{self.url}")
             return
         new_vehicles = []
         for entity in feed.entity:
