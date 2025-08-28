@@ -16,6 +16,7 @@ import logging
 # Configure logger for this module
 logger = logging.getLogger(__name__)
 
+
 class Dataset:
     def __init__(self, provider):
         logger.debug(
@@ -123,45 +124,58 @@ class Dataset:
         if static_gtfs_url is not None and static_gtfs_url != "":
             try:
                 import pandas as pd
+
                 fname = os.path.join(temp_file_path, "trips.txt")
-                
+
                 # Check if the file exists before trying to process it
                 if not os.path.exists(fname):
-                    logger.warning(f"trips.txt not found in GTFS data for provider {self.src['id']}")
+                    logger.warning(
+                        f"trips.txt not found in GTFS data for provider {self.src['id']}"
+                    )
                     self.trip_last_stops = {}
                     return
 
                 # Create a lookup dictionary for trip_id -> (trip_headsign, None)
                 self.trip_last_stops = {}
-                
+
                 # Process file in chunks using pandas
                 chunk_size = 10000
                 total_processed = 0
-                
+
                 logger.debug(f"Processing trips.txt in chunks of {chunk_size}")
-                
+
                 # Read and process file in chunks
-                for chunk_num, chunk in enumerate(pd.read_csv(
-                    fname, 
-                    chunksize=chunk_size,
-                    usecols=['trip_id', 'trip_headsign'],
-                    dtype={'trip_id': str, 'trip_headsign': str}
-                )):
+                for chunk_num, chunk in enumerate(
+                    pd.read_csv(
+                        fname,
+                        chunksize=chunk_size,
+                        usecols=["trip_id", "trip_headsign"],
+                        dtype={"trip_id": str, "trip_headsign": str},
+                    )
+                ):
                     # Process this chunk: create lookup from trip_id to trip_headsign
                     for _, row in chunk.iterrows():
-                        trip_id = row['trip_id']
-                        trip_headsign = row['trip_headsign'] if pd.notna(row['trip_headsign']) else None
-                        
+                        trip_id = row["trip_id"]
+                        trip_headsign = (
+                            row["trip_headsign"]
+                            if pd.notna(row["trip_headsign"])
+                            else None
+                        )
+
                         # Store trip_headsign as the destination
                         self.trip_last_stops[trip_id] = (None, trip_headsign)
-                    
+
                     total_processed += len(chunk)
-                    
+
                     # Log progress every 10 chunks
                     if chunk_num % 10 == 0:
-                        logger.debug(f"Processed chunk {chunk_num + 1}, total rows: {total_processed}")
-                
-                logger.debug(f"Created trip_last_stops lookup with {len(self.trip_last_stops)} entries from {total_processed} total trips")
+                        logger.debug(
+                            f"Processed chunk {chunk_num + 1}, total rows: {total_processed}"
+                        )
+
+                logger.debug(
+                    f"Created trip_last_stops lookup with {len(self.trip_last_stops)} entries from {total_processed} total trips"
+                )
 
             except Exception as e:
                 logger.error(
@@ -203,6 +217,7 @@ class Dataset:
 
         # Force garbage collection to free up memory
         import gc
+
         gc.collect()
 
     def get_routes_info(self):
