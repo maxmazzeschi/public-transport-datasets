@@ -126,68 +126,61 @@ class DatasetsProvider:
             logger.debug(f"Dataset {id} removed from active datasets")
         
         try:
-            # Stop all threads first
-            if hasattr(ds, 'vehicles'):
-                if hasattr(ds.vehicles, 'stop'):
-                    ds.vehicles.stop()
-                
-                # Check if we're trying to join from the same thread
-                if hasattr(ds.vehicles, 'update_thread') and ds.vehicles.update_thread.is_alive():
-                    current_thread = threading.current_thread()
-                    update_thread = ds.vehicles.update_thread
+            # STEP 3 GOES HERE - Replace the existing cleanup logic with this:
+            
+            # Call explicit cleanup method
+            if hasattr(ds, 'cleanup'):
+                ds.cleanup()
+            else:
+                # Fallback to manual cleanup if no cleanup method exists
+                if hasattr(ds, 'vehicles'):
+                    if hasattr(ds.vehicles, 'stop'):
+                        ds.vehicles.stop()
                     
-                    if current_thread == update_thread:
-                        logger.debug(f"Cannot join update thread from itself for dataset {id}")
-                        # Don't try to join, just mark for stopping and let it exit naturally
-                    else:
-                        logger.debug(f"Waiting for update thread to stop for dataset {id}")
-                        update_thread.join(timeout=10)
+                    # Check if we're trying to join from the same thread
+                    if hasattr(ds.vehicles, 'update_thread') and ds.vehicles.update_thread.is_alive():
+                        current_thread = threading.current_thread()
+                        update_thread = ds.vehicles.update_thread
                         
-                        if update_thread.is_alive():
-                            logger.warning(f"Update thread for dataset {id} did not stop gracefully")
+                        if current_thread != update_thread:
+                            logger.debug(f"Waiting for update thread to stop for dataset {id}")
+                            update_thread.join(timeout=10)
+                
+                # Manual cleanup of trip_last_stops
+                if hasattr(ds, 'trip_last_stops') and ds.trip_last_stops is not None:
+                    ds.trip_last_stops.clear()
+                    ds.trip_last_stops = None
+                
+                if hasattr(ds, 'gdf'):
+                    ds.gdf = None
             
-            # Clear all references explicitly
-            if hasattr(ds, 'vehicles'):
-                if hasattr(ds.vehicles, 'vehicle_list'):
-                    ds.vehicles.vehicle_list.clear()
-                if hasattr(ds.vehicles, 'dataset'):
-                    ds.vehicles.dataset = None
-        
-        if hasattr(ds, 'gdf'):
-            ds.gdf = None
-        
-        if hasattr(ds, 'trip_last_stops'):
-            ds.trip_last_stops.clear()
-        
-        # Check reference count before deletion
-        import sys
-        ref_count = sys.getrefcount(ds)
-        logger.debug(f"Dataset {id} reference count before deletion: {ref_count}")
-        
-        # Force deletion
-        del ds
-        
-        # Multiple garbage collection passes
-        for i in range(3):
-            collected = gc.collect()
-            logger.debug(f"GC pass {i+1}: collected {collected} objects")
-        
-        logger.debug(f"Dataset {id} memory cleanup completed")
-        
-    except Exception as e:
-        logger.error(f"Error during dataset {id} destruction: {e}")
-    
-    finally:
-        with datasets_lock:
-            dataset_being_destroyed[id] = False
+            # Check reference count after cleanup
+            import sys
+            ref_count = sys.getrefcount(ds)
+            logger.debug(f"Dataset {id} reference count after cleanup: {ref_count}")
             
-            if id in dataset_destruction_events:
-                dataset_destruction_events[id].set()
-                dataset_destruction_events[id].clear()
+            # Force deletion
+            del ds
             
-            logger.debug(f"Dataset {id} destruction completed")
-            logger.debug(f"destruction dataset {id} completed memory {get_memory_usage()}")
+            # Multiple garbage collection passes
+            for i in range(3):
+                collected = gc.collect()
+                logger.debug(f"GC pass {i+1}: collected {collected} objects")
+            
+        except Exception as e:
+            logger.error(f"Error during dataset {id} destruction: {e}")
         
+        finally:
+            with datasets_lock:
+                dataset_being_destroyed[id] = False
+                
+                if id in dataset_destruction_events:
+                    dataset_destruction_events[id].set()
+                    dataset_destruction_events[id].clear()
+                
+                logger.debug(f"Dataset {id} destruction completed")
+                logger.debug(f"destruction dataset {id} completed memory {get_memory_usage()}")
+            
 
     @staticmethod
     def load_sources():
