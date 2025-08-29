@@ -303,3 +303,44 @@ class Dataset:
             return self.trip_last_stops[trip_id]
 
         return None
+
+    def cleanup(self):
+        """Explicitly clean up all resources"""
+        logger.debug(f"Cleaning up dataset {self.src['id']}")
+        
+        # Clean up trip_last_stops
+        if hasattr(self, 'trip_last_stops') and self.trip_last_stops is not None:
+            trip_count = len(self.trip_last_stops)
+            logger.debug(f"Clearing {trip_count} trips from trip_last_stops")
+            
+            # Clear all entries
+            self.trip_last_stops.clear()
+            
+            # Set to None
+            self.trip_last_stops = None
+            
+            logger.debug("trip_last_stops cleared and set to None")
+        
+        # Clean up GeoDataFrame
+        if hasattr(self, 'gdf') and self.gdf is not None:
+            logger.debug(f"Clearing GeoDataFrame with {len(self.gdf)} rows")
+            self.gdf = None
+        
+        # Clean up vehicles
+        if hasattr(self, 'vehicles'):
+            if hasattr(self.vehicles, 'stop'):
+                self.vehicles.stop()
+            self.vehicles = None
+        
+        # Clean up other attributes
+        self.src = None
+        self.vehicle_url = None
+        
+        logger.debug("Dataset cleanup completed")
+    
+    def __del__(self):
+        """Destructor to ensure cleanup happens"""
+        try:
+            self.cleanup()
+        except:
+            pass  # Ignore errors in destructor

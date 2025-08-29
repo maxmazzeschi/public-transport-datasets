@@ -126,8 +126,6 @@ class DatasetsProvider:
             logger.debug(f"Dataset {id} removed from active datasets")
         
         try:
-            # STEP 3 GOES HERE - Replace the existing cleanup logic with this:
-            
             # Call explicit cleanup method
             if hasattr(ds, 'cleanup'):
                 ds.cleanup()
