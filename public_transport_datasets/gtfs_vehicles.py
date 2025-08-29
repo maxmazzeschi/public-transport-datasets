@@ -83,16 +83,22 @@ class GTFS_Vehicles(Vehicles):
 
     def update_loop(self):
         while not self._stop_requested:  # Check stop flag
-            if (time.time() - self.last_request) > 10*60:
-                logger.error(
-                    f"Last request was more than 10 minutes ago. Stopping update thread."
-                )
-                from .datasets_provider import DatasetsProvider
-                DatasetsProvider.destroy_dataset(self.dataset.src['id'])
-                
-                return
-            self.update_vehicle_positions()
-            time.sleep(self.refresh_interval)
+            try:
+                if (time.time() - self.last_request) > 10*60:
+                    logger.error(
+                        f"Last request was more than 10 minute ago. Stopping update thread."
+                    )
+                    # Don't call destroy_dataset from within the thread itself
+                    # Instead, just exit the loop and let the thread die
+                    break
+                    
+                self.update_vehicle_positions()
+                time.sleep(self.refresh_interval)
+            except Exception as e:
+                logger.error(f"Error in update loop: {e}")
+                break
+        
+        logger.debug("Update thread exiting")
 
     def get_vehicles_position(self, north, south, east, west, selected_routes):
         """

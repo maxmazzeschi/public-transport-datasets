@@ -4,6 +4,9 @@ import threading
 from .dataset import Dataset
 import re
 import logging
+import psutil
+import os
+import gc  # Add this import
 
 # Configure logger for this module
 logger = logging.getLogger(__name__)
@@ -17,6 +20,10 @@ datasets_lock = threading.Lock()
 
 available_datasets = {}
 available_datasets_lock = threading.Lock()
+
+def get_memory_usage():
+    process = psutil.Process(os.getpid())
+    return process.memory_info().rss / 1024 / 1024  # MB
 
 
 class DatasetsProvider:
@@ -97,68 +104,90 @@ class DatasetsProvider:
 
             return ds
 
+  
     @staticmethod
     def destroy_dataset(id):
-        """
-        Mark a dataset for destruction and remove it from memory.
-        
-        Args:
-            id (str): The dataset ID to destroy
-        """
-        logger.debug(f"Destroying dataset {id}")
+        """Enhanced destruction with reference checking"""
+        logger.debug(f"Destroying dataset {id} memory {get_memory_usage()}")
         
         with datasets_lock:
-            # Check if dataset exists
             if id not in datasets:
                 logger.warning(f"Dataset {id} not found for destruction")
                 return
             
-            # Mark dataset as being destroyed
             dataset_being_destroyed[id] = True
             
-            # Create destruction event if it doesn't exist
             if id not in dataset_destruction_events:
                 dataset_destruction_events[id] = threading.Event()
             
-            # Get the dataset reference
             ds = datasets[id]
-            
-            # Remove from active datasets
             del datasets[id]
             
             logger.debug(f"Dataset {id} removed from active datasets")
         
         try:
-            # Clean up dataset resources outside the lock
-            if hasattr(ds, 'vehicles') and hasattr(ds.vehicles, 'update_thread'):
-                # Stop the update thread if it exists
-                if ds.vehicles.update_thread.is_alive():
-                    logger.debug(f"Stopping update thread for dataset {id}")
-                    # Note: You might need to implement a proper stop mechanism
-                    # in your vehicle classes to gracefully shut down threads
+            # Stop all threads first
+            if hasattr(ds, 'vehicles'):
+                if hasattr(ds.vehicles, 'stop'):
+                    ds.vehicles.stop()
+                
+                # Check if we're trying to join from the same thread
+                if hasattr(ds.vehicles, 'update_thread') and ds.vehicles.update_thread.is_alive():
+                    current_thread = threading.current_thread()
+                    update_thread = ds.vehicles.update_thread
+                    
+                    if current_thread == update_thread:
+                        logger.debug(f"Cannot join update thread from itself for dataset {id}")
+                        # Don't try to join, just mark for stopping and let it exit naturally
+                    else:
+                        logger.debug(f"Waiting for update thread to stop for dataset {id}")
+                        update_thread.join(timeout=10)
+                        
+                        if update_thread.is_alive():
+                            logger.warning(f"Update thread for dataset {id} did not stop gracefully")
             
-            # Force garbage collection to free memory
-            import gc
-            del ds
-            gc.collect()
-            
-            logger.debug(f"Dataset {id} memory released")
-            
-        except Exception as e:
-            logger.error(f"Error during dataset {id} destruction: {e}")
+            # Clear all references explicitly
+            if hasattr(ds, 'vehicles'):
+                if hasattr(ds.vehicles, 'vehicle_list'):
+                    ds.vehicles.vehicle_list.clear()
+                if hasattr(ds.vehicles, 'dataset'):
+                    ds.vehicles.dataset = None
         
-        finally:
-            with datasets_lock:
-                # Mark destruction as complete
-                dataset_being_destroyed[id] = False
-                
-                # Signal waiting threads that destruction is complete
-                if id in dataset_destruction_events:
-                    dataset_destruction_events[id].set()
-                    # Clear the event for future use
-                    dataset_destruction_events[id].clear()
-                
-                logger.debug(f"Dataset {id} destruction completed")
+        if hasattr(ds, 'gdf'):
+            ds.gdf = None
+        
+        if hasattr(ds, 'trip_last_stops'):
+            ds.trip_last_stops.clear()
+        
+        # Check reference count before deletion
+        import sys
+        ref_count = sys.getrefcount(ds)
+        logger.debug(f"Dataset {id} reference count before deletion: {ref_count}")
+        
+        # Force deletion
+        del ds
+        
+        # Multiple garbage collection passes
+        for i in range(3):
+            collected = gc.collect()
+            logger.debug(f"GC pass {i+1}: collected {collected} objects")
+        
+        logger.debug(f"Dataset {id} memory cleanup completed")
+        
+    except Exception as e:
+        logger.error(f"Error during dataset {id} destruction: {e}")
+    
+    finally:
+        with datasets_lock:
+            dataset_being_destroyed[id] = False
+            
+            if id in dataset_destruction_events:
+                dataset_destruction_events[id].set()
+                dataset_destruction_events[id].clear()
+            
+            logger.debug(f"Dataset {id} destruction completed")
+            logger.debug(f"destruction dataset {id} completed memory {get_memory_usage()}")
+        
 
     @staticmethod
     def load_sources():
