@@ -69,11 +69,20 @@ class Dataset:
                 with open(fname, "r", encoding="utf-8") as csvfile:
                     reader = csv.reader(csvfile)
                     headers = next(reader)  # Read the first line as headers
+                    logger.debug(f"CSV headers found: {headers}")
 
-                # Dynamically set types based on the presence of stop_code
-                types = {"stop_id": "VARCHAR"}
+                # Dynamically set types based on the actual headers present
+                types = {}
+                if "stop_id" in headers:
+                    types["stop_id"] = "VARCHAR"
                 if "stop_code" in headers:
                     types["stop_code"] = "VARCHAR"
+                if "stop_name" in headers:
+                    types["stop_name"] = "VARCHAR"
+                if "stop_lat" in headers:
+                    types["stop_lat"] = "DOUBLE"
+                if "stop_lon" in headers:
+                    types["stop_lon"] = "DOUBLE"
 
                 # Load the CSV file while handling missing values
                 df = con.execute(
@@ -83,31 +92,34 @@ class Dataset:
                     FROM read_csv_auto(
                         '{fname}',
                         header=True,
-                        nullstr='',
-                        types={types}
+                        nullstr=''
                     )
                     """
                 ).df()
 
-                # Ensure stop_code or stop_id is treated as a
-                # string and trim spaces
+                # Ensure stop_code or stop_id is treated as a string and trim spaces
                 if "stop_code" in df.columns:
                     df["stop_code"] = df["stop_code"].astype(str).str.strip()
-                else:
+                elif "stop_id" in df.columns:
                     df["stop_code"] = df["stop_id"].astype(str).str.strip()
 
-                df["stop_name"] = df["stop_name"].astype(str).str.strip()
+                if "stop_name" in df.columns:
+                    df["stop_name"] = df["stop_name"].astype(str).str.strip()
 
                 # Create a GeoDataFrame with geometry column
                 # Assuming 'stop_lat' and 'stop_lon' columns exist in the data
-                df["geometry"] = df.apply(
-                    lambda row: Point(row["stop_lon"], row["stop_lat"]), axis=1
-                )
-                self.gdf = gpd.GeoDataFrame(df, geometry="geometry")
+                if "stop_lat" in df.columns and "stop_lon" in df.columns:
+                    df["geometry"] = df.apply(
+                        lambda row: Point(row["stop_lon"], row["stop_lat"]), axis=1
+                    )
+                    self.gdf = gpd.GeoDataFrame(df, geometry="geometry")
 
-                # Set the coordinate reference system (CRS)
-                # to WGS84 (EPSG:4326)
-                self.gdf.set_crs(epsg=4326, inplace=True)
+                    # Set the coordinate reference system (CRS)
+                    # to WGS84 (EPSG:4326)
+                    self.gdf.set_crs(epsg=4326, inplace=True)
+                else:
+                    logger.error(f"provider id {self.src['id']} Required columns stop_lat and stop_lon not found in stops.txt")
+                    self.gdf = None
 
             except Exception as e:
                 logger.error(
