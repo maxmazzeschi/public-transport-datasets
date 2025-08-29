@@ -10,7 +10,9 @@ logger = logging.getLogger(__name__)
 
 datasets = {}
 dataset_being_created = {}
-dataset_creation_events = {}  # Add this new dictionary
+dataset_being_destroyed = {}  # Add this new dictionary
+dataset_creation_events = {}
+dataset_destruction_events = {}  # Add this new dictionary
 datasets_lock = threading.Lock()
 
 available_datasets = {}
@@ -34,8 +36,25 @@ class DatasetsProvider:
         logger.debug(f"dataset {id} requested")
         DatasetsProvider.load_sources()
         with datasets_lock:
+            # Check if dataset is being destroyed
+            if id in dataset_being_destroyed and dataset_being_destroyed[id]:
+                logger.debug(f"Dataset {id} is being destroyed, waiting for completion...")
+                # Create or get the event for this dataset destruction
+                if id not in dataset_destruction_events:
+                    dataset_destruction_events[id] = threading.Event()
+                event = dataset_destruction_events[id]
+                
+                # Release the lock while waiting
+                datasets_lock.release()
+                event.wait()  # Wait for destruction to complete
+                datasets_lock.acquire()
+                
+                # After destruction is complete, the dataset should no longer exist
+                # so we'll create a new one below
+            
+            # Check if dataset exists and is not being destroyed
             ds = datasets.get(id)
-            if ds:
+            if ds and id not in dataset_being_destroyed:
                 return ds
 
             # Check if dataset is being created by another thread
@@ -77,6 +96,69 @@ class DatasetsProvider:
             dataset_creation_events[id].set()
 
             return ds
+
+    @staticmethod
+    def destroy_dataset(id):
+        """
+        Mark a dataset for destruction and remove it from memory.
+        
+        Args:
+            id (str): The dataset ID to destroy
+        """
+        logger.debug(f"Destroying dataset {id}")
+        
+        with datasets_lock:
+            # Check if dataset exists
+            if id not in datasets:
+                logger.warning(f"Dataset {id} not found for destruction")
+                return
+            
+            # Mark dataset as being destroyed
+            dataset_being_destroyed[id] = True
+            
+            # Create destruction event if it doesn't exist
+            if id not in dataset_destruction_events:
+                dataset_destruction_events[id] = threading.Event()
+            
+            # Get the dataset reference
+            ds = datasets[id]
+            
+            # Remove from active datasets
+            del datasets[id]
+            
+            logger.debug(f"Dataset {id} removed from active datasets")
+        
+        try:
+            # Clean up dataset resources outside the lock
+            if hasattr(ds, 'vehicles') and hasattr(ds.vehicles, 'update_thread'):
+                # Stop the update thread if it exists
+                if ds.vehicles.update_thread.is_alive():
+                    logger.debug(f"Stopping update thread for dataset {id}")
+                    # Note: You might need to implement a proper stop mechanism
+                    # in your vehicle classes to gracefully shut down threads
+            
+            # Force garbage collection to free memory
+            import gc
+            del ds
+            gc.collect()
+            
+            logger.debug(f"Dataset {id} memory released")
+            
+        except Exception as e:
+            logger.error(f"Error during dataset {id} destruction: {e}")
+        
+        finally:
+            with datasets_lock:
+                # Mark destruction as complete
+                dataset_being_destroyed[id] = False
+                
+                # Signal waiting threads that destruction is complete
+                if id in dataset_destruction_events:
+                    dataset_destruction_events[id].set()
+                    # Clear the event for future use
+                    dataset_destruction_events[id].clear()
+                
+                logger.debug(f"Dataset {id} destruction completed")
 
     @staticmethod
     def load_sources():

@@ -20,6 +20,8 @@ class GTFS_Vehicles(Vehicles):
         self.headers = headers
         self.last_error = None
         self.dataset = dataset
+        self._stop_requested = False  # Add stop flag
+        self.last_request = time.time()
         self.update_vehicle_positions()
         self.update_thread = threading.Thread(target=self.update_loop)
         self.update_thread.daemon = True
@@ -75,8 +77,20 @@ class GTFS_Vehicles(Vehicles):
         with self.vehicles_lock:
             self.vehicle_list = new_vehicles
 
+    def stop(self):
+        """Stop the update thread gracefully"""
+        self._stop_requested = True
+
     def update_loop(self):
-        while True:
+        while not self._stop_requested:  # Check stop flag
+            if (time.time() - self.last_request) > 10*60:
+                logger.error(
+                    f"Last request was more than 10 minutes ago. Stopping update thread."
+                )
+                from .datasets_provider import DatasetsProvider
+                DatasetsProvider.destroy_dataset(self.dataset.src['id'])
+                
+                return
             self.update_vehicle_positions()
             time.sleep(self.refresh_interval)
 
@@ -97,6 +111,7 @@ class GTFS_Vehicles(Vehicles):
             dict: A dictionary containing created_date, last_update, and
             filtered vehicles.
         """
+        self.last_request = time.time()
         north = float(north)
         south = float(south)
         east = float(east)
@@ -168,3 +183,14 @@ class GTFS_Vehicles(Vehicles):
             "min_longitude": min_lon,
             "max_longitude": max_lon,
         }
+
+    def cleanup(self, ds):
+        try:
+            # Clean up dataset resources outside the lock
+            if hasattr(ds, 'vehicles'):
+                if hasattr(ds.vehicles, 'stop'):
+                    ds.vehicles.stop()  # Gracefully stop the update thread
+                if hasattr(ds.vehicles, 'update_thread') and ds.vehicles.update_thread.is_alive():
+                    ds.vehicles.update_thread.join(timeout=5)  # Wait up to 5 seconds for thread to stop
+        except Exception as e:
+            logger.error(f"Error during cleanup: {e}")

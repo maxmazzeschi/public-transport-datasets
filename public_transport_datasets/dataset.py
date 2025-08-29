@@ -23,6 +23,10 @@ class Dataset:
             f"init dataset {provider['id']} "
             f"{provider['country']} {provider['city']}"
         )
+        print(
+            f"init dataset {provider['id']} "
+            f"{provider['country']} {provider['city']}"
+        )
         self.src = provider
         self.vehicle_url = self.src["vehicle_positions_url"]
 
