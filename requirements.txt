@@ -3,3 +3,4 @@ gtfs-realtime-bindings
 jsonpath-ng
 duckdb
 geopandas
+pytest
