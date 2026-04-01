@@ -1,23 +1,38 @@
 import sys
 import os
-import time  # Add this import
+import argparse
 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from public_transport_datasets.datasets_provider import DatasetsProvider
 
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "-c",
+    "--country",
+    help=(
+        "Country code/name to process (e.g. IT, GB). "
+        "If set, only that country is included."
+    ),
+)
+args = parser.parse_args()
+
+country_filter = args.country.strip().lower() if args.country else None
+
 dss = DatasetsProvider.get_all_datasets()
 active_datasets = {}
 not_active_datasets = {}
 for dataset in dss.values():
+    country = dataset["country"]
+    if country_filter is not None and country.lower() != country_filter:
+        continue
+
     if dataset["enabled"] is True:
-        country = dataset["country"]
         if country not in active_datasets:
             active_datasets[country] = []
         active_datasets[country].append(dataset)
     else:
-        country = dataset["country"]
         if country not in not_active_datasets:
             not_active_datasets[country] = []
         not_active_datasets[country].append(dataset)
